@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "eslint-plugin-functional": "^4.4.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "2.8.3"
+  },
+  "name": "phoenix-karly",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/eslint": "^8.4.10",
+    "eslint": "^8.32.0"
+  }
+}
