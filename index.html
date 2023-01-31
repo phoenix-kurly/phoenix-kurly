@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko-KR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -35,12 +35,16 @@
         <li>
           <a href="/index.html">회원가입</a>
           <span>|</span>
+        </li>
+        <li>
           <a href="/index.html">로그인</a>
           <span>|</span>
+        </li>
+        <li>
           <a href="/index.html">고객센터
             <img src="./client/assets/icons/Icon/Icon-down-1.png" alt="" />
           </a>
-        </li>
+        </li>        
       </ul>
       <form class="serch-form">
         <fieldset>
@@ -68,7 +72,7 @@
       <nav>
         <ul class="category">
           <li>
-            <ul class="category">
+            <ul class="category-list">
               <!-- 햄버거+카테고리, css로 백그라운드이미지 처리, js로 호버시 위치조정 -->
               <img src="./client/assets/icons/Category.png" alt="#" /> 
               <li>선물하기</li>
@@ -102,25 +106,115 @@
           <li>샛별 택배 배송안내</li> 
         </ul>
       </nav>
-    </header>
-    
-    
+    </header>  
     <!-- 메인 -->
     <main></main>
     <!-- 푸터 -->
     <footer>
+      <div class="service-center">     
+        <h2>고객행복센터</h2>
+        <strong>
+          1644-1107
+          <span>
+            월~토요일 오전 7시 - 오후 6시
+          </span>
+        </strong>
+        <div class="question-box">
+          <div class="question__item"> 
+            <button>
+              카카오톡 문의
+            </button>
+            <div>
+              <p>
+                월~토요일 | 오전 7시 - 오후 6시 <br />
+                일/공휴일 | 오전 7시 - 오후 1시
+              </p>
+            </div>
+          </div>
+          <div class="question__item"> 
+            <button>
+              1:1 문의
+            </button>
+            <div>
+              <p>
+                365일 <br />
+                고객센터 운영시간에 순차적으로 답변드리겠습니다.
+              </p>
+            </div>
+          </div>
+          <div class="question__item"> 
+            <button>
+              대량주문 문의
+            </button>
+            <div>
+              <p>
+                월~금요일 | 오전 9시 - 오후 6시 <br />
+                점심시간 | 낮 12시 - 오후 1시
+              </p>
+            </div>
+          </div>
+          <span>
+            비회원 문의 : 
+            <a href="#">help@karlycorp.com</a>
+          </span>
+          <span>
+            비회원 대량주문 문의 : 
+            <a href="#">help@karlycorp.com</a>
+          </span>
+        </div>     
+      </div>
+      <ul class="link-bar">
+        <li>
+          <a href="./index.html">컬리소개</a>
+        </li>
+        <li>
+          <a href="./index.html">컬리소개영상</a>
+        </li>
+        <li>
+          <a href="./index.html">인재채용</a>
+        </li>
+        <li>
+          <a href="./index.html">이용약관</a>
+        </li>
+        <li>
+          <a href="./index.html">개인정보처리방침</a>
+        </li>
+        <li>
+          <a href="./index.html">이용안내</a>
+        </li>
+      </ul>
       <address>
-        <span>
-          비회원 문의 : 
-          <a href="#">help@karlycorp.com</a>
-        </span>
-        <span>
-          비회원 대량주문 문의 : 
-          <a href="#">help@karlycorp.com</a>
-        </span>
+        <p>
+          법인명(상호):주식회사 컬리 | 사업자등록번호:261-81-23567
+          <a href="#">사업자정보 확인</a>
+          <br />
+          통신판매업:제2018-서울강남-01646 호 | 개인정보보호책임자:이원준
+          <br />
+          주소:서울특별시 강남구 테헤란로 133,18층(역삼동) | 대표이사:김슬아
+          <br />
+          입점문의:<a href="#">입점문의하기</a> | 제휴문의:<a href="#">business@kurlycorp.com</a>
+          채용문의:<a href="#">recruit@kurlycorp.com</a>
+          <br />
+          팩스:070-7500-6098
+        </p>
       </address>
+
       <div class="certification">
-        <div class="certification__item"> 
+        <div class="certification__item">
+          <img src="./client/assets/icons/Icon/Logo-isms.png" alt="isms" />
+           <p>[인증범위] 마켓칼리 쇼핑몰 서비스 개발 운영<br />(심사받지 않은 물리적 인프라 제외) [유효기간] 2022.01.19 ~ 2025.01.18</p>
+        </div>
+        <div class="certification__item">
+          <img src="./client/assets/icons/Icon/Logo-privacy.png" alt="isms" />
+           <p>개인정보보호 우수 웹사이트<br /> 개인정보처리시스템 인증 (ePRIVACY PLUS)</p>
+        </div>
+        <div class="certification__item">
+          <img src="./client/assets/icons/Icon/Logo-tosspayments.png" alt="Toss Payments" />
+           <p>토스페이먼츠 구매안전(에스크로) 서비르를 이용하실 수 있습니다.</p>
+        </div>
+        <div class="certification__item">
+          <img src="./client/assets/icons/Icon/Logo-wooriBank.png" alt="Woori Bank" />
+           <p>고객님이 현금으로 결제한 금액에 대해 우리은행과 채무지급보증 계약을 체결하여 안전거래를 보장하고 있습니다.</p>
         </div>
       </div>
       <p>
