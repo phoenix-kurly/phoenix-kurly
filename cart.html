@@ -12,255 +12,104 @@
     <header></header>
     <!-- 메인 -->
     <main class="main">
-      <div class="">
-        <h2 class="cart">장바구니</h2>
-      </div>
-      <article class="">
-        <section class="">
-          <div class="">
-            <label class="">
-              <input type="checkbox" class="" />
-              <img src="./client/assets/icons/Input/Check.png" alt="" />
+      
+        <h2 class="cart-title">장바구니</h2>
+      
+      <!-- 장바구스 상품 리스트 -->
+      <article class="cart">
+        <section class="cart-list">
+          <div class="cart-radio">
+            <label class="radio">
+              <input type="checkbox" class="radio_chkbox" />
+              <img src="./client/assets/icons/Input/Check.png" alt="라디오 체크박스 이미지" />
               <span>전체선택 (0/0)</span>
             </label>
-            <span class="">|</span>
-            <button class="">선택삭제</button>
+            <span class="divider" aria-hidden="true">|</span>
+            <button class="chk-delete">선택삭제</button>
           </div>
-          <section class="">
-            <!-- <p class="">장바구니에 담긴 상품이 없습니다</p> -->
-            <div class="cart_list">
-              <h4 class="">
-                <span class="">
-                  <span class="">
-                    <span class=""></span>
-                  </span>
+          <section class="accordion">
+            <div class="food-list">
+              <h4 class="cart-accordian-cold">
+                <span class="cold-icon">
                   냉장 상품
                 </span>
-                <button class="">
-                  <img src="./client/assets/icons/Icon/Arrow-2.png" alt="접기" class="" />
-                </button>
+                  <button class="arrow-button">
+                    <img src="" alt="펼치기" class="arrow-button">
+                  </button>
               </h4>
-              <ul>
-                <li class="">
-                  <label class="">
-                    <input type="checkbox" class="" checked="" />
-                    <img src="./client/assets/icons/Input/Check.png" alt="" class="" />
-                    <span class=""></span>
-                  </label>
-                  <a class="">
-                    <span class=""></span>
-                  </a>
-                  <div class="">
-                    <a class=""><p class="product-name">유명산지 설향딸기 500g</p></a>
-                    <div class="css-ar9i78 esoayg82"></div>
-                  </div>
-                  <div class="">
-                    <button type="button" aria-label="수량내리기" disabled="" class=""></button>
-                    <div class="count">1</div>
-                    <button type="button" aria-label="수량올리기" class=""></button>
-                  </div>
-                  <div class="">
-                    <span aria-label="권장 소비자 가격" data-testid="product-price" class="">10,500원</span>
-                  </div>
-                  <button class="" type="button" data-testid="delete">
-                    <span class=""></span>
-                  </button>
-                </li>
-                <li class="">
-                  <label class=""
-                    ><input type="checkbox" class="" checked="" />
-                    <img src="./client/assets/icons/Input/Check.png" alt="" class="css-1wfsi82 e31wziv0" />
-                    <span class="css-0 e1dcessg1"></span>
-                  </label>
-                  <a class="css-3u0haf esoayg810">
-                    <span class="css-vugmfm esoayg89"></span>
-                  </a>
-                  <div class="css-14sb0pe esoayg88">
-                    <a class="css-e0dnmk esoayg87"><p class="css-5cezqo esoayg86">[KF365] 감자 1kg</p></a>
-                    <div class="css-ar9i78 esoayg82"></div>
-                  </div>
-                  <div class="css-1gueo66 e1cqr3m40">
-                    <button type="button" aria-label="수량내리기" disabled="" class="css-1e90glc e1hx75jb0"></button>
-                    <div class="count css-6m57y0 e1cqr3m41">1</div>
-                    <button type="button" aria-label="수량올리기" class="css-18y6jr4 e1hx75jb0"></button>
-                  </div>
-                  <div class="css-5w3ssu esoayg84">
-                    <span aria-label="권장 소비자 가격" data-testid="product-price" class="css-zq4evb e2qzex51">3,990원</span>
-                  </div>
-                  <button class="css-h5zdhc eudrkjx0" type="button" data-testid="delete">
-                    <span class="css-6mgkir e5h3i930"></span>
-                  </button>
-                </li>
-              </ul>
-              <h4 class="css-td54hr e1w1cmkx0">
-                <span class="css-1nzj0g2 e6yclqm1">
-                  <span class="css-12dwhid e6yclqm0"><span class="css-1791hip e1i6zhfu0"> </span></span>냉동 상품</span>
-                <button class="css-lvqq7y e17cst861">
-                  <img src= "./client/assets/icons/Icon/Arrow-2.png" alt="접기" class="css-hvzkdq e17cst860" />
-                </button>
-              </h4>
-              <ul>
-                <li class="css-1d6kgf6 esoayg811">
-                  <label class="css-dar8hv e1dcessg3">
-                    <input type="checkbox" class="css-agvwxo e1dcessg2" checked="" />
-                    <img src="./client/assets/icons/Input/Check.png"alt="" class="css-1wfsi82 e31wziv0" />
-                    <span class="css-0 e1dcessg1"></span>
-                  </label>
-                  <a class="css-3u0haf esoayg810"><span class="css-18yifb2 esoayg89"></span></a>
-                  <div class="css-14sb0pe esoayg88">
-                    <a class="css-e0dnmk esoayg87"><p class="css-5cezqo esoayg86">[KF365] IQF 닭가슴살 (냉동) 2kg</p></a>
-                    <div class="css-ar9i78 esoayg82"></div>
-                  </div>
-                  <div class="css-1gueo66 e1cqr3m40">
-                    <button type="button" aria-label="수량내리기" disabled="" class="css-1e90glc e1hx75jb0"></button>
-                    <div class="count css-6m57y0 e1cqr3m41">1</div>
-                    <button type="button" aria-label="수량올리기" class="css-18y6jr4 e1hx75jb0"></button>
-                  </div>
-                  <div class="css-5w3ssu esoayg84">
-                    <span aria-label="권장 소비자 가격" data-testid="product-price" class="css-zq4evb e2qzex51">15,980원</span>
-                  </div>
-                  <button class="css-h5zdhc eudrkjx0" type="button" data-testid="delete">
-                    <span class="css-6mgkir e5h3i930"></span>
-                  </button>
-                </li>
-                <li class="css-1d6kgf6 esoayg811">
-                  <label class="css-dar8hv e1dcessg3">
-                    <input type="checkbox" class="css-agvwxo e1dcessg2" checked="" />
-                    <img src="./client/assets/icons/Input/Check.png" alt="" class="css-1wfsi82 e31wziv0" />
-                    <span class="css-0 e1dcessg1"></span>
-                  </label>
-                  <a class="css-3u0haf esoayg810"><span class="css-11zsype esoayg89"></span></a>
-                  <div class="css-14sb0pe esoayg88">
-                  <a class="css-e0dnmk esoayg87"><p class="css-5cezqo esoayg86">[하이포크] 그때 그 삼겹 180g (냉동)</p></a>
-                  <div class="css-ar9i78 esoayg82"></div>                  
-                  </div>
-                  <div class="css-1gueo66 e1cqr3m40">
-                    <button type="button" aria-label="수량내리기" disabled="" class="css-1e90glc e1hx75jb0"></button>
-                    <div class="count css-6m57y0 e1cqr3m41">1</div>
-                    <button type="button" aria-label="수량올리기" class="css-18y6jr4 e1hx75jb0"></button>
-                  </div>
-                  <div class="css-5w3ssu esoayg84">
-                    <span aria-label="권장 소비자 가격" data-testid="product-price" class="css-zq4evb e2qzex51">5,900원</span>
-                  </div>
-                  <button class="css-h5zdhc eudrkjx0" type="button" data-testid="delete">
-                    <span class="css-6mgkir e5h3i930"></span>
-                  </button>
-                </li>
-              </ul>
-              <h4 class="css-td54hr e1w1cmkx0">
-                <span class="css-1nzj0g2 e6yclqm1">
-                  <span class="css-12dwhid e6yclqm0">
-                    <span class="css-k9umm5 e1iychg20">
-                    </span>
+              <h4 class="cart-accordian-frozen">
+                  <span class="frozen-icon">
+                    냉동 상품
                   </span>
+                  <button class="arrow-button">
+                    <img src="" alt="펼치기" class="arrow-button">
+                  </button>
+              </h4>
+              <h4 class="cart-accordian-room-temp">
+                  <span class="room-temp-icon">
                     상온 상품
                   </span>
-                  <button class="css-lvqq7y e17cst861">
-                  <img src="./client/assets/icons/Icon/Arrow-2.png" alt="접기" class="css-hvzkdq e17cst860" />
-                </button>
+                  <button class="arrow-button">
+                    <img src="" alt="펼치기" class="arrow-button">
+                  </button>
               </h4>
-              <ul>
-                <li class="css-1d6kgf6 esoayg811">
-                  <label class="css-dar8hv e1dcessg3">
-                    <input type="checkbox" class="css-agvwxo e1dcessg2" checked="" />
-                    <img src="./client/assets/icons/Input/Check.png" alt="" class="css-1wfsi82 e31wziv0" />
-                    <span class="css-0 e1dcessg1"></span>
-                  </label>
-                    <a class="css-3u0haf esoayg810"><span class="css-1yhyw5w esoayg89"></span></a>
-                  <div class="css-14sb0pe esoayg88">
-                    <a class="css-e0dnmk esoayg87"><p class="css-5cezqo esoayg86">[차오코] 코코넛 밀크 500mL</p></a>
-                    <div class="css-ar9i78 esoayg82"></div>
-                  </div>
-                  <div class="css-1gueo66 e1cqr3m40">
-                    <button type="button" aria-label="수량내리기" disabled="" class="css-1e90glc e1hx75jb0"></button>
-                    <div class="count css-6m57y0 e1cqr3m41">1</div>
-                    <button type="button" aria-label="수량올리기" class="css-18y6jr4 e1hx75jb0"></button>
-                  </div>
-                  <div class="css-5w3ssu esoayg84">
-                    <span aria-label="권장 소비자 가격" data-testid="product-price" class="css-zq4evb e2qzex51">3,830원</span>
-                  </div>
-                  <button class="css-h5zdhc eudrkjx0" type="button" data-testid="delete">
-                    <span class="css-6mgkir e5h3i930"></span>
-                  </button>
-                </li>
-                <li class="css-1d6kgf6 esoayg811">
-                  <label class="css-dar8hv e1dcessg3">
-                    <input type="checkbox" class="css-agvwxo e1dcessg2" checked="" />
-                    <img src="./client/assets/icons/Input/Check.png" alt="" class="css-1wfsi82 e31wziv0" />
-                    <span class="css-0 e1dcessg1"></span>
-                  </label>
-                    <a class="css-3u0haf esoayg810"><span class="css-10muiys esoayg89"></span></a>
-                  <div class="css-14sb0pe esoayg88">
-                    <a class="css-e0dnmk esoayg87"><p class="css-5cezqo esoayg86">[마이노멀] 알룰로스</p></a>
-                    <div class="css-ar9i78 esoayg82"></div>
-                  </div>
-                  <div class="css-1gueo66 e1cqr3m40">
-                    <button type="button" aria-label="수량내리기" disabled="" class="css-1e90glc e1hx75jb0"></button>
-                    <div class="count css-6m57y0 e1cqr3m41">1</div>
-                    <button type="button" aria-label="수량올리기" class="css-18y6jr4 e1hx75jb0"></button>
-                  </div>
-                  <div class="css-5w3ssu esoayg84">
-                    <span aria-label="권장 소비자 가격" data-testid="product-price" class="css-zq4evb e2qzex51">8,900원</span>
-                  </div>
-                  <button class="css-h5zdhc eudrkjx0" type="button" data-testid="delete">
-                    <span class="css-6mgkir e5h3i930"></span>
-                  </button>
-                </li>
-              </ul>
             </div>
           </section>
-          <div>
-            <label class="">
-              <input type="checkbox" class="" />
-              <img src="./client/assets/icons/Input/Check.png" alt="" />
+          <section class="cart-radio">
+            <label class="radio">
+              <input type="checkbox" class="radio-chkbox" />
+              <img src="./client/assets/icons/Input/Check.png" alt="라디오 체크박스 이미지" />
               <span>전체선택 (0/0)</span>
             </label>
-            <span class="">|</span>
-            <button class="">선택삭제</button>
-          </div>
+            <span class="divider" aria-hidden="true">|</span>
+            <button class="chk-delete">선택삭제</button>
+          </section>
         </section>
-        <aside class="">
-          <section class="">
-            <div class="">
-              <h3 class="">배송지</h3>
-            </div>
-            <div class="">
+        <!-- 주문하기 및 결제금액 영역 -->
+       <aside class="credit">
+          <article class="location">
+            <section class="title">
+              <h3 class="icon-location">배송지</h3>
+            </section>
+            <section class="addes">
               <p class="">
-                <em>배송지를 등록</em>하고<br />
-                <span class="">구매 가능한 상품을 확인하세요!</span>
+                <span class="">서울 중랑구 면목로 42길 11 (행운빌딩)
+                  603호</span>
               </p>
+              <p>샛별배송</p>
               <button class="" type="button" height="36" radius="3">
                 <span class="">
-                  <img src="./client/assets/icons/Icon/Search.png" alt="" class="" />
-                  주소 검색
+                  <!-- <img src="./client/assets/icons/Icon/Search.png" alt="돋보기 아이콘" class="" /> -->
+                  배송지 변경
                 </span>
               </button>
-            </div>
-            <div class="cart_payment">
+            </section>
+            <section class="cart_payment">
               <div class="product_amount">
-                <span class="amount_name">상품금액</span><span class="amount_num">0<span class="won">원</span></span>
+                <span class="amount_name">상품금액</span><span class="amount_num">40,680<span class="won">원</span></span>
               </div>
               <div class="product_dcAmount">
-                <span class="amount_name">상품할인금액</span><span class="amount_num">0<span class="won">원</span></span>
+                <span class="amount_name">상품할인금액</span><span class="amount_num">-4,651<span class="won">원</span></span>
               </div>
               <div class="delivery_amount">
-                <span class="amount_name">배송비</span><span class="amount_num">0<span class="won">원</span></span>
+                <span class="amount_name">배송비</span><span class="amount_num">3,000<span class="won">원</span></span>
               </div>
               <div class="final_amount">
-                <span class="amount_name">결제예정금액</span><span class="amount_num"><strong class="amount_strong">0</strong><span class="won">원</span></span>
+                <span class="amount_name">결제예정금액</span><span class="amount_num"><strong class="amount_strong">40,680</strong><span class="won">원</span></span>
+                <span class="credit-accumulate">최대 36원 적립 일반 0.1%</span>
               </div>
-            </div>
-            <div class="">
-              <button class="" type="button" disabled="" height="56" radius="3">
-                <span class="">상품을 담아주세요</span>
+            </section>
+            <section class="oder">
+              <button class="oder-button" type="button" disabled="" height="56" radius="3">
+                <span>주문하기</span>
               </button>
               <ul class="css-19kxq7d">
                 <li class="css-7s0nna ejr204i0">[주문완료] 상태일 경우에만 주문 취소 가능합니다.</li>
                 <li class="css-7s0nna ejr204i0">[마이컬리 &gt; 주문내역 상세페이지] 에서 직접 취소하실 수 있습니다.</li>
               </ul>
-            </div>
-          </section>
-        </aside>
+            </section>
+          </article>
+       </aside>
       </article>
     </main>
     <!-- 푸터 -->
