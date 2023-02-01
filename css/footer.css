@@ -1,0 +1,33 @@
+.certification__item {
+  cursor: pointer;
+  display: flex;
+}
+
+.certification__item img {
+  width: 34px;
+  height: 34px;
+}
+
+.certification__item img:nth-child(2) {
+  width: 32px;
+  height: auto;
+}
+
+.certification__item p {
+
+}
+
+.footer-bottom {
+  background-color: #f7f7f7;
+  height: 102px;
+  font-size: 10px;
+  line-height: 15px;
+  color: #999999;
+  text-align: center;
+  padding: 20px 0 30px 0;
+}
+
+.copyright {
+  display: inline-block;
+  margin-top: 10px;
+}

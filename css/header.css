@@ -1,0 +1,22 @@
+.top-banner {
+  background-color: #5F0080;
+  color: #FFFFFF;
+  height: 42px;
+}
+
+.top-banner a {
+  font-size: 14px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.top-banner button {
+  background-color: transparent;
+  width: 42px;
+  height: 42px;
+}
+
+.top-banner button > img {
+  width: 20px;
+  height: 20px;  
+}

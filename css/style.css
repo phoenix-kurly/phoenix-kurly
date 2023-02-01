@@ -1,6 +1,8 @@
 @import url(./normalize.css);
 @import url(./reset.css);
 @import url(./module.css);
+@import url(./header.css);
+@import url(./footer.css);
 
 /* 숨김 콘텐츠 */
 .a11y-hidden,
