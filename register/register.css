@@ -141,7 +141,7 @@ body {
   justify-content: center;
 }
 
-.register__birth {
+.register-birth {
   width: 60px;
   height: 44px;
   text-align: center;
@@ -157,7 +157,7 @@ body {
   color: var(--dark-grey);
 }
 
-.register__birth::placeholder {
+.register-birth::placeholder {
   padding: 0;
   text-align: center;
 }
@@ -239,7 +239,7 @@ input[type='radio'].checked + label::before {
   margin-bottom: var(--spacing-lg);
 }
 
-.register__check-all {
+.register-check-all {
   font-size: var(--text-lg);
   font-weight: var(--text-600);
 }
