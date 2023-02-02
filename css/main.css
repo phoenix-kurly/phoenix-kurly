@@ -8,3 +8,52 @@
 .visual{
   margin-top: 247px;
 }
+
+/* 메인 */
+main{
+  position: relative;
+  background-color: lightpink;
+}
+
+.main-inner{
+  width: 1050px;
+  margin: 0 auto;
+  background-color: lightblue;
+}
+
+.today-product h1{
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 52px;
+  line-height: 40px;
+}
+
+.product-list{
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.product-list__name{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.product-list__price{
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.product-list li img{
+  width: 249px;
+  height: 320px;
+}
+
+.line-banner{
+  margin: 40px 0;
+}
+
+.line-banner img{
+  max-width: 100%;
+}
