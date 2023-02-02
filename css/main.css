@@ -118,3 +118,33 @@ main{
 .recent-button-next{
   background-position: -12px -34px;
 }
+
+/* 메인 팝업 */
+
+.main-popup{
+  margin-top: 200px;
+  /* background-color: tomato; */
+}
+.main-popup__inner{
+  width: 440px;
+  margin: 0 auto;
+  font-size: var(--text-base);
+  /* border-radius: 10px; */
+  /* overflow: hidden; */
+}
+.main-popup a{
+  display: block;
+  background-color: green;  /* 여백 */
+}
+
+.main-popup__button-wrapper{
+  width: 440px;
+  margin: 0 auto;
+  background-color: cornflowerblue;
+  white-space: nowrap;
+}
+
+.main-popup__button-wrapper button{
+  width: 50%;
+  height: 86px;
+}
