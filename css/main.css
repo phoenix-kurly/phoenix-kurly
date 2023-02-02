@@ -148,3 +148,36 @@ main{
   width: 50%;
   height: 86px;
 }
+
+
+/* 장바구니 팝업 */
+
+.add-cart{
+  margin: 200px 0;
+  font-size: 16px;
+}
+
+.add-cart__inner{
+  background-color: aliceblue;
+  width: 396px;
+  margin: 0 auto;
+  border: 1px solid var(--light-black);
+  border-radius: 16px;
+  padding: 24px 20px;
+  box-shadow: 0px 8px 36px rgba(0, 0, 0, 0.2);
+}
+
+.add-cart__count{
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-cart__total-price{
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-cart__reward{
+  display: flex;
+  justify-content: space-between;
+}
