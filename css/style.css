@@ -1,6 +1,7 @@
 @import url(./reset.css);
 @import url(./module.css);
 @import url(./variable.css);
+@import url(./main.css);
 
 /* 숨김 콘텐츠 */
 .a11y-hidden,
@@ -29,3 +30,7 @@ a {
   text-decoration: none;
 }
 
+h1{
+  font-size: 28px;
+  font-weight: 700;
+}
