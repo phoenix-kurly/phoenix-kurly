@@ -1,19 +1,20 @@
-/* .container {
-  background-color: blue;
+.container {
+  /* background-color: blue;
   width: 1920px;
   height: 6852px;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
   padding: 4px 4px 96px;
-  gap: 4px;
-} */
+  gap: 4px; */
+}
 
-/* .product-wrapper {
+.product-wrapper {
+  width: 1050px;
+  height: 6752px;
+  margin: 0 auto;
   background-color: pink;
   display: flex;
   flex-direction: column;
+  align-content: center;
   align-items: center;
-  padding: 40px 0px 0px;
-} */
+  /* padding: 40px 0px 0px; */
+}
