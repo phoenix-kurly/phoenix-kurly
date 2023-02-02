@@ -14,7 +14,7 @@
       <!-- 장바구니 버블 시작-->
       <div>
         <div>
-          <img src="./client/assets/images/product01.png" style="width: 46px; height: 60px;" alt="" />
+          <img src="./client/assets/images/product01.png" style="width: 46px; height: 60px" alt="" />
           <div>
             <p>[풀무원] 탱탱쫄면 (4개입)</p>
             <p>장바구니에 상품을 담았습니다.</p>
@@ -111,8 +111,12 @@
               </div>
             </div>
             <div class="product-detail__product-buttons">
-              <button class="product-buttons__like"><span><img src="./client/assets/icons/Icon/Heart.png" alt="" /></span></button>
-              <button class="product-buttons__alert"><span><img src="./client/assets/icons/Icon/Bell.png" alt="" /></span></button>
+              <button class="product-buttons__like">
+                <span><img src="./client/assets/icons/Icon/Heart.png" alt="" /></span>
+              </button>
+              <button class="product-buttons__alert">
+                <span><img src="./client/assets/icons/Icon/Bell.png" alt="" /></span>
+              </button>
               <button class="product-buttons__cart"><span>장바구니 담기</span></button>
             </div>
           </section>
@@ -120,38 +124,47 @@
         <!-- 상품설명, 상세정보, 후기, 문의 nav bar -->
         <nav class="fixed-navbar">
           <ul class="fixed-navbar__list">
-            <li class="fixed-navbar--is-active"><a href=""><span>상품설명</span></a></li>
-            <li><a href=""><span>상세정보</span></a></li>
-            <li><a href=""><span>후기</span><span>(2,918)</span></a></li>
-            <li><a href=""><span>문의</span></a></li>
+            <li class="fixed-navbar--is-active">
+              <a href=""><span>상품설명</span></a>
+            </li>
+            <li>
+              <a href=""><span>상세정보</span></a>
+            </li>
+            <li>
+              <a href=""><span>후기</span><span>(2,918)</span></a>
+            </li>
+            <li>
+              <a href=""><span>문의</span></a>
+            </li>
           </ul>
         </nav>
         <!-- 상품 설명 전체 wrapper -->
         <div class="description-wrapper">
           <!-- 상품 설명 -->
           <div class="description">
-              <div class="description__picture">
-                <img class="picture__img" src="./client/assets/images/product01.png" alt="" />
+            <div class="description__picture">
+              <img class="picture__img" src="./client/assets/images/product01.png" alt="" />
+            </div>
+            <!-- 제품 안내 -->
+            <div class="description__text">
+              <h3>
+                <small>튀기지 않아 부담 없는 매콤함</small>
+                [풀무원] 탱탱쫄면
+              </h3>
+              <p>
+                쫄면의 진가는 매콤새콤한 양념과 탱탱한 면발에서 찾을 수 있지요. 풀무원은 이 맛을 더 부담 없이 즐길 수 있도록 튀기지 않고 만든 탱탱쫄면을 선보입니다. 밀가루와 감자 전분을 적절히 배합해 탄력이 좋고, 입에 넣었을 때는
+                찰지게 씹히죠. 고추장을 넣어 숙성한 비빔장은 자연스럽고 깊은 맛을 냅니다. 간단하게 조리해 마지막 한 가닥까지 탱탱한 식감을 즐겨보세요. 취향에 따라 다양한 고명을 올려 드셔도 좋아요.
+              </p>
+            </div>
+            <!-- Karly's Check Point -->
+            <div class="description__check-point">
+              <h3>
+                <span>Karly's Check Point</span>
+              </h3>
+              <div class="check-point__picture">
+                <img src="./client/assets/images/goods_point.png" alt="" />
               </div>
-              <!-- 제품 안내 -->
-              <div class="description__text">
-                <h3>
-                  <small>튀기지 않아 부담 없는 매콤함</small>
-                  [풀무원] 탱탱쫄면
-                </h3>
-                <p>
-                  쫄면의 진가는 매콤새콤한 양념과 탱탱한 면발에서 찾을 수 있지요. 풀무원은 이 맛을 더 부담 없이 즐길 수 있도록 튀기지 않고 만든 탱탱쫄면을 선보입니다. 밀가루와 감자 전분을 적절히 배합해 탄력이 좋고, 입에 넣었을 때는 찰지게 씹히죠. 고추장을 넣어 숙성한 비빔장은 자연스럽고 깊은 맛을 냅니다. 간단하게 조리해 마지막 한 가닥까지 탱탱한 식감을 즐겨보세요. 취향에 따라 다양한 고명을 올려 드셔도 좋아요.
-                </p>
-              </div>
-              <!-- Karly's Check Point -->
-              <div class="description__check-point">
-                <h3>
-                  <span>Karly's Check Point</span>
-                </h3>
-                  <div class="check-point__picture">
-                    <img src="./client/assets/images/goods_point.png" alt="" />
-                  </div>
-              </div>
+            </div>
           </div>
           <!-- 상세정보 -->
           <div class="more-infomation">
@@ -161,98 +174,85 @@
             <!-- why karly -->
             <div class="more-infomation__why-karly">
               <div class="why-karly__header">
-                <span>WHY Karly</span>
+                <span>WHY KARLY</span>
               </div>
               <div class="why-karly__wrapper">
-                <dl>
-                  <dt class="why-karly__title">깐깐한 상품위원회</dt>
-                  <dd class="why-karly__desc">
-                    나와 내 가족이 먹고 쓸 상품을 고르는<br>
-                    마음으로 매주 상품을 직접 먹어보고,<br>
-                    경험해보고 성분, 맛, 안정성 등 다각도의<br>
-                    기준을 통과한 상품만을 판매합니다.
-                    <span>(온라인 기준 / 자사몰, 직구 제외)</span>
-                  </dd>
-                </dl>
-                <dl><dt class="why-karly__title">차별화된 Karly Only 상품</dt>
-                  <dd class="why-karly__desc">
-                    전국 각지와 해외의 훌륭한 생산자가<br>
-                    믿고 선택하는 파트너, 칼리.<br>
-                    3천여 개가 넘는 칼리 단독 브랜드, 스펙의<br>
-                    Karly Only 상품을 믿고 만나보세요.
-                    <span>(온라인 기준 / 자사몰, 직구 제외)</span>
-                  </dd>
-                </dl>
-                <dl><dt class="why-karly__title">신선한 풀콜드체인 배송</dt>
-                  <dd class="why-karly__desc">
-                    온라인 업계 최초로 산지에서 문 앞까지<br>
-                    상온, 냉장, 냉동 상품을 분리 포장 후<br>
-                    최적의 온도를 유지하는 냉장 배송 시스템,<br>
-                    풀콜드체인으로 상품을 신선하게 전해드립니다.
-                    <span>(샛별배송에 한함)</span>
-                  </dd>
-                </dl>
-                <dl><dt class="why-karly__title">고객, 생산자를 위한 최선의 가격</dt>
-                  <dd class="why-karly__desc">
-                    매주 대형 마트와 주요 온라인 마트의 가격<br>
-                    변동 상황을 확인해 신선식품은 품질을<br>
-                    타협하지 않는 선에서 최선의 가격으로,<br>
-                    가공식품은 언제나 합리적인 가격으로<br>
-                    정기 조정합니다.
-                  </dd>
-                </dl>
-                <dl><dt class="why-karly__title">환경을 생각하는 지속 가능한 유통</dt>
-                  <dd class="why-karly__desc">
-                    친환경 포장재부터 생산자가 상품에만<br>
-                    집중할 수 있는 직매입 유통구조까지,<br>
-                    지속 가능한 유통을 고민하며 칼리를 있게<br>
-                    하는 모든 환경(생산자, 커뮤니티, 직원)이<br>
-                    더 나아질 수 있도록 노력합니다.
-                  </dd>
-                </dl>
+                  <dl class="why-karly__content">
+                    <dt class="why-karly__title">깐깐한 상품위원회</dt>
+                    <dd class="why-karly__desc">
+                      나와 내 가족이 먹고 쓸 상품을 고르는<br />
+                      마음으로 매주 상품을 직접 먹어보고,<br />
+                      경험해보고 성분, 맛, 안정성 등 다각도의<br />
+                      기준을 통과한 상품만을 판매합니다.
+                    </dd>
+                  </dl>
+                  <dl class="why-karly__content">
+                    <dt class="why-karly__title">차별화된 Karly Only 상품</dt>
+                    <dd class="why-karly__desc">
+                      전국 각지와 해외의 훌륭한 생산자가<br />
+                      믿고 선택하는 파트너, 칼리.<br />
+                      3천여 개가 넘는 칼리 단독 브랜드, 스펙의<br />
+                      Karly Only 상품을 믿고 만나보세요.
+                    </dd>
+                  </dl>
+                  <dl class="why-karly__content">
+                    <dt class="why-karly__title">신선한 풀콜드체인 배송</dt>
+                    <dd class="why-karly__desc">
+                      온라인 업계 최초로 산지에서 문 앞까지<br />
+                      상온, 냉장, 냉동 상품을 분리 포장 후<br />
+                      최적의 온도를 유지하는 냉장 배송 시스템,<br />
+                      풀콜드체인으로 상품을 신선하게 전해드립니다.
+                    </dd>
+                  </dl>
+                
+                  <dl class="why-karly__content">
+                    <dt class="why-karly__title">고객, 생산자를 위한 최선의 가격</dt>
+                    <dd class="why-karly__desc">
+                      매주 대형 마트와 주요 온라인 마트의 가격<br />
+                      변동 상황을 확인해 신선식품은 품질을<br />
+                      타협하지 않는 선에서 최선의 가격으로,<br />
+                      가공식품은 언제나 합리적인 가격으로<br />
+                      정기 조정합니다.
+                    </dd>
+                  </dl>
+                  <dl class="why-karly__content">
+                    <dt class="why-karly__title">환경을 생각하는 지속 가능한 유통</dt>
+                    <dd class="why-karly__desc">
+                      친환경 포장재부터 생산자가 상품에만<br />
+                      집중할 수 있는 직매입 유통구조까지,<br />
+                      지속 가능한 유통을 고민하며 칼리를 있게<br />
+                      하는 모든 환경(생산자, 커뮤니티, 직원)이<br />
+                      더 나아질 수 있도록 노력합니다.
+                    </dd>
+                  </dl>
+                
               </div>
             </div>
-        </div>
+          </div>
           <!-- 후기 작성하기 클릭하면 띄워 줄 상자 -->
           <div class="review__write">
             <div class="review__write__header">
-            <h1>후기 작성</h1>
-            <span>X</span>
+              <h1>후기 작성</h1>
+              <span>X</span>
             </div>
             <div class="review__write__product-info">
-              <img src="./client/assets/images/product01.png" style="width: 72px; height: 72px;" alt="" />
+              <img src="./client/assets/images/product01.png" style="width: 72px; height: 72px" alt="" />
               <span>[풀무원] 탱탱쫄면 (4개입)</span>
             </div>
             <div class="review__write__input">
               <div class="input__title">
-                  <label for="review-title" class="input__title__label">제목</label>
-                  <input
-                    id="review-title"
-                    class="input__title__input"
-                    required
-                    placeholder="제목을 입력해주세요"
-                  />
+                <label for="review-title" class="input__title__label">제목</label>
+                <input id="review-title" class="input__title__input" required placeholder="제목을 입력해주세요" />
               </div>
               <div class="input__content">
-                  <label for="review-content" class="input__content__label">내용</label>
-                  <input
-                    id="review-content"
-                    class="input__content__input"
-                    required
-                    placeholder="컬리는 믿을 수 있는 후기문화를 함께 만들어가고자 합니다. 식품 등의 표시광고에 대한 법률을 준수하고자 다음과 같은 부당한 상품평에 대해서는 별도 고지 없이 임시 대처, 비공개 전환, 삭제, 적립금 회수 등의 필요한 조치가 취해 질 수 있습니다.&#13;&#10;
-                    후기 작성 시 유의사항&#13;&#10;
-                    개인의 주관적인 의견으로 인해 상품의 기능 및 효과에 대하여 오해의 소지가 있는 내용&#13;&#10;
-                    식품/건강기능식품과 관련하여 질병의 예방 및 치료, 체중감량(다이어트)에 효능효과가 있다는 내용&#13;&#10;
-                    일반 화장품을 기능성화장품의 효능효과가 있다는 내용을 통한 오인 표현&#13;&#10;
-                    의약외품을 의약품으로 오인하게 하는 표현&#13;&#10;
-                    생활화학제품을 본래 용도와 다르게 사용하는 내용 및 효능효과를 과장하는 내용&#13;&#10;
-                    욕설, 폭력성, 음란성, 상업성 등의 게시물 또는 구매 상품과 무관하거나 반복되는 동일 단어나 문장을 사용하여 판매자나 다른 이용자의 후기 이용을 방해한다고 판단되는 경우&#13;&#10;
-                    구매한 상품이 아닌 캡쳐 사진, 타인 사진 도용, 포장 박스, 퍼플박스, 구매 상품을 구분할 수 없는 전체 사진 등 상품과 관련 없는 이미지, 동영상을 사용한 경우&#13;&#10;
-                    본인 또는 타인의 주민등록번호, (휴대)전화번호, 이메일 등 개인정보가 포함된 경우&#13;&#10;
-                    그 밖에 상품평으로 인해 다른 회원 또는 제3자에게 피해가 가해질 내용&#13;&#10;
-                    작성된 글과 첨부된 멀티미디어 파일 등으로 이루어진 각 상품평은 개인의 의견을 반영하므로, 게시된 내용에 대한 모든 책임은 작성자에게 있습니다. 또한 비정상적인 방법을 통해 후기를 작성하고 적립금을 취득한 경우 작성자에 법적 책임의 소지가 있음을 알려드립니다.&#13;&#10;
-                    ※ 작성된 글과 첨부된 멀티미디어 파일 등으로 이루어진 각 상품평은 개인의 의견을 반영하므로, 게시된 내용에 대한 모든 책임은 작성자에게 있습니다. 또한 비정상적인 방법을 통해 후기를 작성하고 적립금을 취득한 경우 작성자에 법적 책임의 소지가 있음을 알려드립니다."
-                  />
+                <label for="review-content" class="input__content__label">내용</label>
+                <textarea
+                  cols="135"
+                  rows="12"
+                  id="review-content"
+                  class="input__content__input"
+                  required
+                  placeholder="컬리는 믿을 수 있는 후기문화를 함께 만들어가고자 합니다. 식품 등의 표시광고에 대한 법률을 준수하고자 다음과 같은 부당한 상품평에 대해서는 별도 고지 없이 임시 대처, 비공개 전환, 삭제, 적립금 회수 등의 필요한 조치가 취해 질 수 있습니다.&#10;후기 작성 시 유의사항&#10;개인의 주관적인 의견으로 인해 상품의 기능 및 효과에 대하여 오해의 소지가 있는 내용&#10;식품/건강기능식품과 관련하여 질병의 예방 및 치료, 체중감량(다이어트)에 효능효과가 있다는 내용&#10;일반 화장품을 기능성화장품의 효능효과가 있다는 내용을 통한 오인 표현&#10;의약외품을 의약품으로 오인하게 하는 표현&#10;생활화학제품을 본래 용도와 다르게 사용하는 내용 및 효능효과를 과장하는 내용&#10; 욕설, 폭력성, 음란성, 상업성 등의 게시물 또는 구매 상품과 무관하거나 반복되는 동일 단어나 문장을 사용하여 판매자나 다른 이용자의 후기 이용을 방해한다고 판단되는 경우&#10;구매한 상품이 아닌 캡쳐 사진, 타인 사진 도용, 포장 박스, 퍼플박스, 구매 상품을 구분할 수 없는 전체 사진 등 상품과 관련 없는 이미지, 동영상을 사용한 경우&#10;본인 또는 타인의 주민등록번호, (휴대)전화번호, 이메일 등 개인정보가 포함된 경우&#10;그 밖에 상품평으로 인해 다른 회원 또는 제3자에게 피해가 가해질 내용&#10;※ 작성된 글과 첨부된 멀티미디어 파일 등으로 이루어진 각 상품평은 개인의 의견을 반영하므로, 게시된 내용에 대한 모든 책임은 작성자에게 있습니다. 또한 비정상적인 방법을 통해 후기를 작성하고 적립금을 취득한 경우 작성자에 법적 책임의 소지가 있음을 알려드립니다."></textarea>
               </div>
             </div>
             <div class="review__write__buttons">
@@ -275,7 +275,6 @@
               </ul>
             </div>
             <div class="review__container">
-
               <div class="sort">
                 <span>총 3개</span>
                 <button class="sort__recommend">추천순</button>
@@ -294,40 +293,40 @@
                   </li>
                 </ul>
 
-              <div class="review-notice">
-                <p>
-                  [ 금주의 베스트 후기 및 상품 후기 적립금 정책 변경 안내 ]<br>
+                <div class="review-notice">
+                  <p>
+                    [ 금주의 베스트 후기 및 상품 후기 적립금 정책 변경 안내 ]<br />
 
-                  고객님 안녕하세요. 컬리 입니다.<br>
-                  적립금 지급 정책을 안내드리니 컬리 이용에 참고 부탁드립니다.<br>
+                    고객님 안녕하세요. 컬리 입니다.<br />
+                    적립금 지급 정책을 안내드리니 컬리 이용에 참고 부탁드립니다.<br />
 
-                  ■ 적립금 지급 정책 ■<br>
+                    ■ 적립금 지급 정책 ■<br />
 
-                  1. 일반 후기<br>
-                  -글 후기 50원/건<br>
-                  -사진 후기 100원/건<br>
-                  *퍼플/더퍼플 러버스 고객님께는 더블 후기 적립금이 지급됩니다.<br>
-                  *지급에 영업일 기준 1~2일 소요됩니다.<br>
-                    → 금~일 작성 시, 월요일 지급<br>
+                    1. 일반 후기<br />
+                    -글 후기 50원/건<br />
+                    -사진 후기 100원/건<br />
+                    *퍼플/더퍼플 러버스 고객님께는 더블 후기 적립금이 지급됩니다.<br />
+                    *지급에 영업일 기준 1~2일 소요됩니다.<br />
+                    → 금~일 작성 시, 월요일 지급<br />
 
-                  2. 베스트 후기<br>
-                  1) 선정 건 수 : 일주일 최대 100건<br>
-                  2) 혜택 : 선정 시 적립금 5,000원<br>
-                  3) 지급 일시 : 매주 수요일 (지급일이 공휴일의 경우 전 영업일)<br>
-                  *당첨 상품 및 그 주의 Best 후기는 후기 게시판에서 확인하실 수 있습니다.<br>
+                    2. 베스트 후기<br />
+                    1) 선정 건 수 : 일주일 최대 100건<br />
+                    2) 혜택 : 선정 시 적립금 5,000원<br />
+                    3) 지급 일시 : 매주 수요일 (지급일이 공휴일의 경우 전 영업일)<br />
+                    *당첨 상품 및 그 주의 Best 후기는 후기 게시판에서 확인하실 수 있습니다.<br />
 
-                  3. 후기 적립금 지급 유의 사항<br>
-                  컬리는 믿을 수 있는 후기문화를 함께 만들어가고자 합니다. 따라서 후기 내용이 아래에 해당하는 경우에는 검토 후 삭제 및 적립금 회수 조치될 수 있습니다.<br>
+                    3. 후기 적립금 지급 유의 사항<br />
+                    컬리는 믿을 수 있는 후기문화를 함께 만들어가고자 합니다. 따라서 후기 내용이 아래에 해당하는 경우에는 검토 후 삭제 및 적립금 회수 조치될 수 있습니다.<br />
 
-                  1. 욕설, 폭력성, 음란성, 상업성 등 업체나 타인에게 불쾌한 내용을 작성한 경우<br>
-                  2. 구매한 상품과 무관한 내용이나 동일 문자/단순 초성의 반복 등 부적합한 내용을 작성한 경우<br>
-                  3. 상품의 기능이나 효과 등에 오해의 소지가 있는 내용을 작성한 경우<br>
-                  4. 저작권, 초상권 등 타인의 권리를 침해하는 이미지, 동영상을 사용한 경우<br>
-                  5. 구매한 상품이 아닌 캡쳐 사진, 포장 박스 사진 등 상품과 관련 없는 이미지, 동영상을 사용한 경우<br>
+                    1. 욕설, 폭력성, 음란성, 상업성 등 업체나 타인에게 불쾌한 내용을 작성한 경우<br />
+                    2. 구매한 상품과 무관한 내용이나 동일 문자/단순 초성의 반복 등 부적합한 내용을 작성한 경우<br />
+                    3. 상품의 기능이나 효과 등에 오해의 소지가 있는 내용을 작성한 경우<br />
+                    4. 저작권, 초상권 등 타인의 권리를 침해하는 이미지, 동영상을 사용한 경우<br />
+                    5. 구매한 상품이 아닌 캡쳐 사진, 포장 박스 사진 등 상품과 관련 없는 이미지, 동영상을 사용한 경우<br />
 
-                  또한, 비정상적인 방법을 통해 후기를 작성하고 적립금을 취득한 경우 작성자에 법적 책임의 소지가 있음을 알려드립니다.
-                </p>
-              </div>
+                    또한, 비정상적인 방법을 통해 후기를 작성하고 적립금을 취득한 경우 작성자에 법적 책임의 소지가 있음을 알려드립니다.
+                  </p>
+                </div>
 
                 <!-- 후기 없을 때 띄워줄 상자 -->
                 <div class="reviews__review-box--none">
@@ -371,69 +370,48 @@
                     <time datetime="2023-01-29T13:53:45">2023.01.29</time>
                   </article>
                 </div>
-                
+
                 <div class="reviews__button">
                   <button class="reviews__button__left">왼쪽</button>
                   <button class="reviews__button__right">오른쪽</button>
                 </div>
-
               </div>
             </div>
           </div>
           <!-- 문의하기 클릭하면 띄워 줄 상자 -->
           <div class="inquiry__write">
-            <div class="inquiry__write__header"> 
-            <h1>상품 문의하기</h1>
-            <span>X</span>
+            <div class="inquiry__write__header">
+              <h1>상품 문의하기</h1>
+              <span>X</span>
             </div>
             <div class="inquiry__write__product-info">
-              <img src="./client/assets/images/product01.png" style="width: 72px; height: 72px;" alt="" />
+              <img src="./client/assets/images/product01.png" style="width: 72px; height: 72px" alt="" />
               <span>[풀무원] 탱탱쫄면 (4개입)</span>
             </div>
             <div class="inquiry__write__input">
               <div class="input__title">
-                  <label for="inquiry-title" class="input__title__label">제목</label>
-                  <input
-                    id="inquiry-title"
-                    class="input__title__input"
-                    required
-                    placeholder="제목을 입력해주세요"
-                  />
+                <label for="inquiry-title" class="input__title__label">제목</label>
+                <input id="inquiry-title" class="input__title__input" required placeholder="제목을 입력해주세요" />
               </div>
               <div class="input__content">
-                  <label for="inquiry-content" class="input__content__label">내용</label>
-                  <input
+                <div>
+                  <span>내용</span>
+                </div>
+                <div>
+                  <textarea
+                    cols="135"
+                    rows="12"
                     id="inquiry-content"
                     class="input__content__input"
                     required
-                    placeholder="상품문의 작성 전 확인해 주세요&#13;&#10;
-                    답변은 영업일 기준 2~3일 소요됩니다.&#13;&#10;
-                    해당 게시판의 성격과 다른 글은 사전동의 없이 담당 게시판으로 이동될 수 있습니다.&#13;&#10;
-                    배송관련, 주문(취소/교환/환불)관련 문의 및 요청사항은 마이칼리 내 1:1 문의에 남겨주세요.&#13;&#10;
-                    제품&#13;&#10;
-                    입고일 : 품절 상품 입고 일이 확정된 경우, 섬네일에 기재되어 있습니다. (종 모양을 클릭하여, 재입고 알림 설정 가능)&#13;&#10;
-                    제품 상세정보 : 영양성분 및 함량, 용량, 보관 및 취급 방법 등 제품 정보는 상세이미지 또는 상세정보에서 확인 가능합니다.&#13;&#10;
-                    주문취소&#13;&#10;
-                    배송 단계별로 주문취소 방법이 상이합니다.&#13;&#10;
-                    [입금확인] 단계 : [마이칼리 > 주문내역 상세페이지] 에서 직접 취소 가능&#13;&#10;
-                    [입금확인] 이후 단계 : 고객센터로 문의&#13;&#10;
-                    생산이 시작된 [상품 준비중] 이후에는 취소가 제한되는 점 고객님의 양해 부탁드립니다.&#13;&#10;
-                    비회원은 모바일 App 또는 모바일 웹사이트에서 [마이칼리 > 비회원 주문 조회 페이지] 에서 취소가 가능합니다.&#13;&#10;
-                    일부 예약상품은 배송 3~4일 전에만 취소 가능합니다.&#13;&#10;
-                    ※ 주문상품의 부분 취소는 불가능합니다. 전체 주문 취소 후 재구매 해주세요.&#13;&#10;
-                    배송&#13;&#10;
-                    주문 완료 후 배송 방법(샛별/택배)은 변경이 불가능합니다.&#13;&#10;
-                    배송일 배송시간 지정은 불가능합니다. (예약배송 포함)&#13;&#10;
-                    ※ 전화번호, 이메일, 주소, 계좌번호 등의 상세 개인정보가 문의 내용에 저장되지 않도록 주의해 주시기 바랍니다."
-                  />
+                    placeholder="상품문의 작성 전 확인해 주세요&#10;답변은 영업일 기준 2~3일 소요됩니다.&#10;해당 게시판의 성격과 다른 글은 사전동의 없이 담당 게시판으로 이동될 수 있습니다.&#10;배송관련, 주문(취소/교환/환불)관련 문의 및 요청사항은 마이칼리 내 1:1 문의에 남겨주세요.&#10;제품&#10;입고일 : 품절 상품 입고 일이 확정된 경우, 섬네일에 기재되어 있습니다. (종 모양을 클릭하여, 재입고 알림 설정 가능)&#10;제품 상세정보 : 영양성분 및 함량, 용량, 보관 및 취급 방법 등 제품 정보는 상세이미지 또는 상세정보에서 확인 가능합니다.&#10;주문취소&#10;배송 단계별로 주문취소 방법이 상이합니다.&#10;[입금확인] 단계 : [마이칼리 > 주문내역 상세페이지] 에서 직접 취소 가능&#10;[입금확인] 이후 단계 : 고객센터로 문의&#10;생산이 시작된 [상품 준비중] 이후에는 취소가 제한되는 점 고객님의 양해 부탁드립니다.&#10;비회원은 모바일 App 또는 모바일 웹사이트에서 [마이칼리 > 비회원 주문 조회 페이지] 에서 취소가 가능합니다.&#10;일부 예약상품은 배송 3~4일 전에만 취소 가능합니다.&#10;※ 주문상품의 부분 취소는 불가능합니다. 전체 주문 취소 후 재구매 해주세요.&#10;배송&#10;주문 완료 후 배송 방법(샛별/택배)은 변경이 불가능합니다.&#10;배송일 배송시간 지정은 불가능합니다. (예약배송 포함)&#10;※ 전화번호, 이메일, 주소, 계좌번호 등의 상세 개인정보가 문의 내용에 저장되지 않도록 주의해 주시기 바랍니다."></textarea>
+                  <div class="inquiry-placeholder"></div>
+                </div>
               </div>
             </div>
             <div class="inquiry__write__secret">
               <label for="isSecret" class="inquiry__write__secret__label">
-                <input
-                id="isSecret"
-                class="secret__label__input"
-                type="checkbox" />
+                <input id="isSecret" class="secret__label__input" type="checkbox" />
                 <img src="./client/assets/icons/Input/Check.png" alt="" />
                 <span>비밀글로 문의하기</span>
               </label>
@@ -485,26 +463,28 @@
                     <td>2022.10.09</td>
                     <td>답변대기</td>
                   </tr>
-                  <div>
-                    <span>스티로폼 박스도 손상되어 있어 포장이 터져 엉망이네요
-                      환불 요청합니다.
-                    </span>
-                    <span>
-                      안녕하세요. 칼리입니다.<br>
-                      믿고 찾아주신 상품에 불편을 드려 정말 죄송합니다.<br>
-                      더불어, 해당 게시판은 실시간으로 상담이 어려워 순차적으로 답변드리고 있는 관계로 신속하게 답변 드리지 못하여 대단히 죄송합니다.<br>
-                      다행히도 고객님의 불편하셨던 사항은 고객행복센터를 통해 안내 받으신 점 확인하였습니다.<br>
-                      불편을 드려 정말 죄송할 따름이며, 고객님께 늘 신선하고 최상의 상품을 불편 없이 전달드리기 위해 최선을 다하는 칼리가 되겠습니다.<br>
-                      칼리 드림.
-                    </span>
-                    <time datetime="2022-11-11T13:53:45">2022. 11.11</time>
-                  </div>
                   <tr>
                     <td>
-                      <div>
-                        <span>비밀글입니다.</span>
-                        <span>자물쇠</span>
-                      </div>
+                      <span>스티로폼 박스도 손상되어 있어 포장이 터져 엉망이네요 환불 요청합니다. </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span>
+                        안녕하세요. 칼리입니다.<br />
+                        믿고 찾아주신 상품에 불편을 드려 정말 죄송합니다.<br />
+                        더불어, 해당 게시판은 실시간으로 상담이 어려워 순차적으로 답변드리고 있는 관계로 신속하게 답변 드리지 못하여 대단히 죄송합니다.<br />
+                        다행히도 고객님의 불편하셨던 사항은 고객행복센터를 통해 안내 받으신 점 확인하였습니다.<br />
+                        불편을 드려 정말 죄송할 따름이며, 고객님께 늘 신선하고 최상의 상품을 불편 없이 전달드리기 위해 최선을 다하는 칼리가 되겠습니다.<br />
+                        칼리 드림.
+                        <time datetime="2022-11-11T13:53:45">2022. 11.11</time>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span>비밀글입니다.</span>
+                      <span>자물쇠</span>
                     </td>
                     <td>김*진</td>
                     <td>2022.10.09</td>
@@ -512,10 +492,8 @@
                   </tr>
                   <tr>
                     <td>
-                      <div>
-                        <span>비밀글입니다.</span>
-                        <span>자물쇠</span>
-                      </div>
+                      <span>비밀글입니다.</span>
+                      <span>자물쇠</span>
                     </td>
                     <td>김*범</td>
                     <td>2022.09.13</td>
@@ -523,10 +501,8 @@
                   </tr>
                   <tr>
                     <td>
-                      <div>
-                        <span>비밀글입니다.</span>
-                        <span>자물쇠</span>
-                      </div>
+                      <span>비밀글입니다.</span>
+                      <span>자물쇠</span>
                     </td>
                     <td>심*범</td>
                     <td>2022.08.30</td>
@@ -545,10 +521,8 @@
                   </tr>
                   <tr>
                     <td>
-                      <div>
-                        <span>비밀글입니다.</span>
-                        <span>자물쇠</span>
-                      </div>
+                      <span>비밀글입니다.</span>
+                      <span>자물쇠</span>
                     </td>
                     <td>김**사</td>
                     <td>2022.07.23</td>
