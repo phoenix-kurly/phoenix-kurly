@@ -57,3 +57,64 @@ main{
 .line-banner img{
   max-width: 100%;
 }
+
+
+/* 최근 본 상품 */
+
+.recent-product{
+  /* background-color: aquamarine; */
+  float: right;
+  width: 74px;
+}
+
+.recent-product__inner{
+  /* background-color: bisque; */
+  text-align: center;
+  height: 223px;
+  border: 1px solid #C4C4C4;
+}
+
+.recent-product__list{
+  /* background-color: rgb(50, 120, 205); */
+  height: 129px;
+  overflow: hidden;
+}
+
+.recent-product__list li{
+  display: inline-block;
+  width: 40px;
+  height: 51px;
+  margin: 0 auto;
+}
+
+.recent-product__list li a{
+  display: block;
+  height: 100%;
+}
+
+.recent-product p{
+  /* background-color: brown; */
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* IR 기법 */
+.recent-product__button{
+  overflow: hidden;
+  display: inline-block;
+  width: 18px;
+  height: 18px; 
+  border: none;
+  background: url("/client/assets/icons/Icon/Arrow-2.png") no-repeat;
+  /* background-color: blueviolet; */
+  margin: 8px 0;
+}
+
+.recent-button-prev{
+  background-position: -12px -8px;
+  
+}
+.recent-button-next{
+  background-position: -12px -34px;
+}
