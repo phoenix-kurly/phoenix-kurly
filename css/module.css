@@ -33,3 +33,31 @@
 .margin-top-15 {
   margin-top: 15px;
 }
+
+:root {
+  --purple: #5f0080;
+  --white: #fff;
+  --black: #333;
+  --dark-grey: #898989;
+  --grey: #999;
+  --orange: #fa622f;
+
+  --primary-color: var(--purple);
+  --accent-color: var(--orange);
+
+  --spacing-sxxs: 2px;
+  --spacing--xxs: 4px;
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-base: 16px;
+  --spacing-md: 20px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-md: 18px;
+  --text-lg: 20px;
+  --text-xl: 24px;
+}
