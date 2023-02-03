@@ -1,0 +1,46 @@
+.header {
+  width: 100%;
+}
+
+.top-banner {
+  background-color: #5F0080;
+  color: #FFFFFF;
+  height: 42px;
+  text-align: center;
+}
+
+.top-banner a {
+  font-size: 14px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.top-banner button {
+  background-color: transparent;
+  width: 42px;
+  height: 42px;
+  border: none;
+}
+
+.top-banner button > img {
+  width: 20px;
+  height: 20px;  
+}
+
+.header-inner {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.page-theme a {
+  font-size: 18px;
+}
+
+.page-theme a:last-child::after {
+  content: url("/client/assets/icons/Icon/New-1.png");
+  /* 위로 어떻게 띄우지? */
+}
+
+.hidden {
+  display: none;
+}
