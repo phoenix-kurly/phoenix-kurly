@@ -210,11 +210,15 @@ input[type='checkbox'] + label::before {
   position: relative;
   vertical-align: middle;
   top: -2px;
+  left: 4px;
 }
 
-input[type='checkbox'].checked + label::before,
-input[type='radio'].checked + label::before {
+input[type='radio']:checked + label::before {
   background-position: -12px -41px;
+}
+
+input[type='checkbox']:checked + label::before {
+  background-position: -12px -40px;
 }
 
 .register__terms {
