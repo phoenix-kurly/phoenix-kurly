@@ -1,17 +1,22 @@
+
 /* 레이아웃 */
 
-.body-inner{
-
+body{
+  height: 100%;
 }
-
 /* 비주얼 */
 .visual{
   margin-top: 247px;
+  /* background-color: teal; */
+}
+
+.visual__slide{
+  width: 1920px;
+  margin: 0 auto;
 }
 
 /* 메인 */
 main{
-  position: relative;
   background-color: lightpink;
 }
 
@@ -35,6 +40,18 @@ main{
   justify-content: space-between;
 }
 
+.product-list li img{
+  width: 249px;
+  height: 320px;
+}
+
+.product-list__cart::after{
+  background: url("/client/assets/icons/Icon/Cart.svg") no-repeat;
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+}
+
 .product-list__name{
   font-size: 16px;
   font-weight: 400;
@@ -45,10 +62,6 @@ main{
   font-weight: 600;
 }
 
-.product-list li img{
-  width: 249px;
-  height: 320px;
-}
 
 .line-banner{
   margin: 40px 0;
@@ -62,13 +75,18 @@ main{
 /* 최근 본 상품 */
 
 .recent-product{
-  /* background-color: aquamarine; */
-  float: right;
   width: 74px;
+  height: 400vh;
+  position: absolute;
+  right: 39px;
+  top: 810px;
+  z-index: 10;
 }
 
 .recent-product__inner{
-  /* background-color: bisque; */
+  position: sticky;
+  top: 50%;
+  transform: translateY(-50%);
   text-align: center;
   height: 223px;
   border: 1px solid #C4C4C4;
@@ -106,14 +124,13 @@ main{
   width: 18px;
   height: 18px; 
   border: none;
-  background: url("/client/assets/icons/Icon/Arrow-2.png") no-repeat;
+  background: url("/client/assets/icons/Icon/Arrow.svg") no-repeat;
   /* background-color: blueviolet; */
   margin: 8px 0;
 }
 
 .recent-button-prev{
   background-position: -12px -8px;
-  
 }
 .recent-button-next{
   background-position: -12px -34px;
@@ -140,8 +157,6 @@ main{
 .main-popup__button-wrapper{
   width: 440px;
   margin: 0 auto;
-  background-color: cornflowerblue;
-  white-space: nowrap;
 }
 
 .main-popup__button-wrapper button{
