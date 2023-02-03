@@ -3,13 +3,13 @@
 }
 
 .top-banner {
-  background-color: #5F0080;
-  color: #FFFFFF;
+  background-color: var(--primary-color);
   height: 42px;
   text-align: center;
 }
 
 .top-banner a {
+  color: var(--white);
   font-size: 14px;
   line-height: 42px;
   text-align: center;
@@ -22,7 +22,7 @@
   border: none;
 }
 
-.top-bann8er button > img {
+.top-banner button > img {
   width: 20px;
   height: 20px;  
 }
@@ -32,8 +32,41 @@
   margin: 0 auto;
 }
 
+/* 멤버 링크 모음 */
+.member-only {
+  text-align: right;
+  padding: 4px 0;
+}
+
+.member-only li,
+.member-only a {
+  display: inline-block;
+}
+
+.member-only li:first-child a {
+  color: var(--primary-color);
+}
+
+.header-inner__top {
+  display: flex;
+
+}
+
+.page-switch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  width: 82px;
+  height: 42px;
+  margin-right: 15px;
+}
+
 .page-theme span {
-  font-size: 18px;
+  font-size: 16px;
+  margin-bottom: 2px;
 }
 
 .page-theme a {
@@ -41,17 +74,21 @@
   position: relative;
 }
 
+.page-theme a:first-child {
+  color: var(--primary-color);
+}
+
 .page-theme a:last-child::after {
-  content: url("/client/assets/icons/Icon/New-1.svg");
+  content: url("/client/assets/icons/icon/New-1.svg");
   position: absolute;
   top: -16px;
   padding: 0 4px;
 }
 
-.hidden {
-  display: none;
+.member-page {
+  display: flex;
 }
 
-.member-only {
-  display: flex;
+.hidden {
+  display: none;
 }
