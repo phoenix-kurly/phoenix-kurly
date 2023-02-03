@@ -1,7 +1,7 @@
 ---
 name: "\U0001F44B-schedule"
 about: phoenix조의 schedule 템플릿
-title: "[오프/온라인] 간단한 제목"
+title: "\U0001F44B-[오프/온라인] 간단한 제목"
 labels: ''
 assignees: ''
 
