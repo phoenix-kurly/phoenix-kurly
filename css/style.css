@@ -1,6 +1,5 @@
 @import url(./reset.css);
 @import url(./module.css);
-@import url(./variable.css);
 @import url(./main.css);
 
 /* 숨김 콘텐츠 */
@@ -22,7 +21,7 @@ legend {
 
 html {
   font-size: 10px;
-  color: var(--light-black);
+  color: var(--black);
 }
 /* 링크 스타일 */
 a {
