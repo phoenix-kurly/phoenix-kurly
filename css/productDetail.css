@@ -193,6 +193,9 @@ button {
 .product-buttons__alert {
   width: 54px;
   height: 54px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  padding-top: 5px;
 }
 
 .product-buttons__cart {
