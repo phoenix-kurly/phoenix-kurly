@@ -80,7 +80,7 @@ a {
   background-color: skyblue;
   font-size: var(--text-lg);
   font-weight: var(--text-700);
-  color: var( --primary-color);
+  color: var(--primary-color);
   display: block;
   line-height: 27px;
   text-align: center;
