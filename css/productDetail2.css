@@ -15,7 +15,6 @@ legend {
 body {
   /* width: 1920px; */
   color: var(--black);
-  font-size: normal;
   font-family: "Pretendard Variable", Pretendard, -apple-system,
     BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
     "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
@@ -74,7 +73,7 @@ a {
   width: 40px;
   height: 40px;
   margin: 0px auto 10px;
-  background: url(https://res.kurly.com/pc/ico/1910/01_check.svg) 50% 50% no-repeat;
+  background: url(../client/assets/icons/Icon/01_check.svg) 50% 50% no-repeat;
 }
 
 .why-karly__title{
