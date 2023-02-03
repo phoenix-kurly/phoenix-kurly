@@ -1,9 +1,5 @@
-
 /* 레이아웃 */
 
-body{
-  height: 100%;
-}
 /* 비주얼 */
 .visual{
   margin-top: 247px;
@@ -139,19 +135,20 @@ main{
 /* 메인 팝업 */
 
 .main-popup{
-  margin-top: 200px;
-  /* background-color: tomato; */
-}
-.main-popup__inner{
-  width: 440px;
-  margin: 0 auto;
+  position: absolute;
+  top: 297px;
+  left: 50%;
+  transform: translateX(-220px);
   font-size: var(--text-base);
-  /* border-radius: 10px; */
-  /* overflow: hidden; */
 }
+
 .main-popup a{
   display: block;
-  background-color: green;  /* 여백 */
+  height: 586px;
+}
+
+.main-popup img{
+  border-radius: 16px 16px 0 0;
 }
 
 .main-popup__button-wrapper{
@@ -162,6 +159,17 @@ main{
 .main-popup__button-wrapper button{
   width: 50%;
   height: 86px;
+  background-color: var(--white);
+  border: none;
+}
+
+.main-popup__button-wrapper button:first-child{
+  border-right: 1px solid #E1E1E1;
+  border-radius: 0 0 0 16px;
+}
+
+.main-popup__button-wrapper button:last-child{
+  border-radius: 0 0 16px 0;
 }
 
 
@@ -176,7 +184,7 @@ main{
   background-color: aliceblue;
   width: 396px;
   margin: 0 auto;
-  border: 1px solid var(--light-black);
+  border: 1px solid var(--black);
   border-radius: 16px;
   padding: 24px 20px;
   box-shadow: 0px 8px 36px rgba(0, 0, 0, 0.2);
