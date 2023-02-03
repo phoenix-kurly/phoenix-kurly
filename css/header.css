@@ -22,7 +22,7 @@
   border: none;
 }
 
-.top-banner button > img {
+.top-bann8er button > img {
   width: 20px;
   height: 20px;  
 }
@@ -32,15 +32,26 @@
   margin: 0 auto;
 }
 
-.page-theme a {
+.page-theme span {
   font-size: 18px;
 }
 
+.page-theme a {
+  font-size: 18px;
+  position: relative;
+}
+
 .page-theme a:last-child::after {
-  content: url("/client/assets/icons/Icon/New-1.png");
-  /* 위로 어떻게 띄우지? */
+  content: url("/client/assets/icons/Icon/New-1.svg");
+  position: absolute;
+  top: -16px;
+  padding: 0 4px;
 }
 
 .hidden {
   display: none;
+}
+
+.member-only {
+  display: flex;
 }
