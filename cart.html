@@ -15,9 +15,11 @@
       
         <h2 class="cart-title">장바구니</h2>
       
-      <!-- 장바구스 상품 리스트 -->
+      <!-- 장바구니 상품 리스트 -->
       <article class="cart">
+        
         <section class="cart-list">
+          
           <div class="cart-radio">
             <label class="radio">
               <input type="checkbox" class="radio_chkbox" />
@@ -28,34 +30,35 @@
             <button class="chk-delete">선택삭제</button>
           </div>
           <section class="accordion">
+            <h3>상품리스트</h3>
             <div class="food-list">
               <h4 class="cart-accordian-cold">
-                <span class="cold-icon">
+                <span class="cold-icon::before">
                   냉장 상품
                 </span>
                   <button class="arrow-button">
-                    <img src="" alt="펼치기" class="arrow-button">
+                    <img src="./client/assets/icons/Icon/Arrow-2.png" alt="펼치기" class="arrow-button">
                   </button>
               </h4>
               <h4 class="cart-accordian-frozen">
-                  <span class="frozen-icon">
+                  <span class="frozen-icon::before">
                     냉동 상품
                   </span>
                   <button class="arrow-button">
-                    <img src="" alt="펼치기" class="arrow-button">
+                    <img src="./client/assets/icons/Icon/Arrow-2.png" alt="펼치기" class="arrow-button">
                   </button>
               </h4>
               <h4 class="cart-accordian-room-temp">
-                  <span class="room-temp-icon">
+                  <span class="room-temp-icon::before">
                     상온 상품
                   </span>
                   <button class="arrow-button">
-                    <img src="" alt="펼치기" class="arrow-button">
+                    <img src="./client/assets/icons/Icon/Arrow-2.png" alt="펼치기" class="arrow-button">
                   </button>
               </h4>
             </div>
           </section>
-          <section class="cart-radio">
+          <div class="cart-radio">
             <label class="radio">
               <input type="checkbox" class="radio-chkbox" />
               <img src="./client/assets/icons/Input/Check.png" alt="체크박스 이미지" />
@@ -63,13 +66,13 @@
             </label>
             <span class="divider" aria-hidden="true">|</span>
             <button class="chk-delete">선택삭제</button>
-          </section>
+          </div>
         </section>
         <!-- 주문하기 및 결제금액 영역 -->
        <aside class="credit">
           <article class="location">
             <section class="title">
-              <h3 class="icon-location">배송지</h3>
+              <h2 class="icon-location">배송지</h2>
             </section>
             <section class="addes">
               <p class="">
@@ -77,7 +80,7 @@
                   603호</span>
               </p>
               <p>샛별배송</p>
-              <button class="" type="button" height="36" radius="3">
+              <button class="" type="button">
                 <span class="">
                   <!-- <img src="./client/assets/icons/Icon/Search.png" alt="돋보기 아이콘" class="" /> -->
                   배송지 변경
@@ -100,7 +103,7 @@
               </div>
             </section>
             <section class="oder">
-              <button class="oder-button" type="button" height="56" radius="3">
+              <button class="oder-button" type="button">
                 <span>주문하기</span>
               </button>
               <ul class="css-19kxq7d">
