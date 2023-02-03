@@ -38,7 +38,6 @@ a {
 }
 /* 상세페이지 */
 .more-infomation__why-karly{
-  /* background-color:gray; */
   text-align: center;
   width: 1050px;
   margin: auto;
@@ -46,19 +45,18 @@ a {
   margin-bottom: 91px;
 }
 .why-karly__wrapper{
-  background-color: coral;
   color: var(--primary-color);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0,auto;
+  margin-top: 35px;
   justify-content: center;
   /* flex-wrap: wrap; */
 }
 .why-karly__content{
   /* display: flex; */
   width: 315px;
-  padding-top: 59px;
+  padding-top: 56px;
   /* flex-wrap: wrap; */
 }
 
@@ -72,12 +70,11 @@ a {
   display: block;
   width: 40px;
   height: 40px;
-  margin: 0px auto 10px;
+  margin: 0px auto 16px;
   background: url(../client/assets/icons/Icon/01_check.svg) 50% 50% no-repeat;
 }
 
 .why-karly__title{
-  background-color: skyblue;
   font-size: var(--text-lg);
   font-weight: var(--text-700);
   color: var(--primary-color);
@@ -87,10 +84,13 @@ a {
 }
 
 .why-karly__desc{
-  background-color: yellowgreen;
+  display: block;
+  padding-top: 24px;
   color: var(--black);
+  font: inherit;
   font-size: var(--text-base);
   text-align: center;
+  line-height: 160%;
   height: 104px;
 }
 /* 장바구니 */
