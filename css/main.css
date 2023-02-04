@@ -75,7 +75,7 @@ main{
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-  padding: 40px 0;
+  padding: 16px 0 24px;
 }
 
 .product-list__name{
