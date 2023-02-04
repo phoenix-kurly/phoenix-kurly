@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard-dynamic-subset.css" />
     <title>Document</title>
   </head>
   <body>
@@ -139,14 +140,10 @@
                 </ul>
               </li>
             </ul>
-            <p>
-              비회원 문의 :
-              <a href="#">help@karlycorp.com</a>
-            </p>
-            <p>
-              비회원 대량주문 문의 :
-              <a href="#">help@karlycorp.com</a>
-            </p>
+            <ul class="nomember-service">
+              <li>비회원 문의 : <a href="#" class="primary-color">help@karlycorp.com</a></li>
+              <li>비회원 대량주문 문의 : <a href="#" class="primary-color">help@karlycorp.com</a></li>
+            </ul>
           </section>
 
           <ul class="link-bar">
@@ -171,47 +168,59 @@
           </ul>
           <address>
             <span>
-              법인명(상호):주식회사 컬리 <span aria-hidden="true">|</span> 사업자등록번호:261-81-23567
-              <a href="#">사업자정보 확인</a>
+              법인명(상호) : 주식회사 컬리 <span aria-hidden="true">|</span> 사업자등록번호 : 261-81-23567 <span aria-hidden="true">|</span>
+              <a href="#" class="primary-color">사업자정보 확인</a>
             </span>
-            <span>통신판매업:제2018-서울강남-01646 호 <span aria-hidden="true">|</span> 개인정보보호책임자:이원준</span>
-            <span>주소:서울특별시 강남구 테헤란로 133,18층(역삼동) <span aria-hidden="true">|</span> 대표이사:김슬아</span>
-            <span>입점문의:<a href="#">입점문의하기</a> <span aria-hidden="true">|</span> 제휴문의:<a href="#">business@kurlycorp.com</a> 채용문의:<a href="#">recruit@kurlycorp.com</a></span>
-            <span>팩스:070-7500-6098</span>
+            <span>통신판매업 : 제2018-서울강남-01646 호 <span aria-hidden="true">|</span> 개인정보보호책임자 : 이원준</span>
+            <span>주소 : 서울특별시 강남구 테헤란로 133,18층(역삼동) <span aria-hidden="true">|</span> 대표이사 : 김슬아</span>
+            <span>입점문의 : <a href="#">입점문의하기</a> <span aria-hidden="true">|</span> 제휴문의 : <a href="#" class="primary-color">business@kurlycorp.com</a></span>
+            <span> 채용문의 : <a href="#" class="primary-color">recruit@kurlycorp.com</a></span>
+            <span>팩스 : 070-7500-6098</span>
           </address>
+          <ul class="sns-list">
+            <li>
+              <a href="#"><img src="/client/assets/icons/Icon/Blog.svg" alt="네이버 블로그 로고" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/client/assets/icons/Icon/FaceBook.svg" alt="페이스북 로고" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/client/assets/icons/Icon/Instagram.svg" alt="인스타그램 로고" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/client/assets/icons/Icon/NaverPost.svg" alt="네이버 포스트 로고" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/client/assets/icons/Icon/Youtube.svg" alt="유튜브 로고" /></a>
+            </li>
+          </ul>
         </div>
 
-        <div class="certification">
-          <div class="certification__item">
+        <ul class="certification">
+          <li class="certification__item certification__item-isms">
             <img src="./client/assets/icons/icon/Logo_isms.svg" alt="isms" />
-            <p>
-              [인증범위] 마켓칼리 쇼핑몰 서비스 개발 운영<br />(심사받지 않은 물리적 인프라 제외)<br />
-              [유효기간] 2022.01.19 ~ 2025.01.18
-            </p>
-          </div>
-          <div class="certification__item">
-            <img src="./client/assets/icons/icon/Logo_privacy.svg" alt="isms" />
-            <p>
-              개인정보보호 우수 웹사이트<br />
-              개인정보처리시스템 인증 (ePRIVACY PLUS)
-            </p>
-          </div>
-          <div class="certification__item">
+            <div>
+              <p>[인증범위] 마켓칼리 쇼핑몰 서비스 개발 운영</p>
+              <p>(심사받지 않은 물리적 인프라 제외)</p>
+              <p>[유효기간] 2022.01.19 ~ 2025.01.18</p>
+            </div>
+          </li>
+          <li class="certification__item certification__item-e-privacy">
+            <img src="./client/assets/icons/icon/Logo_privacy.svg" alt="ePrivacy Plus" />
+            <div>
+              <p>개인정보보호 우수 웹사이트</p>
+              <p>개인정보처리시스템 인증 (ePRIVACY PLUS)</p>
+            </div>
+          </li>
+          <li class="certification__item certification__item-toss">
             <img src="./client/assets/icons/icon/Logo_tosspayments.svg" alt="Toss Payments" />
-            <p>
-              토스페이먼츠 구매안전(에스크로)<br />
-              서비스를 이용하실 수 있습니다.
-            </p>
-          </div>
-          <div class="certification__item">
+            <p>토스페이먼츠 구매안전(에스크로) 서비스를 이용하실 수 있습니다.</p>
+          </li>
+          <li class="certification__item certification__item-woori">
             <img src="./client/assets/icons/icon/Logo_wooriBank.svg" alt="Woori Bank" />
-            <p>
-              고객님이 현금으로 결제한 금액에 대해 우리은행과<br />
-              채무지급보증 계약을 체결하여 안전거래를 보장하고<br />
-              있습니다.
-            </p>
-          </div>
-        </div>
+            <p>고객님이 현금으로 결제한 금액에 대해 우리은행과 채무지급보증 계약을 체결하여 안전거래를 보장하고 있습니다.</p>
+          </li>
+        </ul>
       </div>
 
       <div class="footer-bottom">
