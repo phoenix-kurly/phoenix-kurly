@@ -11,26 +11,32 @@
   margin: 0 auto;
 }
 
+.visual__slide,
+.visual__slide li{
+  height: 370px;
+}
+
 /* 메인 */
 main{
-  background-color: lightpink;
+  /* background-color: lightpink; */
 }
 
 .main-inner{
   width: 1050px;
   margin: 0 auto;
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 
 .today-product h1{
   text-align: center;
   vertical-align: middle;
-  padding-top: 52px;
+  margin-top: 40px;
   line-height: 40px;
+  height: 64px;
 }
 
 .product-list{
-  margin-top: 40px;
+  margin-top: 28px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -41,11 +47,35 @@ main{
   height: 320px;
 }
 
-.product-list__cart::after{
-  background: url("/client/assets/icons/Icon/Cart.svg") no-repeat;
-  width: 40px;
-  height: 40px;
-  z-index: 2;
+.product-list__img-container{
+  position: relative;
+  height: 320px;
+}
+
+.product-list__button-wrapper{
+  position: absolute;
+  right: 15px;
+  bottom: 17px;
+}
+
+.product-list__button-wrapper button{
+  width: 45px;
+  height: 45px;
+  background: url("/client/assets/icons/icon/CartCircle.svg") no-repeat;
+  border: none;
+  overflow: hidden;
+}
+
+.product-list__button-wrapper span{
+  margin-left: -100px;
+}
+
+.product-list__text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 40px 0;
 }
 
 .product-list__name{

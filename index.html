@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard-dynamic-subset.css" />
     <title>마켓칼리</title>
   </head>
   <body>
@@ -16,7 +17,7 @@
       <section class="visual">
         <h2 class="a11y-hidden">메인배너</h2>
         <ul class="visual__slide">
-          <a href="#"><li><img src="client/assets/images/banner01.svg" alt="메인배너" width="1920"/></li></a>
+          <li><a href="#"><img src="client/assets/images/banner01.svg" alt="메인배너" width="1920"/></a></li>
           <!-- <li><img src="client/assets/images/banner02.svg" alt="메인배너" /></li>
           <li><img src="client/assets/images/banner03.svg" alt="메인배너" /></li>
           <li><img src="client/assets/images/banner05.svg" alt="메인배너" /></li> -->
@@ -33,11 +34,18 @@
 
         <div class="main-inner">
           <section class="today-product">
-            <h1>이 상품 어때요?</h1>
+            <div class="today-product__title">
+              <h1>이 상품 어때요?</h1>
+            </div>  
             <ul class="product-list">
               <li>
                 <a href="https://baeseongjae.github.io/spurs-messenger">
-                  <img src="client/assets/images/product01.svg" alt="탱탱쫄면"/>
+                  <div class="product-list__img-container">
+                    <img src="client/assets/images/product01.svg" alt="탱탱쫄면"/>
+                    <div class="product-list__button-wrapper">
+                      <button><span>장바구니</span></button>
+                    </div>
+                  </div>
                   <div class="product-list__text">
                     <p class="product-list__name">[풀무원] 탱탱쫄면 (4개입)</p>
                     <p class="product-list__price">4,980 원</p>
@@ -46,7 +54,12 @@
               </li>
               <li>
                 <a href="#">
-                  <img src="client/assets/images/product02.svg" alt="온더바디 선쿠션" />
+                  <div class="product-list__img-container">
+                    <img src="client/assets/images/product02.svg" alt="온더바디 선쿠션" />
+                    <div class="product-list__button-wrapper">
+                      <button><span>장바구니</span></button>
+                    </div>
+                  </div>
                   <div class="product-list__text">
                     <p class="product-list__name">[온더바디] 죠르디 시카 자석 선쿠션</p>
                     <p class="product-list__price">32,500 원</p>
@@ -55,7 +68,12 @@
               </li>
               <li>
                 <a href="#">
-                  <img src="client/assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
+                  <div class="product-list__img-container">
+                    <img src="client/assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
+                    <div class="product-list__button-wrapper">
+                      <button><span>장바구니</span></button>
+                    </div>
+                  </div>
                   <div class="product-list__text">
                     <p class="product-list__name">유기농 밀키퀸 현미 4kg</p>
                     <p class="product-list__price">25,000 원</p>
@@ -64,7 +82,12 @@
               </li>
               <li>
                 <a href="#">
-                  <img src="client/assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
+                  <div class="product-list__img-container">
+                    <img src="client/assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
+                    <div class="product-list__button-wrapper">
+                      <button><span>장바구니</span></button>
+                    </div>
+                  </div>
                   <div class="product-list__text">
                     <p class="product-list__name">[프로쉬] 베이비 세탁세</p>
                     <p class="product-list__price">
@@ -86,51 +109,73 @@
           </section>
         
           <section class="today-product">
-          <h1>놓치면 후회할 가격</h1>
-          <ul class="product-list">
-            <li>
-              <a href="#">
-                <img src="client/assets/images/product01.svg" alt="탱탱쫄면" />
-                <div class="product-list__text">
-                  <p class="product-list__name">[풀무원] 탱탱쫄면 (4개입)</p>
-                  <p class="product-list__price">4,980원</p>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="client/assets/images/product02.svg" alt="온더바디 선쿠션" />
-                <div class="product-list__text">
-                  <p class="product-list__name">[온더바디] 죠르디 시카 자석 선쿠션</p>
-                  <p class="product-list__price">32,500 원</p>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="client/assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
-                <div class="product-list__text">
-                  <p class="product-list__name">유기농 밀키퀸 현미 4kg</p>
-                  <p class="product-list__price">25,000 원</p>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="client/assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
-                <div class="product-list__text">
-                  <p class="product-list__name">[프로쉬] 베이비 세탁세</p>
-                  <p class="product-list__price">
-                    <span>24%</span>
-                    18,900 원
-                  </p>
-                  <span>24,900 원</span>
-                </div>
-              </a>
-            </li>
-          </ul>
-          <!-- <img src="client/assets/icons/Icon/arrow2 1.svg" alt="" /> 
-          <img src="client/assets/icons/Icon/arrow2 1.svg" alt="" />  -->
+            <div class="today-product__title">
+              <h1>놓치면 후회할 가격</h1>
+            </div>
+            <ul class="product-list">
+              <li>
+                <a href="#">
+                  <div class="product-list__img-container">
+                    <img src="client/assets/images/product01.svg" alt="탱탱쫄면"/>
+                    <div class="product-list__button-wrapper">
+                      <button><span>장바구니</span></button>
+                    </div>
+                  </div>
+                  <div class="product-list__text">
+                    <p class="product-list__name">[풀무원] 탱탱쫄면 (4개입)</p>
+                    <p class="product-list__price">4,980원</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="product-list__img-container">
+                    <img src="client/assets/images/product02.svg" alt="온더바디 선쿠션" />
+                    <div class="product-list__button-wrapper">
+                      <button><span>장바구니</span></button>
+                    </div>
+                  </div>
+                  <div class="product-list__text">
+                    <p class="product-list__name">[온더바디] 죠르디 시카 자석 선쿠션</p>
+                    <p class="product-list__price">32,500 원</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="product-list__img-container">
+                    <img src="client/assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
+                    <div class="product-list__button-wrapper">
+                      <button><span>장바구니</span></button>
+                    </div>
+                  </div>
+                  <div class="product-list__text">
+                    <p class="product-list__name">유기농 밀키퀸 현미 4kg</p>
+                    <p class="product-list__price">25,000 원</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="product-list__img-container">
+                    <img src="client/assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
+                    <div class="product-list__button-wrapper">
+                      <button><span>장바구니</span></button>
+                    </div>
+                  </div>
+                  <div class="product-list__text">
+                    <p class="product-list__name">[프로쉬] 베이비 세탁세</p>
+                    <p class="product-list__price">
+                      <span>24%</span>
+                      18,900 원
+                    </p>
+                    <span>24,900 원</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <!-- <img src="client/assets/icons/Icon/arrow2 1.svg" alt="" /> 
+            <img src="client/assets/icons/Icon/arrow2 1.svg" alt="" />  -->
           </section>
         
         </div>
@@ -162,7 +207,7 @@
         
       </main>
       
-      <article class="main-popup">
+      <!-- <article class="main-popup">
         <h2 class="a11y-hidden">메인 팝업</h2>
         <div class="main-popup__inner">
           <a href="#">
@@ -172,7 +217,7 @@
             <button>오늘 하루 안보기</button><button>닫기</button>
           </div>
         </div>
-      </article>
+      </article> -->
       
       
       <article class="add-cart">
