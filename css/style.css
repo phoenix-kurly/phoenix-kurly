@@ -1,16 +1,17 @@
-@import url(./normalize.css);
 @import url(./reset.css);
+@import url(./fontello.css);
 @import url(./module.css);
 @import url(./header.css);
 @import url(./footer.css);
 
 /* 본문 스타일 */
 body {
-  color: #212121;
   font-family: "Pretendard Variable", Pretendard, -apple-system,
     BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
     "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  color: var(--black);
+  font-weight: var(--text-400);
 }
 
 /* 숨김 콘텐츠 */
