@@ -177,30 +177,120 @@ main{
 
 .add-cart{
   margin: 200px 0;
-  font-size: 16px;
+  font-size: var(--text-base);
+  font-weight: 600;
 }
 
 .add-cart__inner{
-  background-color: aliceblue;
   width: 396px;
+  height: 292px;
   margin: 0 auto;
-  border: 1px solid var(--black);
   border-radius: 16px;
   padding: 24px 20px;
   box-shadow: 0px 8px 36px rgba(0, 0, 0, 0.2);
 }
 
-.add-cart__count{
+.add-cart__calculate{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 66px;
+}
+
+.add-cart__count-wrapper{
   display: flex;
   justify-content: space-between;
 }
+
+.add-cart__count{
+  display: flex;
+  align-items: center;
+  border: 1px solid #C4C4C4;
+  width: 84px;
+}
+
+.add-cart__count button{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: var(--white);
+  border: none; 
+  overflow: hidden;
+}
+
+.add-cart__count button:first-child{
+  background: url("/client/assets/icons/icon/Minus.svg") no-repeat;
+  background-position: -7px -45px;
+}
+
+.add-cart__count span{
+  width: 20px;
+  text-align: center;
+}
+
+.add-cart__count button:last-child{
+  background: url("/client/assets/icons/icon/Plus.svg") no-repeat;
+  background-position: -7px -7px;
+}
+
+.add-cart__total-wrapper{
+  margin: 24px 0;
+  height: 68px;
+}
+
 
 .add-cart__total-price{
   display: flex;
   justify-content: space-between;
+  margin: 4px 0;
+}
+
+.add-cart__total-price span:first-child{
+  display: flex;
+  align-items: flex-end;
+}
+
+.add-cart__price{
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .add-cart__reward{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+}
+
+.add-cart__reward span:first-child{
+  background-color: var(--orange);
+  color: var(--white);
+  width: 37px;
+  height: 18px;
+  font-size: 12px;
+  text-align: center;
+  align-items: center;
+}
+
+
+.add-cart__button-wrapper{
+  height: 54px;
+  gap: 8px;
+  display: flex;
+}
+
+.add-cart__button-wrapper button{
+  width: 50%;
+  border: 1px solid var(--dark-grey);
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.add-cart__button-wrapper button:first-child{
+  background-color: var(--white);
+}
+
+.add-cart__button-wrapper button:last-child{
+  background-color: var(--purple);
+  color: var(--white);
 }
