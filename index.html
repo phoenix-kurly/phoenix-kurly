@@ -5,21 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard-dynamic-subset.css" />
     <title>Document</title>
   </head>
   <body>
     <!-- 헤더 -->
     <header class="header">
       <div class="top-banner">
-        <div class="top-banner__inner">
-          <p>
-            지금 가입하고 인기상품 100원에 받아가세요!
-          </p>
-          <button>
-            <img src="./client/assets/icons/icon/Close.svg" alt="닫기"
-            />
-          </button>
-        </div>
+        <a href="#"> 지금 가입하고 인기상품 100원에 받아가세요! </a>
+        <!-- 버튼 이벤트=>숨기기 -->
+        <button>
+          <img src="./client/assets/icons/icon/Close.svg" alt="닫기" />
+        </button>
       </div>
       <div class="header-inner">
         <ul class="member-only">
@@ -32,24 +29,21 @@
             <span aria-hidden="true">|</span>
           </li>
           <li>
-            <a href="/index.html">고객센터
+            <a href="/index.html"
+              >고객센터
               <img src="./client/assets/icons/icon/Icon_down-1.svg" alt="" />
             </a>
-          </li>        
+          </li>
         </ul>
         <div class="header-inner__top">
           <div class="page-switch">
             <img class="logo" src="./client/assets/icons/icon/Logo.svg" alt="#" />
             <div class="page-theme">
-              <a href="./index.html">
-                마켓칼리
-              </a>
+              <a href="./index.html"> 마켓칼리 </a>
               <span aria-hidden="true">|</span>
-              <a href="#">
-                뷰티칼리
-              </a>
+              <a href="#"> 뷰티칼리 </a>
             </div>
-          </div> 
+          </div>
           <form class="serch-form">
             <fieldset>
               <legend>검색 폼</legend>
@@ -66,29 +60,20 @@
           </form>
           <ul class="member-page">
             <li>
-              <a href="#">
-                <img src="./client/assets/icons/icon/Location.svg" alt="" />
-              </a>
+              <img src="./client/assets/icons/icon/Location.svg" alt="" />
             </li>
             <li>
-              <a href="#">
-                <img src="./client/assets/icons/icon/Heart.svg" alt="" />
-              </a>
+              <img src="./client/assets/icons/icon/Heart.svg" alt="" />
             </li>
             <li>
-              <a href="#">
-                <img src="./client/assets/icons/icon/Cart.svg" alt="" />
-              </a>
+              <img src="./client/assets/icons/icon/Cart.svg" alt="" />
             </li>
           </ul>
         </div>
         <nav class="nav">
           <!-- 햄버거+카테고리, css로 백그라운드이미지 처리, js로 호버시 위치조정 -->
-          <div class="nav__category">
-          <!-- ...? -->
-          </div>
-          <!-- class hidden으로 숨김처리 -->
-          <ul class="nav__category-list">
+          <img src="./client/assets/icons/icon/Category.svg" alt="#" />
+          <ul class="nav__category hidden">
             <li>선물하기</li>
             <li>채소</li>
             <li>과일·견과·쌀</li>
@@ -112,137 +97,136 @@
             <li>베이비·키즈·완구</li>
             <li>여행·티켓</li>
           </ul>
-          <ul class="nav__categhory__menu">
+          <ul class="nav__menu">
             <li>신상품</li>
             <li>베스트</li>
             <li>알뜰쇼핑</li>
             <li>특가/혜택</li>
+            <li>샛별 택배 배송안내</li>
           </ul>
-          <div class="nav__categhory__delivery">
-            <span>샛별 · 택배</span>
-            <span>배송안내</span>
-          </div>
         </nav>
       </div>
-    </header>  
+    </header>
     <!-- 메인 -->
     <main></main>
     <!-- 푸터 -->
     <footer class="footer">
-      <div class="service-center">     
-        <h2>고객행복센터</h2>
-        <strong>
-          1644-1107
-          <span>
-            월~토요일 오전 7시 - 오후 6시
-          </span>
-        </strong>
-        <div class="question-box">
-          <div class="question__item"> 
-            <button>
-              카카오톡 문의
-            </button>
-            <div>
-              <p>
-                월~토요일 <span aria-hidden="true">|</span> 오전 7시 - 오후 6시 <br />
-                일/공휴일 <span aria-hidden="true">|</span> 오전 7시 - 오후 1시
-              </p>
-            </div>
-          </div>
-          <div class="question__item"> 
-            <button>
-              1:1 문의
-            </button>
-            <div>
-              <p>
-                365일 <br />
-                고객센터 운영시간에 순차적으로 답변드리겠습니다.
-              </p>
-            </div>
-          </div>
-          <div class="question__item"> 
-            <button>
-              대량주문 문의
-            </button>
-            <div>
-              <p>
-                월~금요일 <span aria-hidden="true">|</span> 오전 9시 - 오후 6시 <br />
-                점심시간 <span aria-hidden="true">|</span> 낮 12시 - 오후 1시
-              </p>
-            </div>
-          </div>
-          <span>
-            비회원 문의 : 
-            <a href="#">help@karlycorp.com</a>
-          </span>
-          <span>
-            비회원 대량주문 문의 : 
-            <a href="#">help@karlycorp.com</a>
-          </span>
-        </div>     
-      </div>
-      <ul class="link-bar">
-        <li>
-          <a href="./index.html">컬리소개</a>
-        </li>
-        <li>
-          <a href="./index.html">컬리소개영상</a>
-        </li>
-        <li>
-          <a href="./index.html">인재채용</a>
-        </li>
-        <li>
-          <a href="./index.html">이용약관</a>
-        </li>
-        <li>
-          <a href="./index.html">개인정보처리방침</a>
-        </li>
-        <li>
-          <a href="./index.html">이용안내</a>
-        </li>
-      </ul>
-      <address>
-        <p>
-          법인명(상호):주식회사 컬리 <span aria-hidden="true">|</span> 사업자등록번호:261-81-23567
-          <a href="#">사업자정보 확인</a>
-          <br />
-          통신판매업:제2018-서울강남-01646 호 <span aria-hidden="true">|</span> 개인정보보호책임자:이원준
-          <br />
-          주소:서울특별시 강남구 테헤란로 133,18층(역삼동) <span aria-hidden="true">|</span> 대표이사:김슬아
-          <br />
-          입점문의:<a href="#">입점문의하기</a> <span aria-hidden="true">|</span> 제휴문의:<a href="#">business@kurlycorp.com</a>
-          채용문의:<a href="#">recruit@kurlycorp.com</a>
-          <br />
-          팩스:070-7500-6098
-        </p>
-      </address>
+      <div class="footer-inner">
+        <div class="footer-inner-wrapper">
+          <section class="service-center">
+            <h2>고객행복센터</h2>
+            <strong>1644-1107</strong>
+            <span>월~토요일 오전 7시 - 오후 6시</span>
+            <ul class="question-box">
+              <li class="question__item">
+                <button>카카오톡 문의</button>
+                <ul>
+                  <li>월~토요일 <span aria-hidden="true">|</span> 오전 7시 - 오후 6시</li>
+                  <li>일/공휴일 <span aria-hidden="true">|</span> 오전 7시 - 오후 1시</li>
+                </ul>
+              </li>
+              <li class="question__item">
+                <button>1:1 문의</button>
+                <ul>
+                  <li>365일</li>
+                  <li>고객센터 운영시간에 순차적으로 답변드리겠습니다.</li>
+                </ul>
+              </li>
+              <li class="question__item">
+                <button>대량주문 문의</button>
+                <ul>
+                  <li>월~금요일 <span aria-hidden="true">|</span> 오전 9시 - 오후 6시</li>
+                  <li>점심시간 <span aria-hidden="true">|</span> 낮 12시 - 오후 1시</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nomember-service">
+              <li>비회원 문의 : <a href="#" class="primary-color">help@karlycorp.com</a></li>
+              <li>비회원 대량주문 문의 : <a href="#" class="primary-color">help@karlycorp.com</a></li>
+            </ul>
+          </section>
 
-      <div class="certification">
-        <div class="certification__item">
-          <img src="./client/assets/icons/icon/Logo_isms.svg" alt="isms" />
-           <p>[인증범위] 마켓칼리 쇼핑몰 서비스 개발 운영<br />(심사받지 않은 물리적 인프라 제외)<br /> [유효기간] 2022.01.19 ~ 2025.01.18</p>
+          <ul class="link-bar">
+            <li>
+              <a href="./index.html">컬리소개</a>
+            </li>
+            <li>
+              <a href="./index.html">컬리소개영상</a>
+            </li>
+            <li>
+              <a href="./index.html">인재채용</a>
+            </li>
+            <li>
+              <a href="./index.html">이용약관</a>
+            </li>
+            <li>
+              <a href="./index.html">개인정보처리방침</a>
+            </li>
+            <li>
+              <a href="./index.html">이용안내</a>
+            </li>
+          </ul>
+          <address>
+            <span>
+              법인명(상호) : 주식회사 컬리 <span aria-hidden="true">|</span> 사업자등록번호 : 261-81-23567 <span aria-hidden="true">|</span>
+              <a href="#" class="primary-color">사업자정보 확인</a>
+            </span>
+            <span>통신판매업 : 제2018-서울강남-01646 호 <span aria-hidden="true">|</span> 개인정보보호책임자 : 이원준</span>
+            <span>주소 : 서울특별시 강남구 테헤란로 133,18층(역삼동) <span aria-hidden="true">|</span> 대표이사 : 김슬아</span>
+            <span>입점문의 : <a href="#">입점문의하기</a> <span aria-hidden="true">|</span> 제휴문의 : <a href="#" class="primary-color">business@kurlycorp.com</a></span>
+            <span> 채용문의 : <a href="#" class="primary-color">recruit@kurlycorp.com</a></span>
+            <span>팩스 : 070-7500-6098</span>
+          </address>
+          <ul class="sns-list">
+            <li>
+              <a href="#"><img src="/client/assets/icons/Icon/Blog.svg" alt="네이버 블로그 로고" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/client/assets/icons/Icon/FaceBook.svg" alt="페이스북 로고" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/client/assets/icons/Icon/Instagram.svg" alt="인스타그램 로고" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/client/assets/icons/Icon/NaverPost.svg" alt="네이버 포스트 로고" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/client/assets/icons/Icon/Youtube.svg" alt="유튜브 로고" /></a>
+            </li>
+          </ul>
         </div>
-        <div class="certification__item">
-          <img src="./client/assets/icons/icon/Logo_privacy.svg" alt="isms" />
-           <p>개인정보보호 우수 웹사이트<br /> 개인정보처리시스템 인증 (ePRIVACY PLUS)</p>
-        </div>
-        <div class="certification__item">
-          <img src="./client/assets/icons/icon/Logo_tosspayments.svg" alt="Toss Payments" />
-           <p>토스페이먼츠 구매안전(에스크로)<br /> 서비스를 이용하실 수 있습니다.</p>
-        </div>
-        <div class="certification__item">
-          <img src="./client/assets/icons/icon/Logo_wooriBank.svg" alt="Woori Bank" />
-           <p>고객님이 현금으로 결제한 금액에 대해 우리은행과<br /> 채무지급보증 계약을 체결하여 안전거래를 보장하고<br /> 있습니다.</p>
-        </div>
+
+        <ul class="certification">
+          <li class="certification__item certification__item-isms">
+            <img src="./client/assets/icons/icon/Logo_isms.svg" alt="isms" />
+            <div>
+              <p>[인증범위] 마켓칼리 쇼핑몰 서비스 개발 운영</p>
+              <p>(심사받지 않은 물리적 인프라 제외)</p>
+              <p>[유효기간] 2022.01.19 ~ 2025.01.18</p>
+            </div>
+          </li>
+          <li class="certification__item certification__item-e-privacy">
+            <img src="./client/assets/icons/icon/Logo_privacy.svg" alt="ePrivacy Plus" />
+            <div>
+              <p>개인정보보호 우수 웹사이트</p>
+              <p>개인정보처리시스템 인증 (ePRIVACY PLUS)</p>
+            </div>
+          </li>
+          <li class="certification__item certification__item-toss">
+            <img src="./client/assets/icons/icon/Logo_tosspayments.svg" alt="Toss Payments" />
+            <p>토스페이먼츠 구매안전(에스크로) 서비스를 이용하실 수 있습니다.</p>
+          </li>
+          <li class="certification__item certification__item-woori">
+            <img src="./client/assets/icons/icon/Logo_wooriBank.svg" alt="Woori Bank" />
+            <p>고객님이 현금으로 결제한 금액에 대해 우리은행과 채무지급보증 계약을 체결하여 안전거래를 보장하고 있습니다.</p>
+          </li>
+        </ul>
       </div>
+
       <div class="footer-bottom">
-        <p>
-          마켓컬리에서 판매되는 상품 중에는 마켓컬리에 입점한 개별 판매자가 판매하는 마켓플레이스(오픈마켓) 상품이 포함되어 있습니다. <br />
-          마켓플레이스(오픈마켓) 상품의 경우 컬리는 통신판매중개자로서 통신판매의 당사자가 아닙니다. 컬리는 해당 상품의 주문, 품질, 교환/환불 등 의무와 책임을 부담하지 않습니다.
-        </p>
-        <small class="copyright">
-          © KURLY CORP. ALL RIGHTS RESERVED
-        </small>
+        <p>마켓컬리에서 판매되는 상품 중에는 마켓컬리에 입점한 개별 판매자가 판매하는 마켓플레이스(오픈마켓) 상품이 포함되어 있습니다.</p>
+        <p>마켓플레이스(오픈마켓) 상품의 경우 컬리는 통신판매중개자로서 통신판매의 당사자가 아닙니다. 컬리는 해당 상품의 주문, 품질, 교환/환불 등 의무와 책임을 부담하지 않습니다.</p>
+        <small class="copyright"> © KURLY CORP. ALL RIGHTS RESERVED </small>
       </div>
     </footer>
   </body>
