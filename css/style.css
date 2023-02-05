@@ -1,6 +1,7 @@
-@import url(./normalize.css);
 @import url(./reset.css);
 @import url(./module.css);
+@import url(./variable.css);
+@import url(./main.css);
 
 /* 숨김 콘텐츠 */
 .a11y-hidden,
@@ -21,9 +22,15 @@ legend {
 
 html {
   font-size: 10px;
+  color: var(--light-black);
 }
 /* 링크 스타일 */
 a {
   color: inherit;
   text-decoration: none;
+}
+
+h1{
+  font-size: 28px;
+  font-weight: 700;
 }
