@@ -10,7 +10,7 @@ html {
   flex-direction: column;
   align-content: center;
   align-items: center;
-  /* padding: 40px 0px 0px; */
+  padding: 40px 0px 0px 0px;
 }
 
 .product {
@@ -273,7 +273,7 @@ button {
 .description__text small {
   display: inline-block;
   width: 100%;
-  font-size: var(--text-lg);
+  font-size: 23px;
   font-weight: 600;
 }
 
@@ -284,4 +284,37 @@ button {
   font-weight: 400;
   font-size: var(--text-base);
   line-height: 1.6;
+}
+
+.description__check-point {
+  margin-bottom: 96px;
+  position: relative;
+}
+
+.description__check-point h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 68px;
+  position: relative;
+}
+
+.description__check-point h3::before {
+  width: 32%;
+  content: '';
+  height: 1px;
+  background: #b5b5b5;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.description__check-point h3::after {
+  width: 32%;
+  content: '';
+  height: 1px;
+  background-color: #b5b5b5;
+  position: absolute;
+  top: 50%;
+  right: 0;
 }
