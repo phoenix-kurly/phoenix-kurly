@@ -88,6 +88,16 @@ main{
   font-weight: 600;
 }
 
+.product-list__price span{
+  color: var(--accent-color);
+  margin-right: 8px;
+}
+
+.product-list__origin-price{
+  color: var(--dark-grey);
+  text-decoration: line-through;
+  font-size: 12px;
+}
 
 .line-banner{
   margin: 40px 0;
