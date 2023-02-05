@@ -12,14 +12,18 @@
     <!-- 헤더 -->
     <header class="header">
       <div class="top-banner">
-        <a href="#"> 지금 가입하고 인기상품 100원에 받아가세요! </a>
-        <!-- 버튼 이벤트=>숨기기 -->
-        <button>
-          <img src="./client/assets/icons/icon/Close.svg" alt="닫기" />
-        </button>
+        <div class="top-banner__inner">
+          <p>
+            지금 가입하고 인기상품 100원에 받아가세요!
+          </p>
+          <button>
+            <img src="./client/assets/icons/icon/Close.svg" alt="닫기"
+            />
+          </button>
+        </div>
       </div>
-      <div class="header-inner">
-        <ul class="member-only">
+      <div class="header__inner">
+        <ul class="header__inner-member">
           <li>
             <a href="/index.html">회원가입</a>
             <span aria-hidden="true">|</span>
@@ -29,25 +33,28 @@
             <span aria-hidden="true">|</span>
           </li>
           <li>
-            <a href="/index.html"
-              >고객센터
+            <a href="/index.html">고객센터
               <img src="./client/assets/icons/icon/Icon_down-1.svg" alt="" />
             </a>
-          </li>
+          </li>        
         </ul>
         <div class="header-inner__top">
           <div class="page-switch">
             <img class="logo" src="./client/assets/icons/icon/Logo.svg" alt="#" />
             <div class="page-theme">
-              <a href="./index.html"> 마켓칼리 </a>
+              <a href="./index.html">
+                마켓칼리
+              </a>
               <span aria-hidden="true">|</span>
-              <a href="#"> 뷰티칼리 </a>
+              <a href="#">
+                뷰티칼리
+              </a>
             </div>
-          </div>
-          <form class="serch-form">
+          </div> 
+          <form class="search-form">
             <fieldset>
               <legend>검색 폼</legend>
-              <div class="serch-form__group">
+              <div class="search-form__group">
                 <div class="form-input">
                   <label for="search" class="a11y-hidden">검색</label>
                 </div>
@@ -60,20 +67,24 @@
           </form>
           <ul class="member-page">
             <li>
-              <img src="./client/assets/icons/icon/Location.svg" alt="" />
+              <a class="member-page__location" aria-label="배송지" href="#">
+              </a>
             </li>
             <li>
-              <img src="./client/assets/icons/icon/Heart.svg" alt="" />
+              <a class="member-page__heart" aria-label="찜" href="#">
+              </a>
             </li>
             <li>
-              <img src="./client/assets/icons/icon/Cart.svg" alt="" />
+              <a class="member-page__cart" aria-label="장바구니" href="#">
+              </a>
             </li>
           </ul>
         </div>
         <nav class="nav">
-          <!-- 햄버거+카테고리, css로 백그라운드이미지 처리, js로 호버시 위치조정 -->
-          <img src="./client/assets/icons/icon/Category.svg" alt="#" />
-          <ul class="nav__category hidden">
+          <div class="nav__category">
+          </div>
+          <!-- class hidden으로 숨김처리 -->
+          <ul class="nav__category-list hidden">
             <li>선물하기</li>
             <li>채소</li>
             <li>과일·견과·쌀</li>
@@ -97,16 +108,19 @@
             <li>베이비·키즈·완구</li>
             <li>여행·티켓</li>
           </ul>
-          <ul class="nav__menu">
+          <ul class="nav__categhory__menu">
             <li>신상품</li>
             <li>베스트</li>
             <li>알뜰쇼핑</li>
             <li>특가/혜택</li>
-            <li>샛별 택배 배송안내</li>
           </ul>
+          <div class="nav__categhory__delivery">
+            <span>샛별 · 택배</span>
+            <span>배송안내</span>
+          </div>
         </nav>
       </div>
-    </header>
+    </header>  
     <!-- 메인 -->
     <main></main>
     <!-- 푸터 -->
@@ -179,19 +193,19 @@
           </address>
           <ul class="sns-list">
             <li>
-              <a href="#"><img src="/client/assets/icons/Icon/Blog.svg" alt="네이버 블로그 로고" /></a>
+              <a href="#"><img src="/client/assets/icons/icon/Blog.svg" alt="네이버 블로그 로고" /></a>
             </li>
             <li>
-              <a href="#"><img src="/client/assets/icons/Icon/FaceBook.svg" alt="페이스북 로고" /></a>
+              <a href="#"><img src="/client/assets/icons/icon/FaceBook.svg" alt="페이스북 로고" /></a>
             </li>
             <li>
-              <a href="#"><img src="/client/assets/icons/Icon/Instagram.svg" alt="인스타그램 로고" /></a>
+              <a href="#"><img src="/client/assets/icons/icon/Instagram.svg" alt="인스타그램 로고" /></a>
             </li>
             <li>
-              <a href="#"><img src="/client/assets/icons/Icon/NaverPost.svg" alt="네이버 포스트 로고" /></a>
+              <a href="#"><img src="/client/assets/icons/icon/NaverPost.svg" alt="네이버 포스트 로고" /></a>
             </li>
             <li>
-              <a href="#"><img src="/client/assets/icons/Icon/Youtube.svg" alt="유튜브 로고" /></a>
+              <a href="#"><img src="/client/assets/icons/icon/Youtube.svg" alt="유튜브 로고" /></a>
             </li>
           </ul>
         </div>

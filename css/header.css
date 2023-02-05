@@ -1,5 +1,6 @@
 .header {
   width: 100%;
+  font-weight: 500;
 }
 
 .top-banner {
@@ -36,23 +37,52 @@
   height: 42px;  
 }
 
-.header-inner {
+.header__inner {
   width: 1050px;
   margin: 0 auto;
+  font-size: 12px;
+}
+
+.header-inner__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header__inner-member {
+  text-align: right;
+  line-height: 35px;
+}
+
+.header__inner-member li {
+  display: inline-block;
+}
+
+.header__inner-member li:first-child {
+  color: var(--primary-color);
+}
+
+.header__inner-member a {
+  margin: 0px 5px;
+}
+
+.header__inner-member span {
+  color: var(--grey);
+  opacity: 0.3;
 }
 
 /* 멤버 링크 모음 */
-.member-only {
+.member {
   text-align: right;
   padding: 4px 0;
 }
 
-.member-only li,
-.member-only a {
+.member li,
+.member a {
   display: inline-block;
 }
 
-.member-only li:first-child a {
+.member li:first-child a {
   color: var(--primary-color);
 }
 
@@ -65,6 +95,15 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.page-switch span, .page-switch a {
+  color: var(--grey);
+}
+
+.page-switch span {
+  opacity: 0.3;
+  margin: 0px 5px;
 }
 
 .logo {
@@ -80,7 +119,7 @@
 
 .page-theme a {
   font-size: 18px;
-  position: relative;
+  position: relati5ve;
 }
 
 .page-theme a:first-child {
@@ -90,12 +129,58 @@
 .page-theme a:last-child::after {
   content: url("/client/assets/icons/icon/New-1.svg");
   position: absolute;
-  top: -16px;
+  top: -10px;
   padding: 0 4px;
+}
+
+#search {
+  width: 400px;
+  height: 48px;
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+}
+
+.search-form__group button{
+  background-color: transparent;
+  border: none;
+  position: relative;
+  top: 15px;
+  right: 50px;
 }
 
 .member-page {
   display: flex;
+  align-items: center;
+}
+
+.member-page a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+}
+
+.member-page__location {
+  background: url("../client/assets/icons/icon/Location.svg") no-repeat;
+  background-size: cover;
+}
+.member-page__location:hover {
+  background: url("../client/assets/icons/icon/Location-pc.svg") no-repeat;
+}
+
+.member-page__heart {
+  background: url("../client/assets/icons/icon/Heart.svg") no-repeat;
+  background-size: cover;
+}
+.member-page__heart:hover {
+  background: url("../client/assets/icons/icon/Heart-pc.svg") no-repeat;
+}
+
+.member-page__cart {
+  background: url("../client/assets/icons/icon/Cart.svg") no-repeat;
+  background-size: cover;
+}
+.member-page__cart:hover {
+  background: url("../client/assets/icons/icon/Cart-pc.svg") no-repeat;
 }
 
 .nav {
@@ -108,6 +193,11 @@
   height: 25px;
   background: url("../client/assets/icons/icon/Category.svg") no-repeat -10px -2px;
   position: relative;
+}
+
+.nav__category:hover{
+  cursor: pointer;
+  background: url("../client/assets/icons/icon/Category.svg") no-repeat -10px -29px;
 }
 
 .nav__category-list {
