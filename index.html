@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard-dynamic-subset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css"> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="/js/main.js"></script>
+
     <title>마켓칼리</title>
   </head>
   <body>
@@ -16,12 +21,38 @@
       <!-- 비주얼 -->
       <section class="visual">
         <h2 class="a11y-hidden">메인배너</h2>
-        <ul class="visual__slide">
+        <div class="swiper-container">
+
+          <div class="swiper-wrapper">
+            <a class="swiper-slide">
+              <img src="/client/assets/images/banner01.svg" alt="배너1" />
+            </a>
+            <a class="swiper-slide">
+              <img src="/client/assets/images/banner02.svg" alt="배너2" />
+            </a>
+            <a class="swiper-slide">
+              <img src="/client/assets/images/banner03.svg" alt="배너3" />
+            </a>
+            <a class="swiper-slide">
+              <img src="/client/assets/images/banner05.svg" alt="배너4" />
+            </a>
+
+          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+
+        </div>
+      </section>
+        
+
+        <!-- <ul class="visual__slide">
           <li><a href="#"><img src="client/assets/images/banner01.svg" alt="메인배너" width="1920"/></a></li>
-          <!-- <li><img src="client/assets/images/banner02.svg" alt="메인배너" /></li>
+          <li><img src="client/assets/images/banner02.svg" alt="메인배너" /></li>
           <li><img src="client/assets/images/banner03.svg" alt="메인배너" /></li>
-          <li><img src="client/assets/images/banner05.svg" alt="메인배너" /></li> -->
-        </ul>
+          <li><img src="client/assets/images/banner05.svg" alt="메인배너" /></li>
+        </ul> -->
       </section>
     
       <!-- 메인 -->
