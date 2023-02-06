@@ -1,0 +1,302 @@
+@import url(../css/fontello.css);
+@import url(../css/reset.css);
+@import url(../css/module.css);
+
+/* 숨김 콘텐츠 */
+.a11y-hidden,
+legend {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 0 0, 0 0);
+}
+
+/* 기본 스타일 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--text-base);
+  font-weight: var(--text-400);
+}
+/* 링크 스타일 */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+body {
+  font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', sans-serif;
+}
+/* 회원가입 페이지 */
+.register {
+  width: 640px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  flex-flow: column nowrap;
+}
+.regisger__title {
+  font-size: var(--text-lg);
+  font-weight: var(--text-600);
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 44px;
+}
+.register > .register-required::before {
+  content: '*';
+  font-size: var(--text-base);
+  color: var(--accent-color);
+  padding: var(--spacing--xxs);
+  position: absolute;
+  top: var(--minus-spacing-sm);
+  left: var(--minus-spacing-sm);
+}
+
+.register > p {
+  font-size: var(--text-xs);
+  position: absolute;
+  top: 125px;
+  right: var(--spacing-sxxs);
+}
+
+.register__form {
+  display: flex;
+  flex-flow: column nowrap;
+  border-top: 2px solid var(--black);
+}
+
+.register-required.register__label::after {
+  content: '*';
+  color: var(--accent-color);
+  font-weight: var(--text-600);
+  padding: var(--spacing--xxs);
+  position: absolute;
+  top: var(--minus-spacing-sm);
+}
+
+.register__form > ul > li {
+  padding: var(--spacing-md) 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.register__label,
+.register__label p {
+  width: 139px;
+  height: 44px;
+  font-weight: var(--text-600);
+  margin: 0 var(--spacing--xxs);
+  padding-left: var(--spacing--xxs);
+  display: inline-block;
+  line-height: 44px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.register__form > ul > li > .register__input {
+  text-indent: var(--spacing-sm);
+}
+
+.register__input,
+.register__birth-wrapper {
+  width: 333px;
+  height: 44px;
+  margin: 0 var(--spacing--xxs);
+  border: solid 1px var(--dark-grey);
+  border-radius: 3px;
+}
+
+.register__button {
+  width: 143px;
+  height: 44px;
+  padding: 0 10px;
+  margin: 0 var(--spacing--xxs);
+  color: var(--primary-color);
+  background: var(--white);
+  border: solid 1px var(--primary-color);
+  border-radius: 3px;
+}
+
+.register-address {
+  width: 333px;
+}
+
+.register__address-desc {
+  order: 3;
+  font-size: var(--text-xs);
+  position: relative;
+  left: 151px;
+  margin-top: var(--spacing--xxs);
+}
+
+.register__birth-wrapper {
+  background-color: var(--white);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.register-birth {
+  width: 60px;
+  height: 44px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+}
+
+.birth-between {
+  height: 44px;
+  line-height: 44px;
+  margin-top: var(--minus-spacing-sxxs);
+  vertical-align: middle;
+  color: var(--dark-grey);
+}
+
+.register-birth::placeholder {
+  padding: 0;
+  text-align: center;
+}
+
+.register__gender-wrapper,
+.register__additional-wrapper {
+  width: 333px;
+  height: 44px;
+  margin: 0 var(--spacing--xxs);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+input[type='radio'] + label {
+  position: relative;
+  line-height: 44px;
+  vertical-align: middle;
+}
+
+input[type='radio'] + label::before {
+  content: ' ';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: var(--spacing-sm);
+  background: url(/client/assets/icons/input/Radio.svg) no-repeat -8px -8px;
+  position: relative;
+  line-height: 44px;
+  vertical-align: middle;
+  top: -2px;
+}
+
+input[type='radio']:focus + label::before,
+input[type='checkbox']:focus + label::before {
+  outline-width: 2px;
+  outline-style: solid;
+  border-radius: 50%;
+  outline-color: #1560bd;
+}
+
+input[type='checkbox'] + label::before {
+  content: ' ';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 27px;
+  margin-right: var(--spacing-sm);
+  background: url(/client/assets/icons/input/Check.svg) no-repeat -8px -8px;
+  position: relative;
+  vertical-align: middle;
+  top: -2px;
+  left: 4px;
+}
+
+input[type='radio']:checked + label::before {
+  background-position: -8px -41px;
+}
+
+input[type='checkbox']:checked + label::before {
+  background-position: -8px -40px;
+}
+
+.register__terms {
+  display: flex;
+  flex-flow: row nowrap;
+  border-top: solid 1px var(--black);
+  border-bottom: solid 1px var(--dark-grey);
+}
+
+.register__terms .register__terms-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 429px;
+}
+
+.register__terms-wrapper li {
+  height: 27px;
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin-bottom: var(--spacing-lg);
+}
+
+.register-check-all {
+  font-size: var(--text-lg);
+  font-weight: var(--text-600);
+}
+
+.register__terms-desc {
+  position: absolute;
+  font-size: 11px;
+  top: var(--spacing-xl);
+  left: 37px;
+  color: var(--dark-grey);
+}
+
+.register__check-label {
+  flex-grow: 1;
+  height: 27px;
+  line-height: 27px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+.open-terms {
+  order: 3;
+  padding: var(--spacing--xxs) var(--spacing-xs);
+  width: 60px;
+  height: 27px;
+  margin-top: var(minus-spacing-sm);
+  border: none;
+  font-size: var(--text-xs);
+  color: var(--primary-color);
+  background: var(--white);
+  position: relative;
+  text-align: left;
+}
+
+button.open-terms::after {
+  content: ' ';
+  display: inline-block;
+  width: 6px;
+  height: 11px;
+  margin-left: var(--spacing--xxs);
+  background: url(/client/assets/icons/icon/ArrowRight.svg) no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -6px;
+}
+
+.register__submit-button {
+  margin: 40px auto;
+  width: 340px;
+  height: 54px;
+  border-radius: 3px;
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--white);
+}
