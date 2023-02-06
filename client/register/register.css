@@ -184,7 +184,7 @@ input[type='radio'] + label::before {
   width: 24px;
   height: 24px;
   margin-right: var(--spacing-sm);
-  background: url(/client/assets/icons/input/Radio.svg) no-repeat -8px -8px;
+  background: url(../assets/icons/input/Radio.svg) no-repeat -8px -8px;
   position: relative;
   line-height: 44px;
   vertical-align: middle;
@@ -206,7 +206,7 @@ input[type='checkbox'] + label::before {
   height: 24px;
   line-height: 27px;
   margin-right: var(--spacing-sm);
-  background: url(/client/assets/icons/input/Check.svg) no-repeat -8px -8px;
+  background: url(../assets/icons/input/Check.svg) no-repeat -8px -8px;
   position: relative;
   vertical-align: middle;
   top: -2px;
@@ -285,7 +285,7 @@ button.open-terms::after {
   width: 6px;
   height: 11px;
   margin-left: var(--spacing--xxs);
-  background: url(/client/assets/icons/icon/ArrowRight.svg) no-repeat;
+  background: url(../assets/icons/icon/ArrowRight.svg) no-repeat;
   position: absolute;
   top: 50%;
   margin-top: -6px;
