@@ -110,6 +110,7 @@ address {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
+  font-style: normal;
 }
 
 .sns-list {
