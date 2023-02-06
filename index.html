@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard-dynamic-subset.css" />
     <title>Document</title>
+    <script defer src="./header.js"></script>
   </head>
   <body>
     <!-- 헤더 -->
@@ -14,7 +15,7 @@
       <div class="top-banner">
         <div class="top-banner__inner">
           <p>
-            지금 가입하고 인기상품 100원에 받아가세요!
+            지금 가입하고 인기상품 <b>100원</b>에 받아가세요!
           </p>
           <button>
             <img src="./client/assets/icons/icon/Close.svg" alt="닫기"
@@ -81,10 +82,11 @@
           </ul>
         </div>
         <nav class="nav">
-          <div class="nav__category">
+          <div
+          id="category" class="nav__category">
           </div>
           <!-- class hidden으로 숨김처리 -->
-          <ul class="nav__category-list hidden">
+          <ul id="list" class="nav__category-list hidden">
             <li>선물하기</li>
             <li>채소</li>
             <li>과일·견과·쌀</li>
