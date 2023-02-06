@@ -1,31 +1,40 @@
 /* 레이아웃 */
+body{
+}
 
 /* 비주얼 */
 .visual{
+  position: relative;
   margin-top: 247px;
+  width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
   /* background-color: teal; */
 }
 
 .swiper-container{
-  width: 1920px;
-  margin: 0 auto;
   height: 370px;
 }
 
 .swiper-button-next,
 .swiper-button-prev{
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 52px;
+  height: 52px;
+  background-size: 50px;
 }
 
 .swiper-button-prev{
   background: url(/client/assets/icons/icon/Arrow-left.svg) no-repeat;
+  top: 50%;
+  left: 351px;
 }
 
 .swiper-button-next{
   background: url(/client/assets/icons/icon/Arrow-right.svg) no-repeat;
-  
+  top: 50%;
+  right: 351px;
 }
 
 .swiper-button-next::after,
@@ -35,16 +44,33 @@
   height: 50px;
 }
 
+.pagination{
+  width: 47px;
+  height: 18px;
+  position: absolute;
+  bottom: 28px;
+  left: 1436px;
+  z-index: 3;
+  background: rgba(64, 64, 64, 0.3);
+  text-align: center;
+  line-height: 18px;
+  border-radius: 12px;
+  color: var(--white);
+  font-size: 12px;
+}
+
 
 /* 메인 */
 main{
-  /* background-color: lightpink; */
+  background-color: lightpink;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .main-inner{
   width: 1050px;
   margin: 0 auto;
-  /* background-color: lightblue; */
+  background-color: lightblue;
 }
 
 .today-product h1{
