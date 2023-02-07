@@ -1,4 +1,4 @@
-import {getNode, matchPw, checkEmail, checkLength, checkInput, makeCertificateNum, makeUniqueId, getNodes, checkAll, compareCheck} from './lib/index.js';
+import {getNode, matchPw, checkEmail, checkLength, checkInput, makeCertificateNum, makeUniqueId, getNodes, checkAll, compareCheck} from '../lib/index.js';
 
 const confirmPassword = getNode('#password-confirm');
 const email = getNode('#email');
