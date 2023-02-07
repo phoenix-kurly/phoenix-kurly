@@ -1,5 +1,4 @@
 @font-face {
-
   font-family: "fontello";
   src: url("../font/fontello.eot?45169256");
   src: url("../font/fontello.eot?45169256#iefix") format("embedded-opentype"),
@@ -20,7 +19,6 @@
   }
 }
 */
-
 [class^='icon-']:before,
 [class*=' icon-']:before {
   font-family: 'fontello';
