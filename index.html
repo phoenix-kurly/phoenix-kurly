@@ -22,6 +22,12 @@
             />
           </button>
         </div>
+        <a href="#"> 지금 가입하고 인기상품 100원에 받아가세요! </a>
+        <!-- 버튼 이벤트=>숨기기 -->
+        <button>
+          <img src="./client/assets/icons/icon/Close.svg" alt="닫기" />
+        </button>
+
       </div>
       <div class="header__inner">
         <ul class="header__inner-member">
@@ -34,10 +40,11 @@
             <span aria-hidden="true">|</span>
           </li>
           <li>
-            <a href="/index.html">고객센터
+            <a href="/index.html"
+              >고객센터
               <img src="./client/assets/icons/icon/Icon_down-1.svg" alt="" />
             </a>
-          </li>        
+          </li>
         </ul>
         <div class="header-inner__top">
           <div class="page-switch">
@@ -45,14 +52,16 @@
             <div class="page-theme disabled-color">
               <a class="primary-color" href="#">
                 마켓칼리
-              </a>
+              </a>\
+            <div class="page-theme">
+              <a href="./index.html"> 마켓칼리 </a>
               <span aria-hidden="true">|</span>
-              <a href="#">
-                뷰티칼리
-              </a>
+              <a href="#"> 뷰티칼리 </a>
             </div>
           </div> 
           <form class="search-form">
+          </div>
+          <form class="serch-form">
             <fieldset>
               <legend>검색 폼</legend>
               <div class="search-form__group">
@@ -86,6 +95,9 @@
           id="category" class="nav__category">
           </div>
           <ul id="list" class="nav__category-list hidden">
+          <!-- 햄버거+카테고리, css로 백그라운드이미지 처리, js로 호버시 위치조정 -->
+          <img src="./client/assets/icons/icon/Category.svg" alt="#" />
+          <ul class="nav__category hidden">
             <li>선물하기</li>
             <li>채소</li>
             <li>과일·견과·쌀</li>
@@ -114,6 +126,7 @@
             <li>베스트</li>
             <li>알뜰쇼핑</li>
             <li>특가/혜택</li>
+            <li>샛별 택배 배송안내</li>
           </ul>
           <div class="nav__categhory__delivery">
             <span>샛별 · 택배</span>
@@ -121,7 +134,7 @@
           </div>
         </nav>
       </div>
-    </header>  
+    </header>
     <!-- 메인 -->
     <main></main>
     <!-- 푸터 -->
