@@ -5,22 +5,31 @@ const confirmPassword = getNode('#password-confirm');
 
 export function matchPw() {
   if (password.value === '') {
-    //텍스트를 화면에 보이게 하기
-    console.log('비밀번호를 먼저 입력해주세요.');
+    getNode('.no-password').style.display = 'block';
     confirmPassword.value = '';
     return;
   }
   if (password.value !== confirmPassword.value) {
-    console.log('비밀번호가 일치하지 않습니다.');
+    getNode('.no-password').style.display = 'none';
+    getNode('.same-pw').style.display = 'none';
+    getNode('.unsame-pw').style.display = 'block';
   } else {
-    console.log('비밀번호가 일치합니다.');
+    getNode('.no-password').style.display = 'none';
+    getNode('.unsame-pw').style.display = 'none';
+    getNode('.same-pw').style.display = 'block';
   }
   return;
 }
 
 export function checkLength() {
   if (password.value.length < 8) {
-    console.log('비밀번호는 8자리 이상이어야 합니다.');
+    getNode('.password-desc').style.display = 'block';
+    getNode('.no-password').style.display = 'none';
+    getNode('.unsame-pw').style.display = 'none';
+    getNode('.same-pw').style.display = 'none';
+    confirmPassword.value = '';
+  } else {
+    getNode('.password-desc').style.display = 'none';
   }
   return;
 }

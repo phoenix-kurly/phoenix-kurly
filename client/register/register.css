@@ -83,6 +83,7 @@ body {
   padding: var(--spacing-md) 0;
   display: flex;
   flex-flow: row wrap;
+  position: relative;
 }
 
 .register__label,
@@ -299,4 +300,24 @@ button.open-terms::after {
   border: none;
   background-color: var(--primary-color);
   color: var(--white);
+}
+
+/* 자바스크립트를 통해 보여지는 부분 */
+.password-desc,
+.password-confirm-desc,
+.phone-desc,
+.birth-desc,
+.email-desc {
+  font-size: var(--text-xs);
+  position: absolute;
+  left: 151px;
+  top: 64px;
+  margin-top: var(--spacing--xxs);
+  color: var(--accent-color);
+  display: none;
+}
+
+.same-pw,
+.valid-email {
+  color: #4285f4;
 }

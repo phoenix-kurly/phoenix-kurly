@@ -27,10 +27,14 @@
             <li>
               <label for="password" class="register-required register__label"><span class="a11y-hidden">필수입력사항</span>비밀번호</label>
               <input class="register__input" type="password" id="password" name="password" minlength="8" required placeholder="비밀번호를 입력해주세요." />
+              <p class="password-desc">비밀번호는 8자리 이상이어야 합니다.</p>
             </li>
             <li>
               <label for="password-confirm" class="register-required register__label"><span class="a11y-hidden">필수입력사항</span>비밀번호 확인</label>
               <input class="register__input" type="password" id="password-confirm" name="password-confirm" required placeholder="비밀번호를 한번 더 입력해주세요." />
+              <p class="password-confirm-desc no-password">비밀번호를 먼저 입력해주세요.</p>
+              <p class="password-confirm-desc unsame-pw">비밀번호가 일치하지 않습니다.</p>
+              <p class="password-confirm-desc same-pw">비밀번호가 일치합니다.</p>
             </li>
             <li>
               <label for="name" class="register-required register__label"><span class="a11y-hidden">필수입력사항</span>이름</label>
@@ -40,11 +44,14 @@
               <label for="email" class="register-required register__label"><span class="a11y-hidden">필수입력사항</span>이메일</label>
               <input class="register__input" type="email" id="email" name="email" required placeholder="예) marketkarly@karly.com" />
               <button class="register__button" type="button">중복확인</button>
+              <p class="email-desc no-valid-email">유효하지 않은 이메일 형식입니다.</p>
+              <p class="email-desc valid-email">유효한 이메일 형식입니다.</p>
             </li>
             <li>
               <label for="phone" class="register-required register__label"><span class="a11y-hidden">필수입력사항</span>휴대폰</label>
               <input class="register__input" type="tel" id="phone" name="phone" maxlength="11" required placeholder="숫자만 입력해주세요." />
               <button class="register__button" id="phone-certificate" type="button">인증번호 받기</button>
+              <p class="phone-desc">숫자만 입력해주세요.</p>
             </li>
             <li>
               <label for="address" class="register-required register__label"><span class="a11y-hidden">필수입력사항</span>주소</label>
@@ -66,12 +73,13 @@
               <p class="register__label">생년월일</p>
               <div class="register__birth-wrapper">
                 <label for="birth-year" class="a11y-hidden">연도 입력(4글자)</label>
-                <input class="register__input register-birth" type="text" maxlength="4" id="birth-year" placeholder="YYYY" aria-hidden="true" /><span class="birth-between" aria-hidden="true">/</span>
+                <input class="register__input register-birth" type="text" maxlength="4" minlength="4" id="birth-year" placeholder="YYYY" aria-hidden="true" /><span class="birth-between" aria-hidden="true">/</span>
                 <label for="birth-month" class="a11y-hidden">월 입력(2글자)</label>
-                <input class="register__input register-birth" type="text" maxlength="2" id="birth-month" placeholder="MM" aria-hidden="true" /><span class="birth-between" aria-hidden="true">/</span>
+                <input class="register__input register-birth" type="text" maxlength="2" minlength="2" id="birth-month" placeholder="MM" aria-hidden="true" /><span class="birth-between" aria-hidden="true">/</span>
                 <label for="birth-day" class="a11y-hidden">일 입력(2글자)</label>
-                <input class="register__input register-birth" type="text" maxlength="2" id="birth-day" placeholder="DD" aria-hidden="true" />
+                <input class="register__input register-birth" type="text" maxlength="2" minlength="2" id="birth-day" placeholder="DD" aria-hidden="true" />
               </div>
+              <p class="birth-desc">숫자만 입력해주세요.</p>
             </li>
             <li>
               <p class="register__label">추가입력 사항</p>
@@ -96,13 +104,13 @@
                 <li>
                   <span class="a11y-hidden">이용약관 동의 여부 (필수 항목)</span>
                   <button class="open-terms">약관보기</button>
-                  <input class="a11y-hidden" type="checkbox" id="terms-of-use" name="terms" />
+                  <input class="a11y-hidden" type="checkbox" id="terms-of-use" name="terms" required />
                   <label for="terms-of-use" class="register__check-label">이용약관 동의 (필수)</label>
                 </li>
                 <li>
                   <span class="a11y-hidden">개인정보 수집 이용 여부 (필수 항목)</span>
                   <button class="open-terms">약관보기</button>
-                  <input class="a11y-hidden" type="checkbox" id="terms-of-personal-info" name="terms" />
+                  <input class="a11y-hidden" type="checkbox" id="terms-of-personal-info" name="terms" required />
                   <label for="terms-of-personal-info" class="register__check-label">개인정보 수집 이용 동의 (필수)</label>
                 </li>
                 <li>
@@ -114,7 +122,7 @@
                 <li>
                   <span class="a11y-hidden">14세 이상 확인 (필수 항목)</span>
                   <button class="open-terms">약관보기</button>
-                  <input class="a11y-hidden" type="checkbox" id="terms-of-age" name="terms" />
+                  <input class="a11y-hidden" type="checkbox" id="terms-of-age" name="terms" required />
                   <label for="terms-of-age" class="register__check-label">본인은 만 14세 이상입니다. (필수)</label>
                 </li>
               </ul>
