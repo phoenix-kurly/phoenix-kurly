@@ -18,4 +18,29 @@ const swiper = new Swiper('.swiper-container',{
     prevEl: '.swiper-button-prev'
   },
   
-}) 
+});
+
+new Swiper('.today-product-swiper-container',{
+  autoplay: false,
+  loop: true,
+  lazy:{
+    loadPrevNext:true
+  },
+  navigation: {
+    nextEl: '.today-product-next',
+    prevEl: '.today-product-prev'
+  }
+});
+
+
+new Swiper('.product-swiper-container',{
+  autoplay: false,
+  loop: true,
+  lazy:{
+    loadPrevNext:true
+  },
+  navigation: {
+    nextEl: '.product-button-next',
+    prevEl: '.product-button-prev'
+  }
+});

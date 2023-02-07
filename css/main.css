@@ -4,17 +4,20 @@ body{
 
 /* 비주얼 */
 .visual{
-  position: relative;
   margin-top: 247px;
   width: 1920px;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
   /* background-color: teal; */
 }
 
+
+/* 메인배너 swiper */
+
 .swiper-container{
   height: 370px;
+  position: relative;
+  overflow: hidden;
 }
 
 .swiper-button-next,
@@ -23,16 +26,18 @@ body{
   width: 52px;
   height: 52px;
   background-size: 50px;
+  border: none;
+  border-radius: 50%;
 }
 
 .swiper-button-prev{
-  background: url(/client/assets/icons/icon/Arrow-left.svg) no-repeat;
+  background: url(/client/assets/icons/icon/Arrow-left.svg) no-repeat center;
   top: 50%;
   left: 351px;
 }
 
 .swiper-button-next{
-  background: url(/client/assets/icons/icon/Arrow-right.svg) no-repeat;
+  background: url(/client/assets/icons/icon/Arrow-right.svg) no-repeat center;
   top: 50%;
   right: 351px;
 }
@@ -40,8 +45,6 @@ body{
 .swiper-button-next::after,
 .swiper-button-prev::after{
   display: none;
-  width: 50px;
-  height: 50px;
 }
 
 .pagination{
@@ -59,6 +62,58 @@ body{
   font-size: 12px;
 }
 
+/* 오늘의 상품 swiper */
+.today-product-swiper-container{
+  height: auto;
+  overflow: hidden;
+}
+
+.today-product-prev,
+.today-product-next{
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  top: 45%;
+  z-index: 5;
+  border: none;
+  border-radius: 50%;
+}
+
+.product-background-prev{
+  left: -26px;
+  background: url(/client/assets/icons/icon/arrow2-1.svg) no-repeat center;
+  background-size: 50px;
+  transform: rotate(180deg);
+}
+
+.product-background-next{
+  right: -26px;
+  background: url(/client/assets/icons/icon/arrow2-1.svg) no-repeat center;
+  background-size: 50px;
+}
+
+
+.hidden{
+  display: none;
+}
+
+/* 놓치면 후회할 가격 swiper */
+.product-swiper-container{
+  overflow: hidden;
+}
+
+.product-button-prev,
+.product-button-next{
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  background-size: 50px;
+  top: 45%;
+  z-index: 5;
+  border: none;
+  border-radius: 50%;
+}
+
 
 /* 메인 */
 main{
@@ -71,6 +126,10 @@ main{
   width: 1050px;
   margin: 0 auto;
   /* background-color: lightblue; */
+}
+
+.today-product{
+  position: relative;
 }
 
 .today-product h1{

@@ -39,8 +39,8 @@
 
           </div>
 
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          <button class="swiper-button-prev"></button>
+          <button class="swiper-button-next"></button>
 
           <div class="pagination"></div>
 
@@ -48,9 +48,6 @@
         </div>
       </section>
         
-
-      </section>
-    
       <!-- 메인 -->
       <main>
 
@@ -59,68 +56,142 @@
             <div class="today-product__title">
               <h1>이 상품 어때요?</h1>
             </div>  
-            <ul class="today-product-list">
-              <li>
-                <a href="https://baeseongjae.github.io/spurs-messenger">
-                  <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product01.svg" alt="탱탱쫄면"/>
-                    <div class="today-product-list__button-wrapper">
-                      <button><span>장바구니</span></button>
-                    </div>
-                  </div>
-                  <div class="today-product-list__text">
-                    <p class="today-product-list__name">[풀무원] 탱탱쫄면 (4개입)</p>
-                    <p class="today-product-list__price">4,980 원</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product02.svg" alt="온더바디 선쿠션" />
-                    <div class="today-product-list__button-wrapper">
-                      <button><span>장바구니</span></button>
-                    </div>
-                  </div>
-                  <div class="today-product-list__text">
-                    <p class="today-product-list__name">[온더바디] 죠르디 시카 자석 선쿠션</p>
-                    <p class="today-product-list__price">32,500 원</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
-                    <div class="today-product-list__button-wrapper">
-                      <button><span>장바구니</span></button>
-                    </div>
-                  </div>
-                  <div class="today-product-list__text">
-                    <p class="today-product-list__name">유기농 밀키퀸 현미 4kg</p>
-                    <p class="today-product-list__price">25,000 원</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
-                    <div class="today-product-list__button-wrapper">
-                      <button><span>장바구니</span></button>
-                    </div>
-                  </div>
-                  <div class="today-product-list__text">
-                    <p class="today-product-list__name">[프로쉬] 베이비 세탁세</p>
-                    <p class="today-product-list__price">
-                      <span>24%</span>
-                      18,900 원
-                    </p>
-                    <span class="today-product-list__origin-price">24,900 원</span>
-                  </div>
-                </a>
-              </li>
-            </ul>
+            <div class="today-product-swiper-container">
+              <div class="swiper-wrapper">
+                
+                <div class="today-product-list swiper-slide ">
+                  <li>
+                    <a href="https://baeseongjae.github.io/spurs-messenger">
+                      <div class="today-product-list__img-container">
+                        <img src="client/assets/images/product01.svg" alt="탱탱쫄면"/>
+                        <div class="today-product-list__button-wrapper">
+                          <button><span>장바구니</span></button>
+                        </div>
+                      </div>
+                      <div class="today-product-list__text">
+                        <p class="today-product-list__name">[풀무원] 탱탱쫄면 (4개입)</p>
+                        <p class="today-product-list__price">4,980 원</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="today-product-list__img-container">
+                        <img src="client/assets/images/product02.svg" alt="온더바디 선쿠션" />
+                        <div class="today-product-list__button-wrapper">
+                          <button><span>장바구니</span></button>
+                        </div>
+                      </div>
+                      <div class="today-product-list__text">
+                        <p class="today-product-list__name">[온더바디] 죠르디 시카 자석 선쿠션</p>
+                        <p class="today-product-list__price">32,500 원</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="today-product-list__img-container">
+                        <img src="client/assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
+                        <div class="today-product-list__button-wrapper">
+                          <button><span>장바구니</span></button>
+                        </div>
+                      </div>
+                      <div class="today-product-list__text">
+                        <p class="today-product-list__name">유기농 밀키퀸 현미 4kg</p>
+                        <p class="today-product-list__price">25,000 원</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="today-product-list__img-container">
+                        <img src="client/assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
+                        <div class="today-product-list__button-wrapper">
+                          <button><span>장바구니</span></button>
+                        </div>
+                      </div>
+                      <div class="today-product-list__text">
+                        <p class="today-product-list__name">[프로쉬] 베이비 세탁세</p>
+                        <p class="today-product-list__price">
+                          <span>24%</span>
+                          18,900 원
+                        </p>
+                        <span class="today-product-list__origin-price">24,900 원</span>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+
+                <div class="today-product-list swiper-slide">
+                  <li>
+                    <a href="https://baeseongjae.github.io/spurs-messenger">
+                      <div class="today-product-list__img-container">
+                        <img src="client/assets/images/product01.svg" alt="탱탱쫄면"/>
+                        <div class="today-product-list__button-wrapper">
+                          <button><span>장바구니</span></button>
+                        </div>
+                      </div>
+                      <div class="today-product-list__text">
+                        <p class="today-product-list__name">[풀무원] 탱탱쫄면 (4개입)</p>
+                        <p class="today-product-list__price">4,980 원</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="today-product-list__img-container">
+                        <img src="client/assets/images/product02.svg" alt="온더바디 선쿠션" />
+                        <div class="today-product-list__button-wrapper">
+                          <button><span>장바구니</span></button>
+                        </div>
+                      </div>
+                      <div class="today-product-list__text">
+                        <p class="today-product-list__name">[온더바디] 죠르디 시카 자석 선쿠션</p>
+                        <p class="today-product-list__price">32,500 원</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="today-product-list__img-container">
+                        <img src="client/assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
+                        <div class="today-product-list__button-wrapper">
+                          <button><span>장바구니</span></button>
+                        </div>
+                      </div>
+                      <div class="today-product-list__text">
+                        <p class="today-product-list__name">유기농 밀키퀸 현미 4kg</p>
+                        <p class="today-product-list__price">25,000 원</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="today-product-list__img-container">
+                        <img src="client/assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
+                        <div class="today-product-list__button-wrapper">
+                          <button><span>장바구니</span></button>
+                        </div>
+                      </div>
+                      <div class="today-product-list__text">
+                        <p class="today-product-list__name">[프로쉬] 베이비 세탁세</p>
+                        <p class="today-product-list__price">
+                          <span>24%</span>
+                          18,900 원
+                        </p>
+                        <span class="today-product-list__origin-price">24,900 원</span>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+
+              </div>
+
+            </div>
+
+            <button class="today-product-prev product-background-prev hidden"></button>
+            <button class="today-product-next product-background-next"></button>
+            
           </section>
         
           <section class="line-banner">
@@ -132,68 +203,140 @@
             <div class="today-product__title">
               <h1>놓치면 후회할 가격</h1>
             </div>
-            <ul class="today-product-list">
-              <li>
-                <a href="#">
-                  <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product01.svg" alt="탱탱쫄면"/>
-                    <div class="today-product-list__button-wrapper">
-                      <button><span>장바구니</span></button>
-                    </div>
-                  </div>
-                  <div class="today-product-list__text">
-                    <p class="today-product-list__name">[풀무원] 탱탱쫄면 (4개입)</p>
-                    <p class="today-product-list__price">4,980원</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product02.svg" alt="온더바디 선쿠션" />
-                    <div class="today-product-list__button-wrapper">
-                      <button><span>장바구니</span></button>
-                    </div>
-                  </div>
-                  <div class="today-product-list__text">
-                    <p class="today-product-list__name">[온더바디] 죠르디 시카 자석 선쿠션</p>
-                    <p class="today-product-list__price">32,500 원</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
-                    <div class="today-product-list__button-wrapper">
-                      <button><span>장바구니</span></button>
-                    </div>
-                  </div>
-                  <div class="today-product-list__text">
-                    <p class="today-product-list__name">유기농 밀키퀸 현미 4kg</p>
-                    <p class="today-product-list__price">25,000 원</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
-                    <div class="today-product-list__button-wrapper">
-                      <button><span>장바구니</span></button>
-                    </div>
-                  </div>
-                  <div class="today-product-list__text">
-                    <p class="today-product-list__name">[프로쉬] 베이비 세탁세</p>
-                    <p class="today-product-list__price">
-                      <span>24%</span>
-                      18,900 원
-                    </p>
-                    <span class="today-product-list__origin-price">24,900 원</span>
-                  </div>
-                </a>
-              </li>
-            </ul>
+            <div class="product-swiper-container">
+              <div class="swiper-wrapper">
+                
+                <div class="today-product-list swiper-slide ">
+                  <li>
+                    <a href="https://baeseongjae.github.io/spurs-messenger">
+                      <div class="today-product-list__img-container">
+                        <img src="client/assets/images/product01.svg" alt="탱탱쫄면"/>
+                        <div class="today-product-list__button-wrapper">
+                          <button><span>장바구니</span></button>
+                        </div>
+                      </div>
+                      <div class="today-product-list__text">
+                        <p class="today-product-list__name">[풀무원] 탱탱쫄면 (4개입)</p>
+                        <p class="today-product-list__price">4,980 원</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="today-product-list__img-container">
+                        <img src="client/assets/images/product02.svg" alt="온더바디 선쿠션" />
+                        <div class="today-product-list__button-wrapper">
+                          <button><span>장바구니</span></button>
+                        </div>
+                      </div>
+                      <div class="today-product-list__text">
+                        <p class="today-product-list__name">[온더바디] 죠르디 시카 자석 선쿠션</p>
+                        <p class="today-product-list__price">32,500 원</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="today-product-list__img-container">
+                        <img src="client/assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
+                        <div class="today-product-list__button-wrapper">
+                          <button><span>장바구니</span></button>
+                        </div>
+                      </div>
+                      <div class="today-product-list__text">
+                        <p class="today-product-list__name">유기농 밀키퀸 현미 4kg</p>
+                        <p class="today-product-list__price">25,000 원</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="today-product-list__img-container">
+                        <img src="client/assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
+                        <div class="today-product-list__button-wrapper">
+                          <button><span>장바구니</span></button>
+                        </div>
+                      </div>
+                      <div class="today-product-list__text">
+                        <p class="today-product-list__name">[프로쉬] 베이비 세탁세</p>
+                        <p class="today-product-list__price">
+                          <span>24%</span>
+                          18,900 원
+                        </p>
+                        <span class="today-product-list__origin-price">24,900 원</span>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+
+                <div class="today-product-list swiper-slide">
+                  <li>
+                    <a href="https://baeseongjae.github.io/spurs-messenger">
+                      <div class="today-product-list__img-container">
+                        <img src="client/assets/images/product01.svg" alt="탱탱쫄면"/>
+                        <div class="today-product-list__button-wrapper">
+                          <button><span>장바구니</span></button>
+                        </div>
+                      </div>
+                      <div class="today-product-list__text">
+                        <p class="today-product-list__name">[풀무원] 탱탱쫄면 (4개입)</p>
+                        <p class="today-product-list__price">4,980 원</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="today-product-list__img-container">
+                        <img src="client/assets/images/product02.svg" alt="온더바디 선쿠션" />
+                        <div class="today-product-list__button-wrapper">
+                          <button><span>장바구니</span></button>
+                        </div>
+                      </div>
+                      <div class="today-product-list__text">
+                        <p class="today-product-list__name">[온더바디] 죠르디 시카 자석 선쿠션</p>
+                        <p class="today-product-list__price">32,500 원</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="today-product-list__img-container">
+                        <img src="client/assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
+                        <div class="today-product-list__button-wrapper">
+                          <button><span>장바구니</span></button>
+                        </div>
+                      </div>
+                      <div class="today-product-list__text">
+                        <p class="today-product-list__name">유기농 밀키퀸 현미 4kg</p>
+                        <p class="today-product-list__price">25,000 원</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="today-product-list__img-container">
+                        <img src="client/assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
+                        <div class="today-product-list__button-wrapper">
+                          <button><span>장바구니</span></button>
+                        </div>
+                      </div>
+                      <div class="today-product-list__text">
+                        <p class="today-product-list__name">[프로쉬] 베이비 세탁세</p>
+                        <p class="today-product-list__price">
+                          <span>24%</span>
+                          18,900 원
+                        </p>
+                        <span class="today-product-list__origin-price">24,900 원</span>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+              </div>
+
+            </div>
+            <button class="product-button-prev product-background-prev hidden"></button>
+            <button class="product-button-next product-background-next"></button>
+          
           </section>
         </div>
         
@@ -224,7 +367,7 @@
         
       </main>
       
-      <article class="main-popup">
+      <!-- <article class="main-popup">
         <h2 class="a11y-hidden">메인 팝업</h2>
         <div class="main-popup__inner">
           <a href="#">
@@ -234,7 +377,7 @@
             <button>오늘 하루 안보기</button><button>닫기</button>
           </div>
         </div>
-      </article>
+      </article> -->
       
       
       <article class="add-cart">

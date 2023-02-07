@@ -37,7 +37,12 @@ a {
   text-decoration: none;
 }
 
+li{
+  list-style: none;
+}
+
 h1{
   font-size: 28px;
   font-weight: 700;
 }
+
