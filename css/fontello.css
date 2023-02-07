@@ -19,9 +19,9 @@
   }
 }
 */
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  font-family: "fontello";
+[class^='icon-']:before,
+[class*=' icon-']:before {
+  font-family: 'fontello';
   font-style: normal;
   font-weight: normal;
   speak: never;
@@ -56,20 +56,21 @@
 }
 
 .icon-colon:before {
-  content: "\e800";
+  content: '\e800';
 } /* '' */
 .icon-ok:before {
-  content: "\e801";
+  content: '\e801';
 } /* '' */
 .icon-plus:before {
-  content: "\e802";
+  content: '\e802';
 } /* '' */
 .icon-search:before {
-  content: "\e803";
+  content: '\e803';
 } /* '' */
 .icon-right-dir:before {
-  content: "\e804";
+  content: '\e804';
 } /* '' */
 .icon-stop:before {
-  content: "\e805";
+  content: '\e805';
 } /* '' */
+
