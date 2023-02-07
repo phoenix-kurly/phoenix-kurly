@@ -12,12 +12,12 @@
   <body>
     <!-- 헤더 -->
     <header class="header">
-      <div class="top-banner">
+      <div id="dcAds" class="top-banner">
         <div class="top-banner__inner">
           <p>
             지금 가입하고 인기상품 <b>100원</b>에 받아가세요!
           </p>
-          <button>
+          <button id="closeBtn">
             <img src="./client/assets/icons/icon/Close.svg" alt="닫기"
             />
           </button>
@@ -49,6 +49,10 @@
         <div class="header-inner__top">
           <div class="page-switch">
             <img class="logo" src="./client/assets/icons/icon/Logo.svg" alt="#" />
+            <div class="page-theme disabled-color">
+              <a class="primary-color" href="#">
+                마켓칼리
+              </a>\
             <div class="page-theme">
               <a href="./index.html"> 마켓칼리 </a>
               <span aria-hidden="true">|</span>
@@ -90,7 +94,6 @@
           <div
           id="category" class="nav__category">
           </div>
-          <!-- class hidden으로 숨김처리 -->
           <ul id="list" class="nav__category-list hidden">
           <!-- 햄버거+카테고리, css로 백그라운드이미지 처리, js로 호버시 위치조정 -->
           <img src="./client/assets/icons/icon/Category.svg" alt="#" />
