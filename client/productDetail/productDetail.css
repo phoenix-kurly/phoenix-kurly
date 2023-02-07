@@ -349,7 +349,7 @@ button {
   width: 30px;
   height: 30px;
   display: inline-block;
-  background: url(../client/assets/icons/icon/Cancel.svg);
+  background: url(../assets/icons/icon/Cancel.svg);
   background-size: cover;
   background-position: center center;
   cursor: pointer;
@@ -500,7 +500,7 @@ button {
   width: 40px;
   height: 40px;
   margin: 0px auto 16px;
-  background: url(../client/assets/icons/Icon/01_check.svg) 50% 50% no-repeat;
+  background: url(../assets/icons/icon/01_check.svg) 50% 50% no-repeat;
 }
 
 .why-karly__only-title::before {
@@ -509,7 +509,7 @@ button {
   width: 40px;
   height: 40px;
   margin: 0px auto 16px;
-  background: url(../client/assets/icons/Icon/02_only.svg) 50% 50% no-repeat;
+  background: url(../assets/icons/icon/02_only.svg) 50% 50% no-repeat;
 }
 .why-karly__cold-title::before {
   content: '';
@@ -517,7 +517,7 @@ button {
   width: 40px;
   height: 40px;
   margin: 0px auto 16px;
-  background: url(../client/assets/icons/Icon/03_cold.svg) 50% 50% no-repeat;
+  background: url(../assets/icons/icon/03_cold.svg) 50% 50% no-repeat;
 }
 .why-karly__price-title::before {
   content: '';
@@ -525,7 +525,7 @@ button {
   width: 40px;
   height: 40px;
   margin: 0px auto 16px;
-  background: url(../client/assets/icons/Icon/04_price.svg) 50% 50% no-repeat;
+  background: url(../assets/icons/Icon/04_price.svg) 50% 50% no-repeat;
 }
 .why-karly__eco-title::before {
   content: '';
@@ -533,7 +533,7 @@ button {
   width: 40px;
   height: 40px;
   margin: 0px auto 16px;
-  background: url(../client/assets/icons/Icon/05_eco.svg) 50% 50% no-repeat;
+  background: url(../assets/icons/Icon/05_eco.svg) 50% 50% no-repeat;
 }
 /* why-karly 타이틀 */
 .why-karly__check-title {

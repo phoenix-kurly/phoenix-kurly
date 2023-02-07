@@ -96,7 +96,7 @@
 
 .top-banner__inner button > img {
   width: 42px;
-  height: 42px;  
+  height: 42px;
 }
 
 .header__inner {
@@ -189,7 +189,7 @@
 }
 
 .page-theme a:last-child::after {
-  content: url("/client/assets/icons/icon/New-1.svg");
+  content: url('../assets/icons/icon/New-1.svg');
   position: absolute;
   top: -10px;
   padding: 0 4px;
@@ -225,27 +225,27 @@
 }
 
 .member-page__location {
-  background: url("../client/assets/icons/icon/Location.svg") no-repeat;
+  background: url('../assets/icons/icon/Location.svg') no-repeat;
   background-size: cover;
 }
 .member-page__location:hover {
-  background: url("../client/assets/icons/icon/Location-pc.svg") no-repeat;
+  background: url('../assets/icons/icon/Location-pc.svg') no-repeat;
 }
 
 .member-page__heart {
-  background: url("../client/assets/icons/icon/Heart.svg") no-repeat;
+  background: url('../assets/icons/icon/Heart.svg') no-repeat;
   background-size: cover;
 }
 .member-page__heart:hover {
-  background: url("../client/assets/icons/icon/Heart-pc.svg") no-repeat;
+  background: url('../assets/icons/icon/Heart-pc.svg') no-repeat;
 }
 
 .member-page__cart {
-  background: url("../client/assets/icons/icon/Cart.svg") no-repeat;
+  background: url('../assets/icons/icon/Cart.svg') no-repeat;
   background-size: cover;
 }
 .member-page__cart:hover {
-  background: url("../client/assets/icons/icon/Cart-pc.svg") no-repeat;
+  background: url('../assets/icons/icon/Cart-pc.svg') no-repeat;
 }
 
 .nav {
@@ -256,14 +256,14 @@
 .nav__category {
   width: 110px;
   height: 25px;
-  background: url('../client/assets/icons/icon/Category.svg') no-repeat -10px -2px;
+  background: url('../assets/icons/icon/Category.svg') no-repeat -10px -2px;
   position: relative;
   margin-bottom: 10px;
   cursor: pointer;
 }
 
-.nav__category:hover{
-  background: url("../client/assets/icons/icon/Category.svg") no-repeat -10px -29px;
+.nav__category:hover {
+  background: url('../assets/icons/icon/Category.svg') no-repeat -10px -29px;
 }
 
 .nav__category-list {
