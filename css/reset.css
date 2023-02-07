@@ -89,7 +89,7 @@ video {
   border: 0;
   font-size: 1em;
   /* font: inherit; */
-  vertical-align: baseline;
+  /* vertical-align: baseline; */
 }
 
 button {
