@@ -62,7 +62,7 @@ body{
 
 /* 메인 */
 main{
-  background-color: lightpink;
+  /* background-color: lightpink; */
   overflow: hidden;
   margin: 0 auto;
 }
@@ -70,7 +70,7 @@ main{
 .main-inner{
   width: 1050px;
   margin: 0 auto;
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 
 .today-product h1{
