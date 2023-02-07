@@ -3,12 +3,14 @@ import {getNode} from '../dom/getNode.js';
 const email = getNode('#email');
 
 export function checkEmail() {
-  const emailValidation = new RegExp('[a-z0-9]+@[a-z]+.[a-z]{2,3}');
+  const regExp = /[a-zA-Z0-9]+\@[a-zA-Z0-9]+\.[a-z]/;
   if (email !== '') {
-    if (!emailValidation.test(email.value)) {
-      console.log('유효하지 않은 이메일 형식입니다.');
+    if (!regExp.test(email.value)) {
+      getNode('.valid-email').style.display = 'none';
+      getNode('.no-valid-email').style.display = 'block';
     } else {
-      console.log('유효한 이메일 형식입니다.');
+      getNode('.no-valid-email').style.display = 'none';
+      getNode('.valid-email').style.display = 'block';
     }
   }
   return;
