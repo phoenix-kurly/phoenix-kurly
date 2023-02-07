@@ -12,8 +12,8 @@ assignees: ''
 ✅ 완료된 작업 사항은 제목에 완료한 이슈 번호를 입력해주세요.
 
 ## Todo
-[ ] todo
-[ ] todo
+- [ ] todo
+- [ ] todo
 
 
 ## 기타
