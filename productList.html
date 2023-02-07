@@ -29,45 +29,63 @@
             </li>
             <li class="product-detail__accordion__list">
               <details>
-                <summary>카테고리</summary>
+                <summary>
+                  <p>카테고리</p>
+                  <img src="./client/assets/icons/icon/Direction=Down.svg" alt="" />
+                </summary>
               </details>
             </li>
             <li class="product-detail__accordion__list">
               <details>
-                <summary>브랜드</summary>
+                <summary>
+                  <p>브랜드</p>
+                  <img src="./client/assets/icons/icon/Direction=Down.svg" alt="" />
+                </summary>
                 <ul class="product-detail__accordion__list__name">
-                  <li>감자밭</li>
-                  <li>경남제약</li>
-                  <li>강남면옥</li>
-                  <li>경복궁</li>
-                  <li>고래사</li>
-                  <li>고메공방</li>
-                  <li>고온어다이어트</li>
-                  <li>교토마블</li>
-                  <li>그래놀라 하우수</li>
-                  <li>그리츠 시그니처 램</li>
+                  <li><input type="checkbox" name="" id="" value=""/><label for="">감자밭</label></li>
+                  <li><input type="checkbox" name="" id="" value=""/><label for="">경남제약</label></li>
+                  <li><input type="checkbox" name="" id="" value=""/><label for="">강남면옥</label></li>
+                  <li><input type="checkbox" name="" id="" value=""/><label for="">경복궁</label></li>
+                  <li><input type="checkbox" name="" id="" value=""/><label for="">고래사</label></li>
+                  <li><input type="checkbox" name="" id="" value=""/><label for="">고메공방</label></li>
+                  <li><input type="checkbox" name="" id="" value=""/><label for="">고온어다이어트</label></li>
+                  <li><input type="checkbox" name="" id="" value=""/><label for="">교토마블</label></li>
+                  <li><input type="checkbox" name="" id="" value=""/><label for="">그래놀라 하우스</label></li>
+                  <li><input type="checkbox" name="" id="" value=""/><label for="">그리츠 시그니처 램</label></li>
                 </ul>
                 <button>브랜드 더보기</button>
               </details>
             </li>
             <li class="product-detail__accordion__list">
               <details>
-                <summary>가격</summary>
+                <summary>
+                  <p>가격</p>
+                  <img src="./client/assets/icons/icon/Direction=Down.svg" alt="" />
+                </summary>
               </details>
             </li>
             <li class="product-detail__accordion__list">
               <details>
-                <summary>혜택</summary>
+                <summary>
+                  <p>혜택</p>
+                  <img src="./client/assets/icons/icon/Direction=Down.svg" alt="" />
+                </summary>
               </details>
             </li>
             <li class="product-detail__accordion__list">
               <details>
-                <summary>유형</summary>
+                <summary>
+                  <p>유형</p>
+                  <img src="./client/assets/icons/icon/Direction=Down.svg" alt="" />
+                </summary>
               </details>
             </li>
             <li class="product-detail__accordion__list">
               <details>
-                <summary>특성상품 제외</summary>
+                <summary>
+                  <p>특성상품 제외</p>
+                  <img src="./client/assets/icons/icon/Direction=Down.svg" alt="" />
+                </summary>
               </details>
             </li>
           </ul>
@@ -75,16 +93,27 @@
         <div class="product-detail__group">
             <div class="product-detail__group__choice">
               <span>총 건</span>
-              <div>
-                <button type="button">추천순</button>
-                <button type="button">신상품순</button>
-                <button type="button">판매량순</button>
-                <button type="button">혜택순</button>
-                <button type="button">낮은 가격순</button>
-                <button type="button">높은 가격순</button>
-              </div>
+              <ul class="test">
+                <li class="product-detail__group__choice__button">
+                  <button type="button">추천순</button>
+                </li>
+                <li class="product-detail__group__choice__button">
+                  <button type="button">신상품순</button>
+                </li>
+                <li class="product-detail__group__choice__button">
+                  <button type="button">판매량순</button>
+                </li>
+                <li class="product-detail__group__choice__button"><button type="button">혜택순</button></li>
+                <li class="product-detail__group__choice__button">
+                  <button type="button">낮은 가격순</button>
+                </li>
+                <li class="product-detail__group__choice__button">
+                  <button type="button">높은 가격순</button>
+                </li>
+              </ul>
             </div>
             <article class="product-detail__group__list">
+              <!-- 탱탱쫄면 시작 -->
               <div class="product-detail__group__list__image">
                 <div>
                   <a>
@@ -95,12 +124,14 @@
                   </button>
                 </div>
                 <div>
-                  <p>샛별배송</p>
-                  <p>[풀무원] 탱탱쫄면 (4개입)</p>
-                  <p>4,980 원</p>
-                  <p>튀기지 않아 부담없는 매콤함</p>
+                  <p class="product-detail__group__list__delivery">샛별배송</p>
+                  <p class="product-detail__group__list__name">[풀무원] 탱탱쫄면 (4개입)</p>
+                  <p class="product-detail__group__list__price">4,980 원</p>
+                  <p class="product-detail__group__list__info">튀기지 않아 부담없는 매콤함</p>
                 </div>
               </div>
+              <!-- 탱탱쫄면 끝 -->
+              <!-- 죠르디 시작 -->
               <div class="product-detail__group__list__image">
                 <div>
                   <a>
@@ -111,10 +142,48 @@
                   </button>
                 </div>
                 <div>
-                  <p>샛별배송</p>
-                  <p>[온더바디] 죠르디 시카 자석 선쿠션</p>
-                  <p>32,500 원</p>
-                  <p>끈적임 없이 보송한 무기자차 선쿠션</p>
+                  <p class="product-detail__group__list__delivery">샛별배송</p>
+                  <p class="product-detail__group__list__name">[온더바디] 죠르디 시카 자석 선쿠션</p>
+                  <p class="product-detail__group__list__price">32,500 원</p>
+                  <p class="product-detail__group__list__info">끈적임 없이 보송한 무기자차 선쿠션</p>
+                </div>
+              </div>
+              <!-- 죠르디 끝 -->
+              <!-- 세재 시작 -->
+              <div class="product-detail__group__list__image">
+                <div>
+                  <a>
+                    <img src="./client/assets/images/product04.svg" alt="프로쉬 베이비 세탁세제">
+                  </a>
+                  <button>
+                    <img src="./client/assets/icons/icon/CartCircle.svg" alt="장바구니에담기">
+                  </button>
+                </div>
+                <div>
+                  <p class="product-detail__group__list__delivery">샛별배송</p>
+                  <p class="product-detail__group__list__name">[프로쉬] 베이비 세탁세제</p>
+                  <p class="product-detail__group__list__price"><span>24%</span>18,900</p>
+                  <del class="product-detail__group__list__before-price">24,900 원</del>
+                  <p class="product-detail__group__list__info">성분을 꼼꼼히 따져 골라 더욱 편안한</p>
+                </div>
+              </div>
+              <!-- 세재 끝 -->
+              <!-- test 시작 -->
+              <div class="product-detail__group__list__image">
+                <div>
+                  <a>
+                    <img src="./client/assets/images/product04.svg" alt="프로쉬 베이비 세탁세제">
+                  </a>
+                  <button>
+                    <img src="./client/assets/icons/icon/CartCircle.svg" alt="장바구니에담기">
+                  </button>
+                </div>
+                <div>
+                  <p class="product-detail__group__list__delivery">샛별배송</p>
+                  <p class="product-detail__group__list__name">[프로쉬] 베이비 세탁세제</p>
+                  <p class="product-detail__group__list__price"><span>24%</span>18,900</p>
+                  <del class="product-detail__group__list__before-price">24,900 원</del>
+                  <p class="product-detail__group__list__info">성분을 꼼꼼히 따져 골라 더욱 편안한</p>
                 </div>
               </div>
               <div class="product-detail__group__list__image">
@@ -126,22 +195,46 @@
                     <img src="./client/assets/icons/icon/CartCircle.svg" alt="장바구니에담기">
                   </button>
                 </div>
-                <div>\]
-                  <p>샛별배송</p>
-                  <p>[프로쉬] 베이비 세탁세제</p>
-                  <p><span>24%</span>18,900</p>
-                  <p>24,900 원</p>
-                  <p>성분을 꼼꼼히 따져 골라 더욱 편안한</p>
+                <div>
+                  <p class="product-detail__group__list__delivery">샛별배송</p>
+                  <p class="product-detail__group__list__name">[프로쉬] 베이비 세탁세제</p>
+                  <p class="product-detail__group__list__price"><span>24%</span>18,900</p>
+                  <del class="product-detail__group__list__before-price">24,900 원</del>
+                  <p class="product-detail__group__list__info">성분을 꼼꼼히 따져 골라 더욱 편안한</p>
                 </div>
               </div>
+              <div class="product-detail__group__list__image">
+                <div>
+                  <a>
+                    <img src="./client/assets/images/product04.svg" alt="프로쉬 베이비 세탁세제">
+                  </a>
+                  <button>
+                    <img src="./client/assets/icons/icon/CartCircle.svg" alt="장바구니에담기">
+                  </button>
+                </div>
+                <div>
+                  <p class="product-detail__group__list__delivery">샛별배송</p>
+                  <p class="product-detail__group__list__name">[프로쉬] 베이비 세탁세제</p>
+                  <p class="product-detail__group__list__price"><span>24%</span>18,900</p>
+                  <del class="product-detail__group__list__before-price">24,900 원</del>
+                  <p class="product-detail__group__list__info">성분을 꼼꼼히 따져 골라 더욱 편안한</p>
+                </div>
+              </div>
+              <!-- test 끝 -->
             </article>
-            <div class="product-detail__group__page-navi">
-              <button type="button"><img src="./client/assets/icons/Icon/Perper.svg" alt="전전페이지로 이동" /></button>
-              <button type="button"><img src="./client/assets/icons/Icon/Per.svg" alt="전페이지로 이동" /></button>
-              <button type="button"><span>1</span></button>
-              <button type="button" class="product-detail__group__page-navi__next"><img src="./client/assets/icons/Icon/Per.svg" alt="다음페이지로 이동" /></button>
-              <button type="button" class="product-detail__group__page-navi__next"><img src="./client/assets/icons/Icon/Perper.svg" alt="다다음페이지로이동" /></button>
-            </div>
+            <!-- 페지지 이동 버튼 -->
+            <nav class="product-detail__group__page-navi">
+              <div class="product-detail__group__page-navi__group">
+                <button type="button"><img src="./client/assets/icons/Icon/Perper.svg" alt="전전페이지로 이동" /></button>
+                <button type="button"><img src="./client/assets/icons/Icon/Per.svg" alt="전페이지로 이동" /></button>
+                <button type="button"><span>1</span></button>
+                <button type="button" class="product-detail__group__page-navi__next"><img src="./client/assets/icons/Icon/Per.svg" alt="다음페이지로 이동" /></button>
+                <button type="button" class="product-detail__group__page-navi__next"><img src="./client/assets/icons/Icon/Perper.svg" alt="다다음페이지로이동" /></button>
+              </div>
+              <!-- 여기 -->
+              
+              <!-- 여기 -->
+            </nav>
         </div>
       </section>
         
