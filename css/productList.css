@@ -185,13 +185,18 @@ details button::after{
   /* background-color: red; */
 }
 
+/* .clicked {
+  color: black;
+} */
+
 .test:first-child button{
   padding-right: 0;
   /* background-color: aqua; */
 }
 
-.test:last-child button {
+.product-detail__group__choice__button:last-child button {
   padding-right: 0;
+  /* background-color:#FA622F; */
 }
 
 .product-detail__group__choice__button:nth-child(n+2)::before {
@@ -213,6 +218,10 @@ details button::after{
   right: px;
   /* background-color: aquamarine; */
   position: relative;
+}
+
+.clicked {
+  color: black;
 }
 
 .product-detail__group__list{
