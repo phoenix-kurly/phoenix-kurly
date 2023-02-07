@@ -275,6 +275,7 @@
   width: 200px;
   height: 880px;
   overflow: scroll;
+  background-color: var(--white);
 }
 
 .nav__category-list li {
@@ -282,8 +283,7 @@
   font-weight: 500;
   line-height: 22px;
   text-align: left;
-  padding: 10px 15px;
-  /* list-style-image: url("../client/assets/icons/icon/MenuIcon.svg"); */
+  padding: 10px 0px 10px 35px;
 }
 
 .nav__category-list li:hover {
