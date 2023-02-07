@@ -7,19 +7,30 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard-dynamic-subset.css" />
     <title>마켓칼리</title>
+    <script defer src="./header.js"></script>
   </head>
   <body>
     <!-- 헤더 -->
     <header class="header">
       <div class="top-banner">
+        <div class="top-banner__inner">
+          <p>
+            지금 가입하고 인기상품 <b>100원</b>에 받아가세요!
+          </p>
+          <button>
+            <img src="./client/assets/icons/icon/Close.svg" alt="닫기"
+            />
+          </button>
+        </div>
         <a href="#"> 지금 가입하고 인기상품 100원에 받아가세요! </a>
         <!-- 버튼 이벤트=>숨기기 -->
         <button>
           <img src="./client/assets/icons/icon/Close.svg" alt="닫기" />
         </button>
+
       </div>
-      <div class="header-inner">
-        <ul class="member-only">
+      <div class="header__inner">
+        <ul class="header__inner-member">
           <li>
             <a href="/index.html">회원가입</a>
             <span aria-hidden="true">|</span>
@@ -43,11 +54,13 @@
               <span aria-hidden="true">|</span>
               <a href="#"> 뷰티칼리 </a>
             </div>
+          </div> 
+          <form class="search-form">
           </div>
           <form class="serch-form">
             <fieldset>
               <legend>검색 폼</legend>
-              <div class="serch-form__group">
+              <div class="search-form__group">
                 <div class="form-input">
                   <label for="search" class="a11y-hidden">검색</label>
                 </div>
@@ -60,17 +73,25 @@
           </form>
           <ul class="member-page">
             <li>
-              <img src="./client/assets/icons/icon/Location.svg" alt="" />
+              <a class="member-page__location" aria-label="배송지" href="#">
+              </a>
             </li>
             <li>
-              <img src="./client/assets/icons/icon/Heart.svg" alt="" />
+              <a class="member-page__heart" aria-label="찜" href="#">
+              </a>
             </li>
             <li>
-              <img src="./client/assets/icons/icon/Cart.svg" alt="" />
+              <a class="member-page__cart" aria-label="장바구니" href="#">
+              </a>
             </li>
           </ul>
         </div>
         <nav class="nav">
+          <div
+          id="category" class="nav__category">
+          </div>
+          <!-- class hidden으로 숨김처리 -->
+          <ul id="list" class="nav__category-list hidden">
           <!-- 햄버거+카테고리, css로 백그라운드이미지 처리, js로 호버시 위치조정 -->
           <img src="./client/assets/icons/icon/Category.svg" alt="#" />
           <ul class="nav__category hidden">
@@ -97,13 +118,17 @@
             <li>베이비·키즈·완구</li>
             <li>여행·티켓</li>
           </ul>
-          <ul class="nav__menu">
+          <ul class="nav__categhory__menu">
             <li>신상품</li>
             <li>베스트</li>
             <li>알뜰쇼핑</li>
             <li>특가/혜택</li>
             <li>샛별 택배 배송안내</li>
           </ul>
+          <div class="nav__categhory__delivery">
+            <span>샛별 · 택배</span>
+            <span>배송안내</span>
+          </div>
         </nav>
       </div>
     </header>

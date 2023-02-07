@@ -6,6 +6,7 @@
   --dark-grey: #898989;
   --grey: #999;
   --orange: #fa622f;
+  --light-gray: #e1e1e1;
 
   --primary-color: var(--purple);
   --accent-color: var(--orange);
@@ -30,7 +31,7 @@
   --minus-spacing-xl: -32px;
 
   /* font-size */
-
+  --text-xxs: 10px;
   --text-xs: 12px;
   --text-sm: 14px;
   --text-base: 16px;
