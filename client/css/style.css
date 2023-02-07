@@ -1,0 +1,52 @@
+@import url(./reset.css);
+@import url(./fontello.css);
+@import url(./module.css);
+@import url(../index/header.css);
+@import url(../index/footer.css);
+@import url(../index/main.css);
+
+/* 본문 스타일 */
+body {
+  font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', sans-serif;
+  color: var(--black);
+  font-weight: var(--text-400);
+}
+
+/* 숨김 콘텐츠 */
+.a11y-hidden,
+legend {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 0 0, 0 0);
+}
+
+/* 기본 스타일 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--text-base);
+  font-weight: var(--text-400);
+  color: var(--black);
+}
+
+/* 링크 스타일 */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+}

@@ -1,3 +1,63 @@
+/* 버블 시작 */
+.bubble-wrapper {
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+  right: 400px;
+  display: none;
+}
+
+.bubble_wrapper-inner {
+  background-color: var(--white);
+  width: 254px;
+  height: 100px;
+  font-size: 12px;
+  padding: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 24px;
+  position: absolute;
+  top: 11px;
+  border: 1px solid #c4c4c4;
+}
+.bubble_wrapper-inner::after {
+  content: ' ';
+  border-bottom: 10px solid var(--white);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  position: absolute;
+  top: -8px;
+  right: 28px;
+}
+
+.bubble_wrapper-inner::before {
+  content: ' ';
+  border-bottom: 10px solid #c4c4c4;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  position: absolute;
+  top: -10px;
+  right: 28px;
+}
+
+.bubble_wrapper-inner p:nth-child(2) {
+  color: #a6a6a6;
+  font-weight: var(--text-600);
+  margin-top: 7.5px;
+}
+
+.bubble_wrapper-inner p:last-child {
+  position: absolute;
+  left: 90px;
+  bottom: 27.5px;
+}
+
+.bubble__product-image {
+  width: 46px;
+  height: 60px;
+}
+/* 버블 끝 */
+
 .header {
   width: 100%;
   font-weight: 500;
@@ -36,7 +96,7 @@
 
 .top-banner__inner button > img {
   width: 42px;
-  height: 42px;  
+  height: 42px;
 }
 
 .header__inner {
@@ -98,6 +158,11 @@
   align-items: center;
 }
 
+.page-switch span,
+.page-switch a {
+  color: var(--grey);
+}
+
 .page-switch span {
   opacity: 0.3;
   margin: 0px 5px;
@@ -124,7 +189,7 @@
 }
 
 .page-theme a:last-child::after {
-  content: url("/client/assets/icons/icon/New-1.svg");
+  content: url('../assets/icons/icon/New-1.svg');
   position: absolute;
   top: -10px;
   padding: 0 4px;
@@ -139,7 +204,7 @@
   font-size: 16px;
 }
 
-.search-form__group button{
+.search-form__group button {
   background-color: transparent;
   border: none;
   position: relative;
@@ -160,27 +225,27 @@
 }
 
 .member-page__location {
-  background: url("../client/assets/icons/icon/Location.svg") no-repeat;
+  background: url('../assets/icons/icon/Location.svg') no-repeat;
   background-size: cover;
 }
 .member-page__location:hover {
-  background: url("../client/assets/icons/icon/Location-pc.svg") no-repeat;
+  background: url('../assets/icons/icon/Location-pc.svg') no-repeat;
 }
 
 .member-page__heart {
-  background: url("../client/assets/icons/icon/Heart.svg") no-repeat;
+  background: url('../assets/icons/icon/Heart.svg') no-repeat;
   background-size: cover;
 }
 .member-page__heart:hover {
-  background: url("../client/assets/icons/icon/Heart-pc.svg") no-repeat;
+  background: url('../assets/icons/icon/Heart-pc.svg') no-repeat;
 }
 
 .member-page__cart {
-  background: url("../client/assets/icons/icon/Cart.svg") no-repeat;
+  background: url('../assets/icons/icon/Cart.svg') no-repeat;
   background-size: cover;
 }
 .member-page__cart:hover {
-  background: url("../client/assets/icons/icon/Cart-pc.svg") no-repeat;
+  background: url('../assets/icons/icon/Cart-pc.svg') no-repeat;
 }
 
 .nav {
@@ -188,17 +253,17 @@
   padding: 20px 0px;
 }
 
-.nav__category{
+.nav__category {
   width: 110px;
   height: 25px;
-  background: url("../client/assets/icons/icon/Category.svg") no-repeat -10px -2px;
+  background: url('../assets/icons/icon/Category.svg') no-repeat -10px -2px;
   position: relative;
   margin-bottom: 10px;
   cursor: pointer;
 }
 
-.nav__category:hover{
-  background: url("../client/assets/icons/icon/Category.svg") no-repeat -10px -29px;
+.nav__category:hover {
+  background: url('../assets/icons/icon/Category.svg') no-repeat -10px -29px;
 }
 
 .nav__category-list {
