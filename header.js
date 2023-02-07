@@ -27,3 +27,4 @@ list.addEventListener('mouseleave', closeListHandler);
 closeBtn.addEventListener('click', closeBannerHandler);
 
 // colorSwitch.addEventListener('click', colorChangeHandler)
+
