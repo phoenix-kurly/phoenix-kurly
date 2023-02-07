@@ -1,6 +1,8 @@
 .header {
   width: 100%;
   font-weight: 500;
+  position: sticky;
+  top: 0px;
 }
 
 .top-banner {
@@ -94,10 +96,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.page-switch span, .page-switch a {
-  color: var(--grey);
 }
 
 .page-switch span {
@@ -204,7 +202,6 @@
 }
 
 .nav__category-list {
-  background-color: lightyellow;
   position: fixed;
   top: 210px;
   z-index: 1;
@@ -219,6 +216,13 @@
   line-height: 22px;
   text-align: left;
   padding: 10px 15px;
+  /* list-style-image: url("../client/assets/icons/icon/MenuIcon.svg"); */
+}
+
+.nav__category-list li:hover {
+  cursor: pointer;
+  background-color: var(--light-gray);
+  color: var(--primary-color);
 }
 
 .nav__categhory__menu {
@@ -259,4 +263,12 @@
 
 .hidden {
   display: none;
+}
+
+.disabled-color {
+  color: var(--grey);
+}
+
+.activate-color {
+  color: var(--primary-color);
 }
