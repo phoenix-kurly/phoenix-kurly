@@ -3,6 +3,7 @@
 @import url(./module.css);
 @import url(./header.css);
 @import url(./footer.css);
+@import url(./main.css);
 
 /* 본문 스타일 */
 body {
@@ -32,7 +33,9 @@ legend {
 }
 
 html {
-  font-size: 10px;
+  font-size: var(--text-base);
+  font-weight: var(--text-400);
+  color: var(--black);
 }
 
 /* 링크 스타일 */
@@ -41,14 +44,12 @@ a {
   text-decoration: none;
 }
 
-/* header, footer 및 전체 레이아웃 */
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+li{
+  list-style: none;
 }
 
-main {
-  width: 100%;
-  height: 10000px;
+h1{
+  font-size: 28px;
+  font-weight: 700;
 }
+

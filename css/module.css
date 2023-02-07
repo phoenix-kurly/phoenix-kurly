@@ -1,5 +1,5 @@
 :root {
-  /* color */
+  /* color  */
   --purple: #5f0080;
   --white: #fff;
   --black: #333;
@@ -8,10 +8,12 @@
   --orange: #fa622f;
   --light-gray: #e1e1e1;
 
+
   --primary-color: var(--purple);
   --accent-color: var(--orange);
 
   /* space  */
+
   --spacing-sxxs: 2px;
   --spacing--xxs: 4px;
   --spacing-xs: 8px;
