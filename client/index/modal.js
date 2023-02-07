@@ -1,5 +1,5 @@
-import { addClass, removeClass } from '../client/lib/dom/css.js';
-import { getNode } from '../client/lib/dom/getNode.js';
+// import { addClass, removeClass } from '../client/lib/dom/css.js';
+// import { getNode } from '../client/lib/dom/getNode.js';
 
 const body = document.getElementsByTagName('body')[0];
 const cartButton = document.querySelectorAll(".today-product-list__button-wrapper");
