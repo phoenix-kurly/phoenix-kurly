@@ -15,3 +15,12 @@ items.forEach(item => {
     item.classList.add('is-active');
   });
 });
+
+// 장바구니 클릭 시 상단에 버블 4초 띄우기
+// const notification = document.getElementsByClassName('bubble-wrapper');
+// const showNotification = () => {
+//   notification.style.display = 'block';
+//   setTimeout(() => {
+//     notification.style.display = 'none';
+//   }, 4000);
+// };
