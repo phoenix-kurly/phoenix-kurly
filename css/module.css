@@ -1,4 +1,5 @@
 :root {
+
   /* color */
   --purple: #5f0080;
   --white: #fff;
@@ -7,7 +8,6 @@
   --grey: #999;
   --orange: #fa622f;
   --light-gray: #e1e1e1;
-
   --primary-color: var(--purple);
   --accent-color: var(--orange);
 

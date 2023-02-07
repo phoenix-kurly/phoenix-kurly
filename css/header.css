@@ -61,6 +61,8 @@
 .header {
   width: 100%;
   font-weight: 500;
+  position: sticky;
+  top: 0px;
 }
 
 .top-banner {
@@ -94,7 +96,7 @@
 
 .top-banner__inner button > img {
   width: 42px;
-  height: 42px;
+  height: 42px;  
 }
 
 .header__inner {
@@ -187,7 +189,7 @@
 }
 
 .page-theme a:last-child::after {
-  content: url('/client/assets/icons/icon/New-1.svg');
+  content: url("/client/assets/icons/icon/New-1.svg");
   position: absolute;
   top: -10px;
   padding: 0 4px;
@@ -223,27 +225,27 @@
 }
 
 .member-page__location {
-  background: url('../client/assets/icons/icon/Location.svg') no-repeat;
+  background: url("../client/assets/icons/icon/Location.svg") no-repeat;
   background-size: cover;
 }
 .member-page__location:hover {
-  background: url('../client/assets/icons/icon/Location-pc.svg') no-repeat;
+  background: url("../client/assets/icons/icon/Location-pc.svg") no-repeat;
 }
 
 .member-page__heart {
-  background: url('../client/assets/icons/icon/Heart.svg') no-repeat;
+  background: url("../client/assets/icons/icon/Heart.svg") no-repeat;
   background-size: cover;
 }
 .member-page__heart:hover {
-  background: url('../client/assets/icons/icon/Heart-pc.svg') no-repeat;
+  background: url("../client/assets/icons/icon/Heart-pc.svg") no-repeat;
 }
 
 .member-page__cart {
-  background: url('../client/assets/icons/icon/Cart.svg') no-repeat;
+  background: url("../client/assets/icons/icon/Cart.svg") no-repeat;
   background-size: cover;
 }
 .member-page__cart:hover {
-  background: url('../client/assets/icons/icon/Cart-pc.svg') no-repeat;
+  background: url("../client/assets/icons/icon/Cart-pc.svg") no-repeat;
 }
 
 .nav {
@@ -260,12 +262,11 @@
   cursor: pointer;
 }
 
-.nav__category:hover {
-  background: url('../client/assets/icons/icon/Category.svg') no-repeat -10px -29px;
+.nav__category:hover{
+  background: url("../client/assets/icons/icon/Category.svg") no-repeat -10px -29px;
 }
 
 .nav__category-list {
-  background-color: lightyellow;
   position: fixed;
   top: 210px;
   z-index: 1;
@@ -280,6 +281,13 @@
   line-height: 22px;
   text-align: left;
   padding: 10px 15px;
+  /* list-style-image: url("../client/assets/icons/icon/MenuIcon.svg"); */
+}
+
+.nav__category-list li:hover {
+  cursor: pointer;
+  background-color: var(--light-gray);
+  color: var(--primary-color);
 }
 
 .nav__categhory__menu {
@@ -320,4 +328,12 @@
 
 .hidden {
   display: none;
+}
+
+.disabled-color {
+  color: var(--grey);
+}
+
+.activate-color {
+  color: var(--primary-color);
 }
