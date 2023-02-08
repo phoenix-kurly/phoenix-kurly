@@ -8,7 +8,6 @@ export function makeUniqueId() {
   for (let i = 0; i < 12; i++) {
     key += characters[Math.floor(Math.random() * characters.length)];
   }
-  console.log(key);
   if (userMemo(key, () => key) === false) {
     makeUniqueId();
     return;

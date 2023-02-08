@@ -35,8 +35,6 @@ export const userMemo = (() => {
     }
 
     cache[key] = callback();
-
-    console.log(cache);
   };
 })();
 
