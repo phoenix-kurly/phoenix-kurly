@@ -13,7 +13,7 @@
  ## ❤️‍🔥Phoenix팀 
  |[강보경(hungerbk)](https://github.com/hungerbk)|[박유림(yurimpark)](https://github.com/yurimpark)|[박일범(parkilbeom)](https://github.com/parkilbeom)|[배성재(baeseongjae)](https://github.com/baeseongjae)|[이에스더(woodstock)](https://github.com/Stilllee)|[정선희(sunny0221)](https://github.com/sunny0221)|
 |------|---|---|------|---|---|
-|![image](https://user-images.githubusercontent.com/83347465/215109600-1115bb7a-36ba-445c-802c-0c02f019751e.png)|![image](https://user-images.githubusercontent.com/83347465/215109737-013470ce-48e8-4ed7-8caf-445c5e6509dd.png)|![image](https://user-images.githubusercontent.com/83347465/215109153-64fc689c-d291-4995-b38f-188fbcfdd9b2.png)|![image](https://user-images.githubusercontent.com/83347465/215110025-701cc747-e3da-46f1-8775-6e8fc82dc1cf.png)|![image](https://user-images.githubusercontent.com/83347465/215110207-65d4af80-cf73-4167-be11-06096ed077e3.png)|![image](https://user-images.githubusercontent.com/83347465/215110356-c40b94bd-f6d0-4e72-b08d-5be66f8e0142.png)|
+|![image](https://user-images.githubusercontent.com/83347465/215109600-1115bb7a-36ba-445c-802c-0c02f019751e.png)|![](https://user-images.githubusercontent.com/99720055/217596083-ac5fd88c-7f89-4942-8395-d384a84313df.png)|![image](https://user-images.githubusercontent.com/83347465/215109153-64fc689c-d291-4995-b38f-188fbcfdd9b2.png)|![image](https://user-images.githubusercontent.com/83347465/215110025-701cc747-e3da-46f1-8775-6e8fc82dc1cf.png)|![image](https://user-images.githubusercontent.com/83347465/215110207-65d4af80-cf73-4167-be11-06096ed077e3.png)|![image](https://user-images.githubusercontent.com/83347465/215110356-c40b94bd-f6d0-4e72-b08d-5be66f8e0142.png)|
 
  ## 📊프로젝트 목표
  ### 공동의목표
@@ -21,7 +21,7 @@
  ### 개인 목표
  강보경 - 웹접근성을 고려하면서 조원들과 싸우지 않고 최대한 요구사항을 구현
  
- 박유림 - 깃허브를 활용한 협업 깃허브 익숙
+ 박유림 - 깃허브를 활용한 협업 적응과 팀원들과 함께하는 성장 
  
  박일범 - 협업스킬 및 의견을 모으고 깃/깃허브을 최대한 활용해서 협업시 필요한 스킬업 및 버젼관리를 이해
  
@@ -39,7 +39,7 @@
 * REGISTER 강보경
 * LOGIN 강보경
 * PRODUCT LIST 정선희
-* PRODUCT DETAIL 박유림
+* PRODUCT DETAIL 박유림, 박일범
 * CART 박일범
 * HEADER FOOTHER 이에스더
 
