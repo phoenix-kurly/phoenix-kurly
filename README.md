@@ -1,4 +1,4 @@
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=9370DB&height=130&section=header&text=Phoenix%20Proj1%20Kurly&fontSize=40" /></p>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=9370DB&height=130&section=header&text=Phoenix%20Proj1%20Karly&fontSize=40" /></p>
 
 ![image](https://user-images.githubusercontent.com/83347465/217451088-83338d0e-7066-44d5-998a-3772cfc93717.png)
 <p align="center">LikeLion FE School 4기 Vanilla Project</p>
