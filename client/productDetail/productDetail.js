@@ -103,11 +103,11 @@ const modal2 = document.querySelector('.inquiry-modal');
 const btnOpenPopup2 = document.querySelector('.inquiry-button');
 
 btnOpenPopup2.addEventListener('click', () => {
-  modal.style.display = 'block';
-  modal.style.position = 'fixed';
-  modal.style.top = '75%';
-  modal.style.left = '80%';
-  modal.style.transform = 'translate(-50%, -50%)';
+  modal2.style.display = 'block';
+  modal2.style.position = 'fixed';
+  modal2.style.top = '75%';
+  modal2.style.left = '80%';
+  modal2.style.transform = 'translate(-50%, -50%)';
   document.body.style.overflow = 'hidden';
   document.body.style.background = 'rgba(0, 0, 0, 0.5)';
 });
@@ -117,18 +117,18 @@ const btnClosePopup2 = document.querySelector('.inquiry__write__buttons__cancel'
 const btnClose2 = document.querySelector('.inquiry__closeBtn');
 
 btnClosePopup2.addEventListener('click', () => {
-  modal.style.display = 'none';
+  modal2.style.display = 'none';
   document.body.style.overflow = 'unset';
   document.body.style.background = '';
 });
 
-btnClosePopup2.addEventListener('click', () => {
-  modal.style.display = 'none';
+btnClose2.addEventListener('click', () => {
+  modal2.style.display = 'none';
   document.body.style.overflow = 'unset';
   document.body.style.background = '';
 });
 
-// 후기, 문의 글자수 세기
+// 후기 글자수 세기
 function fn_checkByte(obj) {
   const maxByte = 5000;
   const text_val = obj.value;
@@ -152,5 +152,32 @@ function fn_checkByte(obj) {
     document.getElementById('nowByte').innerText = totalByte;
   } else {
     document.getElementById('nowByte').innerText = totalByte;
+  }
+}
+
+// 문의 글자수 세기
+function fn_checkByte2(obj2) {
+  const maxByte2 = 5000;
+  const text_val2 = obj2.value;
+  const text_len2 = text_val2.length;
+
+  let totalByte2 = 0;
+  for (let i = 0; i < text_len2; i++) {
+    const each_char2 = text_val2.charAt(i);
+    const uni_char2 = escape(each_char2); //유니코드 형식으로 변환
+    if (uni_char2.length > 4) {
+      // 한글 : 2Byte
+      totalByte2 += 2;
+    } else {
+      // 영문,숫자,특수문자 : 1Byte
+      totalByte2 += 1;
+    }
+  }
+
+  if (totalByte2 > maxByte2) {
+    alert('최대 5000Byte까지만 입력가능합니다.');
+    document.getElementById('nowByte2').innerText = totalByte2;
+  } else {
+    document.getElementById('nowByte2').innerText = totalByte2;
   }
 }
