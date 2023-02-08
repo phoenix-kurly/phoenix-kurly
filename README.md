@@ -15,7 +15,7 @@
 |------|---|---|------|---|---|
 |![image](https://user-images.githubusercontent.com/83347465/215109600-1115bb7a-36ba-445c-802c-0c02f019751e.png)|![image](https://user-images.githubusercontent.com/83347465/215109737-013470ce-48e8-4ed7-8caf-445c5e6509dd.png)|![image](https://user-images.githubusercontent.com/83347465/215109153-64fc689c-d291-4995-b38f-188fbcfdd9b2.png)|![image](https://user-images.githubusercontent.com/83347465/215110025-701cc747-e3da-46f1-8775-6e8fc82dc1cf.png)|![image](https://user-images.githubusercontent.com/83347465/215110207-65d4af80-cf73-4167-be11-06096ed077e3.png)|![image](https://user-images.githubusercontent.com/83347465/215110356-c40b94bd-f6d0-4e72-b08d-5be66f8e0142.png)|
 
- ## 프로젝트 목표
+ ## 📊프로젝트 목표
  ### 공동의목표
  서로의 힘을 합쳐 기능을 구현하자 스스로 성장이 아닌 함께하는 성장
  ### 개인 목표
@@ -31,10 +31,10 @@
  
  정선희 - 팀원들과 협업하여 프로젝트 완성하기
  
- ## 주요기능
- ## 배포
+ ## 📝주요기능
+ ## 📍배포
  [phoenix-kurly](https://phoenix-kurly.github.io/phoenix-kurly/client/index/index.html)
- ## 분담
+ ## 👥분담
 * MAIN 배성재
 * REGISTER 강보경
 * LOGIN 강보경
@@ -45,7 +45,7 @@
 
  <img width="727" alt="image" src="https://user-images.githubusercontent.com/83347465/217581002-8aba5170-2c4e-42dd-bebc-ee40abc1f71a.png">
 
- ## 개발기간 및 작업관리
+ ## 🚧개발기간 및 작업관리
   ### GitHub Projects
   <img width="1627" alt="image" src="https://user-images.githubusercontent.com/83347465/217584479-2d9054c1-89a2-4a46-bb5c-ab0e186a0d7d.png">
 
@@ -67,7 +67,7 @@
   ### Milestones
   <img width="1043" alt="image" src="https://user-images.githubusercontent.com/83347465/217457033-c21b2ccc-4325-46b0-84ce-ab5a216aa201.png">
 
- ## Ground Rule
+ ## 🛎️Ground Rule
   ### Git 전략
   ### Git Commit 규칙
  1. 제목은 한 줄로 작성 
@@ -106,7 +106,7 @@
 
  
 
- ## Stack
+ ## 🪩Stack
  
  ### 💻 Environment
  ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
