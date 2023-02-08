@@ -36,7 +36,7 @@
   ### Milestones
   <img width="1043" alt="image" src="https://user-images.githubusercontent.com/83347465/217457033-c21b2ccc-4325-46b0-84ce-ab5a216aa201.png">
 
- ## Ground Rul
+ ## Ground Rule
   ### Git Commit 규칙
   ### Git Flow Branch 전략
  
