@@ -22,67 +22,65 @@
           
           <div class="cart-radio">
             <label class="radio">
-              <input type="checkbox" class="radio_chkbox" />
-              <img src="./client/assets/icons/input/Check.svg" alt="체크박스 이미지" />
+              <input type="checkbox" name="checker" id="checker1"><label for="checker1"></label>
               <span>전체선택 (0/0)</span>
             </label>
-            <span class="divider" aria-hidden="true">|</span>
+            <span class="divider" aria-hidden="true"></span>
             <button class="chk-delete">선택삭제</button>
           </div>
           <section class="accordion">
-            <h3>상품리스트</h3>
+            <h3 class="a11y-hidden">상품리스트</h3>
             <div class="food-list">
-              <h4 class="cart-accordian-cold">
-                <span class="cold-icon::before">
-                  냉장 상품
-                </span>
-                  <button class="arrow-button">
-                    <img src="./client/assets/icons/icon/Arrow.svg" alt="펼치기" class="arrow-button">
-                  </button>
-              </h4>
-              <h4 class="cart-accordian-frozen">
-                  <span class="frozen-icon::before">
+              <div class="cart-accordian-cold">
+              <details>
+                <summary>
+                    <span class="cold-icon">
+                      냉장 상품
+                    </span>
+                      <button class="arrow-button">
+                      </button>
+                    </summary>
+                    
+                  </details>
+                </div>
+              <div class="cart-accordian-frozen">
+                  <span class="frozen-icon">
                     냉동 상품
                   </span>
                   <button class="arrow-button">
-                    <img src="./client/assets/icons/icon/Arrow.svg" alt="펼치기" class="arrow-button">
+                    
                   </button>
-              </h4>
+              </div>
               <h4 class="cart-accordian-room-temp">
-                  <span class="room-temp-icon::before">
+                  <span class="room-temp-icon">
                     상온 상품
                   </span>
                   <button class="arrow-button">
-                    <img src="./client/assets/icons/icon/Arrow.svg" alt="펼치기" class="arrow-button">
+                    
                   </button>
               </h4>
             </div>
           </section>
           <div class="cart-radio">
             <label class="radio">
-              <input type="checkbox" class="radio-chkbox" />
-              <img src="./client/assets/icons/input/Check.svg" alt="체크박스 이미지" />
+              <input type="checkbox" name="checker" id="checker1"><label for="checker1"></label>
               <span>전체선택 (0/0)</span>
             </label>
-            <span class="divider" aria-hidden="true">|</span>
+            <span class="divider" aria-hidden="true"></span>
             <button class="chk-delete">선택삭제</button>
           </div>
         </section>
         <!-- 주문하기 및 결제금액 영역 -->
        <aside class="credit">
           <article class="location">
-            <section class="title">
-              <h2 class="icon-location">배송지</h2>
-            </section>
-            <section class="addes">
-              <p class="">
-                <span class="">서울 중랑구 면목로 42길 11 (행운빌딩)
-                  603호</span>
-              </p>
-              <p>샛별배송</p>
-              <button class="" type="button">
+            <section class="credit__location-addes">
+              <section class="location-title">
+                <h2 class="icon-location">배송지</h2>
+              </section>
+                <span class="location-address">서울 중랑구 면목로 42길 11 (행운빌딩) 603호</span>
+              <p class="location-badge">샛별배송</p>
+              <button class="location-button" type="button">
                 <span class="">
-                  <!-- <img src="./client/assets/icons/Icon/Search.png" alt="돋보기 아이콘" class="" /> -->
                   배송지 변경
                 </span>
               </button>
@@ -102,16 +100,16 @@
                 <span class="credit-accumulate">최대 36원 적립 일반 0.1%</span>
               </div>
             </section>
-            <section class="oder">
-              <button class="oder-button" type="button">
-                <span>주문하기</span>
-              </button>
-              <ul class="css-19kxq7d">
-                <li class="css-7s0nna ejr204i0">[주문완료] 상태일 경우에만 주문 취소 가능합니다.</li>
-                <li class="css-7s0nna ejr204i0">[마이컬리 &gt; 주문내역 상세페이지] 에서 직접 취소하실 수 있습니다.</li>
-              </ul>
-            </section>
           </article>
+          <section class="oder">
+            <button class="oder-button" type="button">
+              <span>주문하기</span>
+            </button>
+            <ul class="css-19kxq7d">
+              <li class="css-7s0nna ejr204i0">[주문완료] 상태일 경우에만 주문 취소 가능합니다.</li>
+              <li class="css-7s0nna ejr204i0">[마이컬리 &gt; 주문내역 상세페이지] 에서 직접 취소하실 수 있습니다.</li>
+            </ul>
+          </section>
        </aside>
       </article>
     </main>
