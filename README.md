@@ -46,6 +46,10 @@
  <img width="727" alt="image" src="https://user-images.githubusercontent.com/83347465/217581002-8aba5170-2c4e-42dd-bebc-ee40abc1f71a.png">
 
  ## 🚧개발기간 및 작업관리
+ 
+  ### 디스코드 봇 알림설정
+  <img width="309" alt="image" src="https://user-images.githubusercontent.com/83347465/217593761-b8110eb5-a9cc-4e86-a7e2-fd7b49f53191.png">
+
   ### GitHub Projects
   <img width="1627" alt="image" src="https://user-images.githubusercontent.com/83347465/217584479-2d9054c1-89a2-4a46-bb5c-ab0e186a0d7d.png">
 
