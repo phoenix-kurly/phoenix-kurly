@@ -319,7 +319,76 @@
   font-weight: 500;
   line-height: 22px;
   text-align: left;
-  padding: 10px 0px 10px 35px;
+  padding: 10px 0px 10px 55px;
+  background-image: url("../assets/icons/icon/MenuIcon.svg");
+  background-repeat: no-repeat;
+  background-size: 45px;
+  background-position: 5px 0;
+}
+
+/* category list icon */
+.nav__category-list li:nth-child(2) {
+  background-position: 5px -340px;
+}
+.nav__category-list li:nth-child(3) {
+  background-position: 5px -603px;
+}
+.nav__category-list li:nth-child(4) {
+  background-position: 5px -790px;
+}
+.nav__category-list li:nth-child(5) {
+  background-position: 5px -110px;
+}
+.nav__category-list li:nth-child(6) {
+  background-position: 5px -265px;
+}
+.nav__category-list li:nth-child(7) {
+  background-position: 5px -526px;
+}
+.nav__category-list li:nth-child(8) {
+  background-position: 5px -377px;
+}
+.nav__category-list li:nth-child(9) {
+  background-position: 5px -191px;
+}
+.nav__category-list li:nth-child(10) {
+  background-position: 5px -454px;
+}
+.nav__category-list li:nth-child(11) {
+  background-position: 5px -77px;
+}
+.nav__category-list li:nth-child(12) {
+  background-position: 5px -754px;
+}
+.nav__category-list li:nth-child(13) {
+  background-position: 5px -680px;
+}
+.nav__category-list li:nth-child(14) {
+  background-position: 5px -40px;
+}
+.nav__category-list li:nth-child(15) {
+  background-position: 5px -150px;
+}
+.nav__category-list li:nth-child(16) {
+  background-position: 5px -230px;
+}
+.nav__category-list li:nth-child(17) {
+  background-position: 5px -640px;
+}
+.nav__category-list li:nth-child(18) {
+  background-position: 5px -303px;
+}
+.nav__category-list li:nth-child(19) {
+  background-position: 5px -415px;
+}
+.nav__category-list li:nth-child(20) {
+  background-position: 5px -490px;
+}
+.nav__category-list li:nth-child(21) {
+  background-position: 5px -564px;
+}
+.nav__category-list li:last-child {
+  background-position: 5px -717px;
 }
 
 .nav__category-list li:hover {

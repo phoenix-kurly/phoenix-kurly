@@ -21,7 +21,6 @@
 <rect x="8" y="1547" width="80" height="80" fill="url(#pattern19)"/>
 <rect x="8" y="1627" width="81" height="81" fill="url(#pattern20)"/>
 <rect x="8" y="1708" width="81" height="81" fill="url(#pattern21)"/>
-<rect x="0.5" y="0.5" width="96" height="1796" rx="4.5" stroke="#9747FF" stroke-dasharray="10 5"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_42_970" transform="scale(0.0123457)"/>
