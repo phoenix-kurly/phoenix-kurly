@@ -519,19 +519,17 @@
         </div>
         <div class="inquiry__write__input">
           <div class="input__title">
-            <label for="inquiry-title" class="input__title__label">제목</label>
-            <input id="inquiry-title" class="input__title__input" required placeholder="제목을 입력해주세요" />
+            <label for="inquiry-title">제목</label>
+            <input id="inquiry-title" required placeholder="제목을 입력해주세요" />
           </div>
           <div class="input__content">
-            <div>
-              <span>내용</span>
-            </div>
-            <div>
+            <label for="inquiry-title">내용</label>
               <textarea
                 cols="135"
                 rows="12"
                 id="inquiry-content"
                 class="input__content__input"
+                onkeyup="fn_checkByte2(this)"
                 required
                 placeholder="상품문의 작성 전 확인해 주세요
 • 답변은 영업일 기준 2~3일 소요됩니다.
@@ -552,22 +550,23 @@
 • 주문 완료 후 배송 방법(샛별/택배)은 변경이 불가능합니다.
 • 배송일 배송시간 지정은 불가능합니다. (예약배송 포함)
                     ※ 전화번호, 이메일, 주소, 계좌번호 등의 상세 개인정보가 문의 내용에 저장되지 않도록 주의해 주시기 바랍니다."></textarea>
+                    <span class="count">(<span id="nowByte2">0</span>/ 5000)</span>
             </div>
           </div>
-        </div>
-        <div class="inquiry__write__secret">
+          <div class="inquiry__write__secret">
           <label for="isSecret" class="inquiry__write__secret__label">
             <input id="isSecret" class="secret__label__input" type="checkbox" />
             <!-- <img src="../assets/icons/Input/Check.svg" alt="" /> -->
             <span>비밀글로 문의하기</span>
           </label>
-        </div>
+          </div>
         <div class="inquiry__write__buttons">
           <button class="inquiry__write__buttons__cancel" type="button">취소</button>
           <button class="inquiry__write__buttons__register" type="button">등록</button>
         </div>
+        </div>
+        
       </div>
-    </div>
 
       <!-- 문의 ----------------------------------------------------------------------------------------------------->
       <div class="qna" id="qna">
