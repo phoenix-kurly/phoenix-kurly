@@ -5,9 +5,10 @@ body {
 /* 비주얼 */
 .visual {
   margin-top: 247px;
-  width: 1920px;
-  margin-left: auto;
-  margin-right: auto;
+  /* width: 1920px; */
+  text-align: center;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   /* background-color: teal; */
 }
 
@@ -215,7 +216,7 @@ main {
 
 .recent-product {
   width: 74px;
-  height: 100vh;
+  height: 200vh;
   position: absolute;
   right: 39px;
   top: 810px;

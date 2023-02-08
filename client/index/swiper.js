@@ -21,25 +21,65 @@ const swiper = new Swiper('.swiper-container',{
 
 const swiper2 = new Swiper('.today-product-swiper-container',{
   autoplay: false,
-  loop: true,
+  loop: false,
   lazy:{
     loadPrevNext:true
   },
   navigation: {
     nextEl: '.today-product-next',
     prevEl: '.today-product-prev'
+  },
+  on: {
+    activeIndexChange: function(swiper2){
+      const prevBtn = document.querySelector('.today-product-prev');
+      const nextBtn = document.querySelector('.today-product-next');
+      
+      if(this.realIndex==0){
+        prevBtn.classList.add('hidden');
+      }else{
+        prevBtn.classList.remove('hidden');
+      }
+
+      if(this.realIndex >= swiper2.slides.length-1){
+        nextBtn.classList.add('hidden');
+      }else{
+        nextBtn.classList.remove('hidden');
+      }
+
+    }
   }
 });
 
 
 const swiper3 = new Swiper('.product-swiper-container',{
   autoplay: false,
-  loop: true,
+  loop: false,
   lazy:{
     loadPrevNext:true
   },
   navigation: {
     nextEl: '.product-button-next',
     prevEl: '.product-button-prev'
+  },
+  on: {
+    activeIndexChange: function(swiper3){
+      const prevBtn = document.querySelector('.product-button-prev');
+      const nextBtn = document.querySelector('.product-button-next');
+
+      if(this.realIndex==0){
+        prevBtn.classList.add('hidden');
+      }else{
+        prevBtn.classList.remove('hidden');
+      }
+
+      if(this.realIndex >= swiper3.slides.length-1){
+        nextBtn.classList.add('hidden');
+      }else{
+        nextBtn.classList.remove('hidden');
+      }
+
+    }
   }
 });
+
+
