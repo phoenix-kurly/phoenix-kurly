@@ -31,10 +31,9 @@
  
  정선희 - 팀원들과 협업하여 프로젝트 완성하기
  
- ## 시작가이드
  ## 주요기능
  ## 배포
- [phoenix-kurly] (https://phoenix-kurly.github.io/phoenix-kurly/client/index/index.html)
+ [phoenix-kurly](https://phoenix-kurly.github.io/phoenix-kurly/client/index/index.html)
  ## 분담
 * MAIN 배성재
 * REGISTER 강보경
