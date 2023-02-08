@@ -65,7 +65,7 @@
    <img width="808" alt="image" src="https://user-images.githubusercontent.com/83347465/217452986-e5ab18a3-d135-439d-814f-671f51e8df7f.png">
 
    #### 🏷️ Labels
-   <img width="808" alt="image" src="https://user-images.githubusercontent.com/83347465/217454589-a9a69d43-d533-4421-8754-86bdf91fbc69.png">
+   ![image](https://user-images.githubusercontent.com/83347465/217627193-a727687b-9fe1-4646-a308-8bdbb8f30a5a.png)
 
    ---
   ### Milestones
