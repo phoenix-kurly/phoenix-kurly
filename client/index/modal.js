@@ -3,9 +3,12 @@
 
 const body = document.getElementsByTagName('body')[0];
 
+const mainModal = document.querySelector('.main-popup');
+const addCartModal = document.querySelector('.add-cart-container');
 const cartButton = document.querySelectorAll(".today-product-list__button-wrapper");
 
-const addCartModal = document.querySelector('.add-cart-container');
+const mainCloseToday = document.querySelector('.main-popup__close-today');
+const mainClose = document.querySelector('.main-popup__close');
 
 const cancelButton = document.querySelector('.add-cart__cancel');
 const minusButton = document.querySelector('.add-cart__minus-button');
@@ -66,6 +69,7 @@ Array.from(cartButton).forEach((item)=> {
 });
   
 cancelButton.addEventListener('click',closeModal);
-
 minusButton.addEventListener('click',minusHandler);
 plusButton.addEventListener('click',plusHandler);
+mainClose.addEventListener('click',()=>{mainModal.classList.add('hidden')});
+mainCloseToday.addEventListener('click',()=>{mainModal.classList.add('hidden')});

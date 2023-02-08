@@ -1,7 +1,6 @@
 import '../index/swiper.js';
 import '../index/modal.js';
 
-// import { addClass, getNode, removeClass } from '../client/lib';
 
 // const divBannerSlide = document.querySelectorAll('.main-banner-slide');
 const imgContainer = document.querySelectorAll('.today-product-list__img-container');
@@ -33,7 +32,7 @@ async function getProducts(){
     let data = await response.json();
     let products = data.products;
 
-    for(let i=0;i<4;i++){
+    for(let i=0;i<products.length;i++){
       const tmp = `<img src = "${products[i].image}" alt = "" />`;
       imgContainer[i].insertAdjacentHTML('afterbegin',tmp);
       productsText[i].insertAdjacentHTML('beforeend',`<p class="today-product-list__name">${products[i].name}</p>`);
@@ -49,7 +48,7 @@ async function getProducts(){
       productsText[i].insertAdjacentHTML('beforeend',`<p class="today-product-list__price">${products[i].price} 원</p>`);
     }
     
-    for(let i=0;i<4;i++){
+    for(let i=0;i<products.length;i++){
       const tmp = `<img src = "${products[i].image}" alt = "" />`;
       imgContainer[i+4].insertAdjacentHTML('afterbegin',tmp)
       productsText[i+4].insertAdjacentHTML('beforeend',`<p class="today-product-list__name">${products[i].name}</p>`);
@@ -64,7 +63,7 @@ async function getProducts(){
       productsText[i+4].insertAdjacentHTML('beforeend',`<p class="today-product-list__price">${products[i].price} 원</p>`);  
     }
 
-    for(let i=0;i<4;i++){
+    for(let i=0;i<products.length;i++){
       const tmp = `<img src = "${products[i].image}" alt = "" />`;
       imgContainer[i+8].insertAdjacentHTML('afterbegin',tmp);
       productsText[i+8].insertAdjacentHTML('beforeend',`<p class="today-product-list__name">${products[i].name}</p>`);
@@ -80,7 +79,7 @@ async function getProducts(){
       productsText[i+8].insertAdjacentHTML('beforeend',`<p class="today-product-list__price">${products[i].price} 원</p>`);
     }
 
-    for(let i=0;i<4;i++){
+    for(let i=0;i<products.length;i++){
       const tmp = `<img src = "${products[i].image}" alt = "" />`;
       imgContainer[i+12].insertAdjacentHTML('afterbegin',tmp);
       productsText[i+12].insertAdjacentHTML('beforeend',`<p class="today-product-list__name">${products[i].name}</p>`);
