@@ -4,6 +4,7 @@
 const body = document.getElementsByTagName('body')[0];
 
 const cartButton = document.querySelectorAll(".today-product-list__button-wrapper");
+
 const addCartModal = document.querySelector('.add-cart-container');
 
 const cancelButton = document.querySelector('.add-cart__cancel');
