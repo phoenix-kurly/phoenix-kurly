@@ -9,14 +9,123 @@
     <link rel="stylesheet" href="../css/style.css" />
     <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css"> -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script defer src="./main.js" type="module"></script>
+    <script defer src="./header.js" type="module"></script>
 
     <title>마켓칼리</title>
   </head>
   <body>
     <!-- 헤더 -->
-    <header></header>
-
+    <header class="header">
+      <div id="dcAds" class="top-banner">
+        <div class="top-banner__inner">
+          <p>
+            지금 가입하고 인기상품 <b>100원</b>에 받아가세요!
+          </p>
+          <button id="closeBtn">
+            <img src="../assets/icons/icon/Close.svg" alt="닫기"
+            />
+          </button>
+        </div>
+      </div>
+      <div class="header__inner">
+        <ul class="header__inner-member">
+          <li>
+            <a href="../register/register.html">회원가입</a>
+            <span aria-hidden="true">|</span>
+          </li>
+          <li>
+            <a href="../login/login.html">로그인</a>
+            <span aria-hidden="true">|</span>
+          </li>
+          <li>
+            <a href="#">고객센터
+              <img src="../assets/icons/icon/Icon_down-1.svg" alt="" />
+            </a>
+          </li>        
+        </ul>
+        <div class="header-inner__top">
+          <div class="page-switch">
+            <img class="logo" src="../assets/icons/icon/Logo.svg" alt="#" />
+            <div class="page-theme disabled-color">
+              <a class="primary-color" href="#">
+                마켓칼리
+              </a>
+              <span aria-hidden="true">|</span>
+              <a href="#">
+                뷰티칼리
+              </a>
+            </div>
+          </div> 
+          <form class="search-form">
+            <fieldset>
+              <legend>검색 폼</legend>
+              <div class="search-form__group">
+                <div class="form-input">
+                  <label for="search" class="a11y-hidden">검색</label>
+                </div>
+                <input id="search" type="search" required placeholder="검색어를 입력해주세요" />
+                <button>
+                  <img src="../assets/icons/icon/Search.svg" alt="검색버튼" />
+                </button>
+              </div>
+            </fieldset>
+          </form>
+          <ul class="member-page">
+            <li>
+              <a class="member-page__location" aria-label="배송지" href="#">
+              </a>
+            </li>
+            <li>
+              <a class="member-page__heart" aria-label="찜" href="#">
+              </a>
+            </li>
+            <li>
+              <a class="member-page__cart" aria-label="장바구니" href="#">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <nav class="nav">
+          <div
+          id="category" class="nav__category">
+          </div>
+          <ul id="list" class="nav__category-list hidden">
+            <li>선물하기</li>
+            <li>채소</li>
+            <li>과일·견과·쌀</li>
+            <li>수산·해산·건어물</li>
+            <li>정육·계란</li>
+            <li>국·반찬·메인요리</li>
+            <li>샐러드·간편식</li>
+            <li>면·양념·오일</li>
+            <li>생수·음료·우유·커피</li>
+            <li>간식·과자·떡</li>
+            <li>베이커리·치즈·델리</li>
+            <li>건강식품</li>
+            <li>와인</li>
+            <li>전통주</li>
+            <li>생활용품·리빙·캠핑</li>
+            <li>스킨케어·메이크업</li>
+            <li>헤어·바디·구강</li>
+            <li>주방용품</li>
+            <li>가전제품</li>
+            <li>반려동물</li>
+            <li>베이비·키즈·완구</li>
+            <li>여행·티켓</li>
+          </ul>
+          <ul class="nav__categhory__menu">
+            <li>신상품</li>
+            <li>베스트</li>
+            <li>알뜰쇼핑</li>
+            <li>특가/혜택</li>
+          </ul>
+          <div class="nav__categhory__delivery">
+            <span>샛별 · 택배</span>
+            <span>배송안내</span>
+          </div>
+        </nav>
+      </div>
+    </header>
     <!-- 비주얼 -->
     <section class="visual">
       <h2 class="a11y-hidden">메인배너</h2>
@@ -55,7 +164,7 @@
               <div class="today-product-list swiper-slide">
                 <li>
                   <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product01.svg" alt="탱탱쫄면" />
+                    <img src="../assets/images/product01.svg" alt="탱탱쫄면" />
                     <div class="today-product-list__button-wrapper">
                       <button><span>장바구니</span></button>
                     </div>
@@ -67,7 +176,7 @@
                 </li>
                 <li>
                   <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product02.svg" alt="온더바디 선쿠션" />
+                    <img src="../assets/images/product02.svg" alt="온더바디 선쿠션" />
                     <div class="today-product-list__button-wrapper">
                       <button><span>장바구니</span></button>
                     </div>
@@ -79,7 +188,7 @@
                 </li>
                 <li>
                   <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
+                    <img src="../assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
                     <div class="today-product-list__button-wrapper">
                       <button><span>장바구니</span></button>
                     </div>
@@ -91,7 +200,7 @@
                 </li>
                 <li>
                   <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
+                    <img src="../assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
                     <div class="today-product-list__button-wrapper">
                       <button><span>장바구니</span></button>
                     </div>
@@ -110,7 +219,7 @@
               <div class="today-product-list swiper-slide">
                 <li>
                   <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product01.svg" alt="탱탱쫄면" />
+                    <img src="../assets/images/product01.svg" alt="탱탱쫄면" />
                     <div class="today-product-list__button-wrapper">
                       <button><span>장바구니</span></button>
                     </div>
@@ -122,7 +231,7 @@
                 </li>
                 <li>
                   <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product02.svg" alt="온더바디 선쿠션" />
+                    <img src="../assets/images/product02.svg" alt="온더바디 선쿠션" />
                     <div class="today-product-list__button-wrapper">
                       <button><span>장바구니</span></button>
                     </div>
@@ -134,7 +243,7 @@
                 </li>
                 <li>
                   <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
+                    <img src="../assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
                     <div class="today-product-list__button-wrapper">
                       <button><span>장바구니</span></button>
                     </div>
@@ -146,7 +255,7 @@
                 </li>
                 <li>
                   <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
+                    <img src="../assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
                     <div class="today-product-list__button-wrapper">
                       <button><span>장바구니</span></button>
                     </div>
@@ -170,7 +279,7 @@
 
         <section class="line-banner">
           <h2 class="a11y-hidden">배너</h2>
-          <a href="#"><img src="client/assets/images/banner03.svg" alt="배너" /></a>
+          <a href="#"><img src="../assets/images/banner03.svg" alt="배너" /></a>
         </section>
 
         <section class="today-product">
@@ -182,7 +291,7 @@
               <div class="today-product-list swiper-slide">
                 <li>
                   <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product01.svg" alt="탱탱쫄면" />
+                    <img src="../assets/images/product01.svg" alt="탱탱쫄면" />
                     <div class="today-product-list__button-wrapper">
                       <button><span>장바구니</span></button>
                     </div>
@@ -194,7 +303,7 @@
                 </li>
                 <li>
                   <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product02.svg" alt="온더바디 선쿠션" />
+                    <img src="../assets/images/product02.svg" alt="온더바디 선쿠션" />
                     <div class="today-product-list__button-wrapper">
                       <button><span>장바구니</span></button>
                     </div>
@@ -206,7 +315,7 @@
                 </li>
                 <li>
                   <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
+                    <img src="../assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
                     <div class="today-product-list__button-wrapper">
                       <button><span>장바구니</span></button>
                     </div>
@@ -218,7 +327,7 @@
                 </li>
                 <li>
                   <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
+                    <img src="../assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
                     <div class="today-product-list__button-wrapper">
                       <button><span>장바구니</span></button>
                     </div>
@@ -237,7 +346,7 @@
               <div class="today-product-list swiper-slide">
                 <li>
                   <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product01.svg" alt="탱탱쫄면" />
+                    <img src="../assets/images/product01.svg" alt="탱탱쫄면" />
                     <div class="today-product-list__button-wrapper">
                       <button><span>장바구니</span></button>
                     </div>
@@ -249,7 +358,7 @@
                 </li>
                 <li>
                   <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product02.svg" alt="온더바디 선쿠션" />
+                    <img src="../assets/images/product02.svg" alt="온더바디 선쿠션" />
                     <div class="today-product-list__button-wrapper">
                       <button><span>장바구니</span></button>
                     </div>
@@ -261,7 +370,7 @@
                 </li>
                 <li>
                   <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
+                    <img src="../assets/images/product03.svg" alt="유기농 밀키퀸 현미" />
                     <div class="today-product-list__button-wrapper">
                       <button><span>장바구니</span></button>
                     </div>
@@ -273,7 +382,7 @@
                 </li>
                 <li>
                   <div class="today-product-list__img-container">
-                    <img src="client/assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
+                    <img src="../assets/images/product04.svg" alt="[프로쉬] 베이비 세탁세" />
                     <div class="today-product-list__button-wrapper">
                       <button><span>장바구니</span></button>
                     </div>
@@ -302,17 +411,17 @@
           <ul class="recent-product__list">
             <li>
               <a href="#">
-                <img src="client/assets/images/product01.svg" alt="탱탱쫄면" width="40" height="51" />
+                <img src="../assets/images/product01.svg" alt="탱탱쫄면" width="40" height="51" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="client/assets/images/product02.svg" alt="선쿠션" width="40" height="51" />
+                <img src="../assets/images/product02.svg" alt="선쿠션" width="40" height="51" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="client/assets/images/product03.svg" alt="현미" width="40" height="51" />
+                <img src="../assets/images/product03.svg" alt="현미" width="40" height="51" />
               </a>
             </li>
           </ul>
@@ -325,7 +434,7 @@
         <h2 class="a11y-hidden">메인 팝업</h2>
         <div class="main-popup__inner">
           <a href="#">
-            <img src="client/assets/images/ea7e5e29-f8e5-4f65-934a-62432df4b337-1.svg" alt="제니" />
+            <img src="../assets/images/ea7e5e29-f8e5-4f65-934a-62432df4b337-1.svg" alt="제니" />
           </a>
           <div class="main-popup__button-wrapper">
             <button>오늘 하루 안보기</button><button>닫기</button>

@@ -7,18 +7,19 @@ export function matchPw() {
   if (password.value === '') {
     getNode('.no-password').style.display = 'block';
     confirmPassword.value = '';
-    return;
+    return false;
   }
   if (password.value !== confirmPassword.value) {
     getNode('.no-password').style.display = 'none';
     getNode('.same-pw').style.display = 'none';
     getNode('.unsame-pw').style.display = 'block';
+    return false;
   } else {
     getNode('.no-password').style.display = 'none';
     getNode('.unsame-pw').style.display = 'none';
     getNode('.same-pw').style.display = 'block';
+    return true;
   }
-  return;
 }
 
 export function checkLength() {
@@ -28,8 +29,10 @@ export function checkLength() {
     getNode('.unsame-pw').style.display = 'none';
     getNode('.same-pw').style.display = 'none';
     confirmPassword.value = '';
+    return false;
   } else {
     getNode('.password-desc').style.display = 'none';
+    return true;
   }
   return;
 }
