@@ -30,9 +30,9 @@ const productsText = document.querySelectorAll('.today-product-list__text');
 
 async function getProducts(){
   try{
-    let response = await fetch('http://localhost:3000/data');
+    let response = await fetch('http://localhost:3000/products');
     let data = await response.json();
-    let products = data.products;
+    let products = data;
 
     for(let i=0;i<products.length;i++){
       const tmp = `<img src = "${products[i].image}" alt = "" />`;
