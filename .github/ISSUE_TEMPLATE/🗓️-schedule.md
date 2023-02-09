@@ -1,6 +1,6 @@
 ---
-name: "\U0001F5D3️ schedule"
-about: phoenix조의 schedule 템플릿
+name: "\U0001F5D3️ SCHEDULE"
+about: phoenix조의 schedule
 title: "\U0001F5D3️ [오프/온라인] 월일 phoenix 평일/주말 작업"
 labels: ''
 assignees: ''

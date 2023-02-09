@@ -61,3 +61,11 @@ user.delete = (url, options) => {
     ...options,
   });
 };
+
+user.delete = (url, options) => {
+  return user({
+    method: 'DELETE',
+    url,
+    ...options,
+  });
+};

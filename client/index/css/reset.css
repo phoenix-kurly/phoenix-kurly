@@ -114,9 +114,9 @@ section {
   display: block;
 }
 
-ul {
+/* ul {
   list-style: none;
-}
+} */
 
 table {
   border-collapse: collapse;
