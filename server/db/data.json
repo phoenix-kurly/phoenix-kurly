@@ -80,5 +80,107 @@
       },
       "stock": 13
     }
+  ],
+  "users": [
+    {
+      "formData": {
+        "user-id": "1111",
+        "password": "11111111",
+        "name": "홍길동",
+        "email": "aaa@aaa.aaa",
+        "phone": "01012345678",
+        "gender": "male",
+        "birth-year": "2002",
+        "birth-month": "02",
+        "birth-day": "02",
+        "recommand-id": "on",
+        "terms-of-use": "on",
+        "terms-of-personal-info": "on",
+        "term-of-ads": "on",
+        "terms-of-age": "on"
+      },
+      "uniqueId": "sh0Uo2pH5eOA",
+      "id": 11
+    },
+    {
+      "formData": {
+        "user-id": "2222",
+        "password": "11111111",
+        "name": "홍길동",
+        "email": "aaa@aaa.aaa",
+        "phone": "01012345678",
+        "gender": "male",
+        "birth-year": "2002",
+        "birth-month": "02",
+        "birth-day": "02",
+        "recommand-id": "on",
+        "terms-of-use": "on",
+        "terms-of-personal-info": "on",
+        "term-of-ads": "on",
+        "terms-of-age": "on"
+      },
+      "uniqueId": "sh0Uo2pH5eOg",
+      "id": 12
+    },
+    {
+      "formData": {
+        "user-id": "3333",
+        "password": "11111111",
+        "name": "홍길동",
+        "email": "aaa@aaa.aaa",
+        "phone": "01012345678",
+        "gender": "male",
+        "birth-year": "2002",
+        "birth-month": "02",
+        "birth-day": "02",
+        "recommand-id": "on",
+        "terms-of-use": "on",
+        "terms-of-personal-info": "on",
+        "term-of-ads": "on",
+        "terms-of-age": "on"
+      },
+      "uniqueId": "sh0Uo2pH5eOd",
+      "id": 13
+    },
+    {
+      "formData": {
+        "user-id": "4444",
+        "password": "11111111",
+        "name": "홍길동",
+        "email": "aaa@aaa.aaa",
+        "phone": "01012345678",
+        "gender": "male",
+        "birth-year": "2002",
+        "birth-month": "02",
+        "birth-day": "02",
+        "recommand-id": "on",
+        "terms-of-use": "on",
+        "terms-of-personal-info": "on",
+        "term-of-ads": "on",
+        "terms-of-age": "on"
+      },
+      "uniqueId": "sh0Uo2pH5eO1",
+      "id": 14
+    },
+    {
+      "formData": {
+        "user-id": "5555",
+        "password": "11111111",
+        "name": "홍길동",
+        "email": "aaa@aaa.aaa",
+        "phone": "01012345678",
+        "gender": "male",
+        "birth-year": "2002",
+        "birth-month": "02",
+        "birth-day": "02",
+        "recommand-id": "on",
+        "terms-of-use": "on",
+        "terms-of-personal-info": "on",
+        "term-of-ads": "on",
+        "terms-of-age": "on"
+      },
+      "uniqueId": "sh0Uo2pH5eOq",
+      "id": 15
+    }
   ]
 }
