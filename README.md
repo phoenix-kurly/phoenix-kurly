@@ -41,7 +41,7 @@
 * PRODUCT LIST 정선희
 * PRODUCT DETAIL 박유림, 박일범
 * CART 박일범
-* HEADER FOOTHER 이에스더
+* HEADER FOOTER 이에스더
 
  <img width="727" alt="image" src="https://user-images.githubusercontent.com/83347465/217581002-8aba5170-2c4e-42dd-bebc-ee40abc1f71a.png">
 
@@ -83,7 +83,7 @@
  ### 말머리종류
  * [수정] : 기존코드 수정
  * [생성] : 새로 만든것
- * [삭제] : 
+ * [삭제] 
  * [추가] : 기존 코드 수정하지 않고 추가
  * [병합] : 브랜치 병합 
  
