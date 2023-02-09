@@ -4,7 +4,7 @@ body {
 
 /* 비주얼 */
 .visual {
-  margin-top: 247px;
+  /* margin-top: 247px; */
   /* width: 1920px; */
   text-align: center;
   /* margin-left: auto; */
@@ -221,6 +221,7 @@ main {
   right: 39px;
   top: 810px;
   z-index: 10;
+  background-color: pink;
 }
 
 .recent-product__inner {
