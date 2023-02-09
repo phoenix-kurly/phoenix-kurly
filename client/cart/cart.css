@@ -1,5 +1,5 @@
-@import url(./reset.css);
-@import url(./module.css);
+@import url(../css/reset.css);
+@import url(../css/module.css);
 
 /* 숨김 콘텐츠 */
 .a11y-hidden,
@@ -42,7 +42,7 @@ input[type=checkbox] {
   display:none;
 }
 .radio::before {    
-  background: url(../client/assets/icons/input/Check.svg) no-repeat 0px 0px;  
+  background: url(../assets/icons/input/Check.svg) no-repeat 0px 0px;  
   content: "";
   display: inline-block;
   height: 24px;
@@ -140,7 +140,7 @@ details summary{
   height: 30px;
   display: inline-block;
   /* background-color: transparent; */
-  background: url(../client/assets/icons/icon/ArrowRight.svg) no-repeat 0px 0px;
+  background: url(../assets/icons/icon/ArrowRight.svg) no-repeat 0px 0px;
   transform: rotate(90deg);
   background-position: 12px 9px;
   border: 0px solid;
@@ -151,7 +151,7 @@ details summary{
   vertical-align: center;
 }
 .cold-icon::before{
-  background: url(../client/assets/icons/icon/Food.svg) no-repeat 0px 0px;  
+  background: url(../assets/icons/icon/Food.svg) no-repeat 0px 0px;  
   content: "";
   display: inline-block;
   height: 30px;
@@ -190,7 +190,7 @@ details summary{
   vertical-align: center;
 }
 .frozen-icon::before{
-  background: url(../client/assets/icons/icon/Food.svg) no-repeat 0px 0px;  
+  background: url(../assets/icons/icon/Food.svg) no-repeat 0px 0px;  
   content: "";
   display: inline-block;
   height: 30px;
@@ -205,7 +205,7 @@ details summary{
   
 }
 .room-temp-icon::before{
-  background: url(../client/assets/icons/icon/Food.svg) no-repeat 0px 0px;  
+  background: url(../assets/icons/icon/Food.svg) no-repeat 0px 0px;  
   content: "";
   display: inline-block;
   height: 30px;
@@ -225,7 +225,7 @@ details summary{
   align-items: center;
 }
 .checkbox{
-  background: url(../client/assets/icons/input/Check.svg) no-repeat 0px 0px;  
+  background: url(../assets/icons/input/Check.svg) no-repeat 0px 0px;  
   content: "";
   display: inline-block;
   height: 24px;
@@ -274,7 +274,7 @@ details summary{
 }
 .product-price::after{
   content: "";
-  background-image: url(../client/assets/icons/icon/Cancel.svg);
+  background-image: url(../assets/icons/icon/Cancel.svg);
   width: 30px;
   height: 30px;
   margin-left: 8px;
@@ -337,7 +337,7 @@ details summary{
   font-weight: var(--text-600);
 }
 .icon-location::before{
-  background: url(../client/assets/icons/icon/Location.svg) no-repeat 0px 0px;  
+  background: url(../assets/icons/icon/Location.svg) no-repeat 0px 0px;  
   content: "";
   display: inline-block;
   height: 36px;
