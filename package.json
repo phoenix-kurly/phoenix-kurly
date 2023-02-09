@@ -1,18 +1,18 @@
 {
   "devDependencies": {
-    "eslint": "^8.30.0",
     "eslint-plugin-functional": "^4.4.1",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
-    "live-server": "^1.2.2",
-    "prettier": "2.8.3"
+    "prettier": "2.8.3",
+    "eslint": "^8.30.0",
+    "live-server": "^1.2.2"
   },
   "name": "phoenix-karly",
   "version": "1.0.0",
   "main": ".eslintrc.js",
   "scripts": {
     "all": "run-p serve start",
-    "serve": "npx json-server --watch server/db/index.js",
+    "serve": "npx json-server server/db/data.json",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "start": "npx live-server client --host=localhost --port=5500 --no-browser"

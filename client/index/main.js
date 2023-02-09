@@ -1,7 +1,9 @@
-import '../index/swiper.js';
-import '../index/modal.js';
+import './swiper.js';
+import './modal.js';
+import './header.js'
 import '../index/recentProduct.js';
 
+// import { addClass, getNode, removeClass } from '../client/lib';
 // const divBannerSlide = document.querySelectorAll('.main-banner-slide');
 const imgContainer = document.querySelectorAll('.today-product-list__img-container');
 const productsText = document.querySelectorAll('.today-product-list__text');
