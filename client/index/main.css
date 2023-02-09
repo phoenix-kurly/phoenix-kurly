@@ -5,9 +5,10 @@ body {
 /* 비주얼 */
 .visual {
   margin-top: 247px;
-  width: 1920px;
-  margin-left: auto;
-  margin-right: auto;
+  /* width: 1920px; */
+  text-align: center;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   /* background-color: teal; */
 }
 
@@ -167,6 +168,7 @@ main {
   border: none;
   border-radius: 50%;
   overflow: hidden;
+  z-index: 5;
 }
 
 .today-product-list__button-wrapper span {
@@ -214,7 +216,7 @@ main {
 
 .recent-product {
   width: 74px;
-  height: 250vh;
+  height: 200vh;
   position: absolute;
   right: 39px;
   top: 810px;
@@ -245,6 +247,11 @@ main {
 .recent-product__list li a {
   display: block;
   height: 100%;
+}
+
+.recent-product__list li img{
+  width: 40px;
+  height: 51px;
 }
 
 .recent-product p {
@@ -370,14 +377,17 @@ main {
   width: 30px;
   height: 30px;
   display: inline-block;
-  background: var(--white);
   border: none;
   overflow: hidden;
 }
 
-.add-cart__count button:first-child {
+.add-cart__minus-button{
   background: url('../assets/icons/icon/Minus.svg') no-repeat;
   background-position: -7px -45px;
+}
+
+.is-active-minus{
+  background-position: -7px -7px;
 }
 
 .add-cart__count span {
@@ -385,7 +395,7 @@ main {
   text-align: center;
 }
 
-.add-cart__count button:last-child {
+.add-cart__plus-button {
   background: url('../assets/icons/icon/Plus.svg') no-repeat;
   background-position: -7px -7px;
 }
@@ -406,10 +416,22 @@ main {
   align-items: flex-end;
 }
 
+.add-cart__total-price div{
+  display: flex;
+  align-items: center;
+}
+
 .add-cart__price {
   font-size: 28px;
   font-weight: 700;
+  margin-right: 10px;
 }
+
+.add-cart__price-text{
+  font-size: 16px;
+  font-weight: 700;
+}
+
 
 .add-cart__reward {
   display: flex;
