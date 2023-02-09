@@ -1,9 +1,9 @@
 @import url("./reset.css");
 @import url("./fontello.css");
 @import url("./module.css");
-@import url("../index/header.css");
-@import url("../index/footer.css");
-@import url("../index/main.css");
+@import url("../header.css");
+@import url("../footer.css");
+@import url("../main.css");
 
 /* 본문 스타일 */
 body {
