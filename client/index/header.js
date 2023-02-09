@@ -5,7 +5,6 @@ const category = document.getElementById("category");
 const list = document.getElementById("list");
 const dcAds = document.getElementById("dcAds");
 const closeBtn = document.getElementById("closeBtn");
-// const colorSwitch = document.querySelector(".page-switch");
 
 // hidden class 
 const member = document.querySelector(".header__inner-member");
@@ -62,17 +61,11 @@ function closeBannerHandler(){
   dcAds.classList.add('hidden');
 }
 
-// function colorChangeHandler(event){
-  //   let pageSwitch = event.target;
-  //   pageSwitch.classList.add("primary-color");
-  // }
-
 category.addEventListener('mouseenter', openListHandler);
 list.addEventListener('mouseleave', closeListHandler);
 
 closeBtn.addEventListener('click', closeBannerHandler);
 
-// colorSwitch.addEventListener('click', colorChangeHandler)
 
 
   
