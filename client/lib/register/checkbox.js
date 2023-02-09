@@ -1,17 +1,15 @@
 import {getNode, getNodes} from '../dom/getNode.js';
 
-const checkAllButton = getNode('#terms-check-all');
-const checkboxes = getNodes('input[name="terms"]');
+const checkAllButton = getNode('#check-all-terms');
+const checkboxes = getNodes('input[class *="terms"]');
 
 export function checkAll() {
-  const checkboxes = getNodes('input[name="terms"]');
   checkboxes.forEach(checkbox => {
     checkbox.checked = checkAllButton.checked;
   });
 }
 
 export function compareCheck() {
-  const checkboxes = getNodes('input[name="terms"]');
   const checkboxLength = checkboxes.length;
   let count = 0;
   checkboxes.forEach(check => {
