@@ -22,8 +22,8 @@
           
           <div class="cart-radio">
             <label class="radio">
-              <input type="checkbox" name="checker" id="checker1"><label for="checker1"></label>
-              <span>전체선택 (0/0)</span>
+              <input type="checkbox" name="checker" id="checker1">
+              <label for="checker1">전체선택 (0/0)</label>
             </label>
             <span class="divider" aria-hidden="true"></span>
             <button class="chk-delete">선택삭제</button>
@@ -31,44 +31,117 @@
           <section class="accordion">
             <h3 class="a11y-hidden">상품리스트</h3>
             <div class="food-list">
-              <div class="cart-accordian-cold">
               <details>
                 <summary>
-                    <span class="cold-icon">
-                      냉장 상품
-                    </span>
+                  <div class="cart-accordian-cold">
+                      <div>
+                        <span class="cold-icon">
+                        냉장 상품
+                        </span>
+                        <button class="arrow-button">
+                        </button>
+                      </div>
+                  </summary>
+                  <div class="product-cell">
+                    <input type="button" class="checkbox" id="checkbox1" /><label for="checkbox1"></label>
+                    <img src="./client/assets/images/product01.svg" style="width: 60px; height: 78px" alt="탱탱쫄면 상품 이미지"  />
+                    <span class="cell__product-name">[풀무원] 탱탱쫄면 (4개입)</span>
+                      <p class="product__quantity">
+                        <button class="minus-button">-</button>
+                        <span class="button-count">1</span>
+                        <button class="plus-button">+</button>
+                      </p>
+                    <span class="product-price">4,980원</span>
+                  </div>
+                  <div class="product-cell">
+                    <input type="button" class="checkbox" id="checkbox1" /><label for="checkbox1"></label>
+                    <img src="./client/assets/images/product01.svg" style="width: 60px; height: 78px" alt="탱탱쫄면 상품 이미지"  />
+                    <span class="cell__product-name">[풀무원] 탱탱쫄면 (4개입)</span>
+                      <p class="product__quantity">
+                        <button class="minus-button">-</button>
+                        <span class="button-count">1</span>
+                        <button class="plus-button">+</button>
+                      </p>
+                    <span class="product-price">4,980원</span>
+                  </div>
+                </details>
+              </div>
+              <details>
+                <summary>
+                  <div class="cart-accordian-frozen">
+                      <span class="frozen-icon">
+                        냉동 상품
+                      </span>
                       <button class="arrow-button">
                       </button>
-                    </summary>
-                    
-                  </details>
+                </summary>
+                <div class="product-cell">
+                  <input type="button" class="checkbox" id="checkbox1" /><label for="checkbox1"></label>
+                  <img src="./client/assets/images/product01.svg" style="width: 60px; height: 78px" alt="탱탱쫄면 상품 이미지"  />
+                  <span class="cell__product-name">[풀무원] 탱탱쫄면 (4개입)</span>
+                    <p class="product__quantity">
+                      <button class="minus-button">-</button>
+                      <span class="button-count">1</span>
+                      <button class="plus-button">+</button>
+                    </p>
+                  <span class="product-price">4,980원</span>
                 </div>
-              <div class="cart-accordian-frozen">
-                  <span class="frozen-icon">
-                    냉동 상품
-                  </span>
-                  <button class="arrow-button">
-                    
-                  </button>
+                <div class="product-cell">
+                  <input type="button" class="checkbox" id="checkbox1" /><label for="checkbox1"></label>
+                  <img src="./client/assets/images/product01.svg" style="width: 60px; height: 78px" alt="탱탱쫄면 상품 이미지"  />
+                  <span class="cell__product-name">[풀무원] 탱탱쫄면 (4개입)</span>
+                    <p class="product__quantity">
+                      <button class="minus-button">-</button>
+                      <span class="button-count">1</span>
+                      <button class="plus-button">+</button>
+                    </p>
+                  <span class="product-price">4,980원</span>
+                </div>
+                </div>
+              </details>
+              <details>
+                <summary>
+                  <h4 class="cart-accordian-room-temp">
+                      <span class="room-temp-icon">
+                        상온 상품
+                      </span>
+                      <button class="arrow-button">
+                      </button>
+                    </h4>
+                  </summary>
+                  <div class="product-cell">
+                    <input type="button" class="checkbox" id="checkbox1" /><label for="checkbox1"></label>
+                    <img src="./client/assets/images/product01.svg" style="width: 60px; height: 78px" alt="탱탱쫄면 상품 이미지"  />
+                    <span class="cell__product-name">[풀무원] 탱탱쫄면 (4개입)</span>
+                      <p class="product__quantity">
+                        <button class="minus-button">-</button>
+                        <span class="button-count">1</span>
+                        <button class="plus-button">+</button>
+                      </p>
+                    <span class="product-price">4,980원</span>
+                  </div>
+                  <div class="product-cell">
+                    <input type="button" class="checkbox" id="checkbox1" /><label for="checkbox1"></label>
+                    <img src="./client/assets/images/product01.svg" style="width: 60px; height: 78px" alt="탱탱쫄면 상품 이미지"  />
+                    <span class="cell__product-name">[풀무원] 탱탱쫄면 (4개입)</span>
+                      <p class="product__quantity">
+                        <button class="minus-button">-</button>
+                        <span class="button-count">1</span>
+                        <button class="plus-button">+</button>
+                      </p>
+                    <span class="product-price">4,980원</span>
+                  </div>
+                </details>
+                </div>
+              </section>
+              <div class="cart-radio">
+                <label class="radio">
+                  <input type="checkbox" name="checker" id="checker1"><label for="checker1"></label>
+                  <span>전체선택 (0/0)</span>
+                </label>
+                <span class="divider" aria-hidden="true"></span>
+                <button class="chk-delete">선택삭제</button>
               </div>
-              <h4 class="cart-accordian-room-temp">
-                  <span class="room-temp-icon">
-                    상온 상품
-                  </span>
-                  <button class="arrow-button">
-                    
-                  </button>
-              </h4>
-            </div>
-          </section>
-          <div class="cart-radio">
-            <label class="radio">
-              <input type="checkbox" name="checker" id="checker1"><label for="checker1"></label>
-              <span>전체선택 (0/0)</span>
-            </label>
-            <span class="divider" aria-hidden="true"></span>
-            <button class="chk-delete">선택삭제</button>
-          </div>
         </section>
         <!-- 주문하기 및 결제금액 영역 -->
        <aside class="credit">
@@ -86,28 +159,45 @@
               </button>
             </section>
             <section class="cart_payment">
+            <div class="payment-wraper">
               <div class="product_amount">
-                <span class="amount_name">상품금액</span><span class="amount_num">40,680<span class="won">원</span></span>
+                <span class="amount_name">상품금액</span>
+                <div>
+                  <span class="amount_num">40,680<span class="won">원</span></span>
+                </div>
               </div>
               <div class="product_dcAmount">
-                <span class="amount_name">상품할인금액</span><span class="amount_num">-4,651<span class="won">원</span></span>
+                <span class="amount_name">상품할인금액</span>
+                <div>
+                  <span class="amount_num">-4,651<span class="won">원</span></span>
+                </div>
               </div>
               <div class="delivery_amount">
-                <span class="amount_name">배송비</span><span class="amount_num">3,000<span class="won">원</span></span>
+                <span class="amount_name">배송비</span>
+                <div>
+                  <span class="amount_num">+3,000<span class="won">원</span></span>
+                </div>
               </div>
+            </div>
               <div class="final_amount">
                 <span class="amount_name">결제예정금액</span><span class="amount_num"><strong class="amount_strong">40,680</strong><span class="won">원</span></span>
-                <span class="credit-accumulate">최대 36원 적립 일반 0.1%</span>
               </div>
+              <div>
+              <span class="credit-accumulate">최대 36원 적립 일반 0.1%</span>
+            </div>
+            
             </section>
           </article>
           <section class="oder">
             <button class="oder-button" type="button">
               <span>주문하기</span>
             </button>
-            <ul class="css-19kxq7d">
-              <li class="css-7s0nna ejr204i0">[주문완료] 상태일 경우에만 주문 취소 가능합니다.</li>
-              <li class="css-7s0nna ejr204i0">[마이컬리 &gt; 주문내역 상세페이지] 에서 직접 취소하실 수 있습니다.</li>
+            <ul class="oder-notice">
+              <li>쿠폰/적립금은 주문서에서 사용 가능합니다</li>
+              <li class="oder-status">[주문완료] 상태일 경우에만 주문 취소 가능합니다.</li>
+              <li class="oder-product-status">[마이컬리 &gt; 주문내역 상세페이지] 에서 직접 취소하실 수 있습니다.</li>
+              <li>쿠폰,적립금 사용 금액을 제회한 실 결제 금액 기준으로 최종산정됩니다.</li>
+              <li>상품별로 적립금 지급 기준이 다를 수 있습니다.(상품상세 페이지에서 확인 가능합니다)</li>
             </ul>
           </section>
        </aside>
