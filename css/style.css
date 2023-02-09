@@ -1,7 +1,7 @@
-@import url(./reset.css);
-@import url(./fontello.css);
-@import url(./module.css);
-@import url(./header.css);
+@import url("./reset.css");
+@import url("./fontello.css");
+@import url("./module.css");
+@import url("./header.css");
 @import url("./footer.css");
 
 /* 본문 스타일 */
