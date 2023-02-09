@@ -62,17 +62,10 @@ function closeBannerHandler(){
   dcAds.classList.add('hidden');
 }
 
-// function colorChangeHandler(event){
-  //   let pageSwitch = event.target;
-  //   pageSwitch.classList.add("primary-color");
-  // }
-
 category.addEventListener('mouseenter', openListHandler);
 list.addEventListener('mouseleave', closeListHandler);
 
 closeBtn.addEventListener('click', closeBannerHandler);
-
-// colorSwitch.addEventListener('click', colorChangeHandler)
 
 
   
