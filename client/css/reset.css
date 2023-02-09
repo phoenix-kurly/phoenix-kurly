@@ -88,8 +88,8 @@ video {
   padding: 0;
   border: 0;
   font-size: 1em;
-  font: inherit;
-  vertical-align: baseline;
+  /* font: inherit; */
+  /* vertical-align: baseline; */
 }
 
 button {
@@ -114,9 +114,9 @@ section {
   display: block;
 }
 
-ul {
+/* ul {
   list-style: none;
-}
+} */
 
 table {
   border-collapse: collapse;
