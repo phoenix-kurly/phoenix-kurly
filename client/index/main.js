@@ -1,6 +1,6 @@
 import '../index/swiper.js';
 import '../index/modal.js';
-
+import '../index/recentProduct.js';
 
 // const divBannerSlide = document.querySelectorAll('.main-banner-slide');
 const imgContainer = document.querySelectorAll('.today-product-list__img-container');
