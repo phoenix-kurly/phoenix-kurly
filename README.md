@@ -135,6 +135,7 @@
  ![Safari](https://img.shields.io/badge/Safari-000000?style=for-the-badge&logo=Safari&logoColor=white)
  ![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white)
  
-###발표
+### 발표
+#### [ 피닉스조 발표 자료 ](https://docs.google.com/presentation/d/1Gc2mM3OMozk04jVmf1Z24O_j0Qy4VKzZZ42rIpcnufY/edit?usp=sharing)
 ![image](https://user-images.githubusercontent.com/83347465/220264550-07c0f683-5a30-44c8-b927-f5891b00a1c4.png)
 
